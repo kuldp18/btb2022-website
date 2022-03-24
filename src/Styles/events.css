@@ -1,0 +1,148 @@
+.events-title
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    text-align: center;
+    font-size: 2vw;
+    background: -webkit-linear-gradient(#FF5148,#AD201A);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 3vw;
+}
+.event-showcase-text
+{
+    color: #AD201A;
+    text-align: center;
+    width: 50vw;
+    margin: -1vw auto;
+    font-size: 1vw;
+    margin-top: 1.6vw;
+}
+.events-slider
+{
+    margin: 5vw 7vw 2vw 7vw;
+    text-align: center;
+    font-family: "Metropolis";
+}
+.events-slider .test
+{
+    width: 20vw;
+}
+.slick-track
+{
+    padding: 2vw 0vw;
+}
+.slick-prev
+{
+    left: -5vw !important;
+}
+.slick-next
+{
+    right: -3.7vw !important;
+}
+.slick-prev:before, .slick-next:before {
+    font-family: 'slick';
+    font-size: 2.5vw !important;
+    line-height: 1;
+    opacity: 1 !important;
+    color: #FF5148 !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.event-info
+{
+    width: 20vw !important;
+    border-radius: 2vw;
+    position: relative;
+    box-shadow: 0px 10px 10px rgba(128, 128, 128, 0.616);
+    user-select: none;
+}
+.event-info .event-img
+{
+    border-radius: 2vw;
+    width: 18vw;
+    height: 20vw;
+    margin: 0.8vw auto;
+}
+.event-name
+{
+    font-size: 1.2vw;
+    font-weight: 900;
+    font-family: "Metropolis";
+}
+.covid
+{
+    box-shadow: 0px 10px 30px pink;
+}
+.FinTech
+{
+    box-shadow: 0px 10px 10px rgba(0, 174, 255, 0.373);
+}
+@media only screen and (max-width: 768px)
+{
+    .event-info
+    {
+        width: 25vw !important;
+    }
+    .event-info .event-img
+    {
+        width: 22vw;
+        height: 24vw;
+    }
+    .events-title
+    {
+        font-size: 3vw;
+    }
+    .event-showcase-text
+    {
+        font-size: 1.6vw;
+        width: 54vw;
+    }
+    .slick-track
+    {
+        padding: 3vw 0vw;
+    }
+    .event-name
+    {
+        font-size: 1.6vw;
+        margin-bottom: 9px;
+    }
+}
+@media only screen and (max-width: 481px)
+{
+    .event-info
+    {
+        width: 35vw !important;
+    }
+    .event-info .event-img
+    {
+        width: 31vw;
+        height: 32vw;
+    }
+    .events-title
+    {
+        font-size: 3.2vw;
+    }
+    .event-showcase-text
+    {
+        font-size: 1.8vw;
+        width: 58vw;
+    }
+    .slick-track
+    {
+        padding: 3.2vw 0vw;
+    }
+    .event-name
+    {
+        font-size: 12px;
+        margin-bottom: 9px;
+    }
+}
+@media only screen and (max-width: 430px)
+{
+    .slick-prev:before, .slick-next:before 
+    {
+        font-size: 4vw !important;
+    }
+}
