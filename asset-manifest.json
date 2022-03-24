@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/btb2022-website/static/css/main.02e6e4ba.css",
+    "main.js": "/btb2022-website/static/js/main.4637880c.js",
+    "static/media/learning.jpg": "/btb2022-website/static/media/learning.3166228c5bd9b686beb9.jpg",
+    "static/media/cloud-based.jpg": "/btb2022-website/static/media/cloud-based.d17bc34b045a017cde62.jpg",
+    "static/media/WAVE1.png": "/btb2022-website/static/media/WAVE1.f00d9a4005ab3934db44.png",
+    "static/media/Health-care.jpg": "/btb2022-website/static/media/Health-care.44a75df7a861707020ea.jpg",
+    "static/media/Rectangle 2740 (1).png": "/btb2022-website/static/media/Rectangle 2740 (1).702da9ad3b45e54e6639.png",
+    "static/media/Fintech.png": "/btb2022-website/static/media/Fintech.999145e80580e172753b.png",
+    "static/media/Laptop.png": "/btb2022-website/static/media/Laptop.bedf37a7ea4c85152d87.png",
+    "static/media/ML.png": "/btb2022-website/static/media/ML.ad26d8582afdc23ce5f4.png",
+    "static/media/Creative.jpg": "/btb2022-website/static/media/Creative.f611fd952af36d835e26.jpg",
+    "static/media/covidRelief.png": "/btb2022-website/static/media/covidRelief.f525086c9bfb89d973c2.png",
+    "static/media/metropolis-all-400-normal.woff": "/btb2022-website/static/media/metropolis-all-400-normal.d6363f8209002f967c3d.woff",
+    "static/media/metropolis-all-400-normal.woff2": "/btb2022-website/static/media/metropolis-all-400-normal.c7106e4ab743a4136ded.woff2",
+    "static/media/LOGOF.png": "/btb2022-website/static/media/LOGOF.1bd057915fa3b6c351f5.png",
+    "static/media/doodle.png": "/btb2022-website/static/media/doodle.6cc7f39c4eafc11c22d4.png",
+    "static/media/slick.svg": "/btb2022-website/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/btb2022-website/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/btb2022-website/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "index.html": "/btb2022-website/index.html",
+    "static/media/slick.woff": "/btb2022-website/static/media/slick.295183786cd8a1389865.woff",
+    "main.02e6e4ba.css.map": "/btb2022-website/static/css/main.02e6e4ba.css.map",
+    "main.4637880c.js.map": "/btb2022-website/static/js/main.4637880c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.02e6e4ba.css",
+    "static/js/main.4637880c.js"
+  ]
+}
