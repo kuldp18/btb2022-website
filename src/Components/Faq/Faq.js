@@ -3,7 +3,7 @@ import './../../Styles/Faq.css';
 
 export const Faq = () => {
   return (
-    <section className="Faq">
+    <section className="Faq" id="faq">
       <div class="container1">
         <div class="accordion1">
           <div class="title1">FAQs</div>
