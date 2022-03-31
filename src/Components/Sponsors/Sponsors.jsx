@@ -1,6 +1,7 @@
 import React from 'react';
 import '../../Styles/Sponsors.css';
 import SponsorImage from '../../require_images/sponsor-image.png';
+import SponsorCard from './SponsorCard';
 
 const Sponsors = () => {
   return (
@@ -46,36 +47,12 @@ const Sponsors = () => {
 
         {/* sponsors card grid */}
         <div className="sponsors-cards-grid">
-          <div className="sponsor-card">
-            <div className="sponsor-image">
-              <img alt="sponsor-image" src={SponsorImage} />
-            </div>
-          </div>
-          <div className="sponsor-card">
-            <div className="sponsor-image">
-              <img alt="sponsor-image" src={SponsorImage} />
-            </div>
-          </div>
-          <div className="sponsor-card">
-            <div className="sponsor-image">
-              <img alt="sponsor-image" src={SponsorImage} />
-            </div>
-          </div>
-          <div className="sponsor-card">
-            <div className="sponsor-image">
-              <img alt="sponsor-image" src={SponsorImage} />
-            </div>
-          </div>
-          <div className="sponsor-card">
-            <div className="sponsor-image">
-              <img alt="sponsor-image" src={SponsorImage} />
-            </div>
-          </div>
-          <div className="sponsor-card">
-            <div className="sponsor-image">
-              <img alt="sponsor-image" src={SponsorImage} />
-            </div>
-          </div>
+          <SponsorCard image={SponsorImage} />
+          <SponsorCard image={SponsorImage} />
+          <SponsorCard image={SponsorImage} />
+          <SponsorCard image={SponsorImage} />
+          <SponsorCard image={SponsorImage} />
+          <SponsorCard image={SponsorImage} />
         </div>
       </section>
     </>
