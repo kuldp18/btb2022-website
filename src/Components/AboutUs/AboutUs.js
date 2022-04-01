@@ -105,6 +105,16 @@ export const AboutUs = () => {
           <br />
         </div>
       </div>
+      <div className="fancy-red-circles">
+        <div className="circles-left">
+          <div className="fancy-red-circle red-circle-1"></div>
+          <div className="fancy-red-circle red-circle-2"></div>
+        </div>
+        <div className="circles-right">
+          <div className="fancy-red-circle red-circle-3"></div>
+          <div className="fancy-red-circle red-circle-4"></div>
+        </div>
+      </div>
     </div>
   );
 };
