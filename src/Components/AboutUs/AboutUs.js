@@ -10,8 +10,6 @@ export const AboutUs = () => {
       style={{
         backgroundColor: '#21192B',
         paddingBottom: '6rem',
-        clipPath:
-          'polygon(0 100%, 23% 96%, 44% 100%, 85% 95%, 100% 100%, 100% 0, 0 0)',
       }}
     >
       {' '}

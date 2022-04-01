@@ -1,6 +1,15 @@
 #about {
   position: relative;
   font-family: 'MetropolisRegular', Arial, Helvetica, sans-serif;
+  clip-path: polygon(
+    0 100%,
+    23% 96%,
+    44% 100%,
+    85% 95%,
+    100% 100%,
+    100% 0,
+    0 0
+  );
 }
 #about::after {
   content: '';
@@ -10,4 +19,21 @@
   bottom: -1%;
   z-index: -1;
   background: #342b3f;
+}
+
+@media screen and (max-width: 600px) {
+  #about {
+    clip-path: polygon(
+      0 100%,
+      23% 98%,
+      44% 100%,
+      85% 97%,
+      100% 100%,
+      100% 0,
+      0 0
+    );
+  }
+  #about::after {
+    height: 20px;
+  }
 }
