@@ -1,5 +1,8 @@
 #about {
   position: relative;
+  width: 100%;
+  height: 95vh;
+  padding-bottom: 6rem;
   font-family: 'MetropolisRegular', Arial, Helvetica, sans-serif;
   clip-path: polygon(
     0 100%,
@@ -10,7 +13,9 @@
     100% 0,
     0 0
   );
+  overflow: hidden;
 }
+
 #about::after {
   content: '';
   position: absolute;
@@ -19,6 +24,44 @@
   bottom: -1%;
   z-index: -1;
   background: #342b3f;
+}
+
+button.learn-more {
+  width: 180px;
+  padding: 1rem 2.5rem;
+}
+
+.about-flex-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.description {
+  text-align: justify;
+  margin-bottom: 3rem;
+  font-size: 1.5em;
+  font-family: 'MetropolisRegular', sans-serif;
+  font-weight: 400;
+}
+.about-left {
+  width: 50%;
+}
+
+.about-left span.heading {
+  font-size: 5.3em;
+  font-weight: bold;
+  line-height: 95px;
+  text-align: justify;
+  font-family: 'MetropolisRegular', sans-serif;
+}
+
+.about-right img {
+  width: 100%;
+  max-width: 548px;
 }
 
 .fancy-red-circles {
@@ -121,5 +164,27 @@
     height: 95px;
     border: 20px solid #c32b24;
     transform: translate(-50%, 20%);
+  }
+}
+
+@media screen and (width <= 1248px) {
+  .about-flex-container {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+  }
+  .about-left {
+    width: 70%;
+  }
+
+  .about-right img {
+    width: 100%;
+    max-width: 216px;
+  }
+  .about-left span.heading {
+    font-size: 1.75em;
+    line-height: 30px;
   }
 }
