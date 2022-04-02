@@ -4,7 +4,7 @@
   height: 95vh;
   padding-bottom: 6rem;
   font-family: 'MetropolisRegular', Arial, Helvetica, sans-serif;
-  clip-path: polygon(
+  /* clip-path: polygon(
     0 100%,
     23% 96%,
     44% 100%,
@@ -12,7 +12,9 @@
     100% 100%,
     100% 0,
     0 0
-  );
+  ); */
+  clip-path: polygon(0 96%, 21% 100%, 63% 97%, 83% 100%, 100% 97%, 100% 0, 0 0);
+
   overflow: hidden;
 }
 
@@ -20,7 +22,7 @@
   content: '';
   position: absolute;
   width: 100%;
-  height: 30px;
+  height: 20px;
   bottom: -1%;
   z-index: -1;
   background: #342b3f;
@@ -124,22 +126,7 @@ button.learn-more {
   transform: translate(-20%, 55%);
   bottom: 0;
 }
-@media screen and (max-width: 600px) {
-  #about {
-    clip-path: polygon(
-      0 100%,
-      23% 98%,
-      44% 100%,
-      85% 97%,
-      100% 100%,
-      100% 0,
-      0 0
-    );
-  }
-  #about::after {
-    height: 20px;
-  }
-}
+
 @media screen and (max-width: 750px) {
   .fancy-red-circle.red-circle-1 {
     width: 55px;
@@ -186,5 +173,37 @@ button.learn-more {
   .about-left span.heading {
     font-size: 1.75em;
     line-height: 30px;
+  }
+}
+@media screen and (width <= 600px) {
+  #about {
+    clip-path: polygon(
+      0 98%,
+      21% 100%,
+      61% 98%,
+      83% 100%,
+      100% 98%,
+      100% 0,
+      0 0
+    );
+  }
+}
+
+@media screen and (width <= 472px) {
+  .about-left {
+    width: 85%;
+  }
+  .about-left span.heading {
+    font-size: 1.45em;
+    line-height: 20px;
+  }
+}
+@media screen and (width <= 390px) {
+  .about-left {
+    width: 90%;
+  }
+  .about-left span.heading {
+    font-size: 1.45em;
+    line-height: 20px;
   }
 }
