@@ -42,6 +42,8 @@ function TimeLine(props) {
         ></path>
       </svg>
       <div className="timeline" id="timeline">
+        <div className="fancy-circle"></div>
+        <div className="fancy-curve"></div>
         <h1 className="timeline-title" data-aos="fade-up">
           TIMELINE
         </h1>

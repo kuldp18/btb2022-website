@@ -4,6 +4,7 @@
   font-family: 'Metropolis';
   position: relative;
   padding: 0vw 0vw 3vw 0vw;
+  position: relative;
 }
 .timeline-title {
   text-align: center;
@@ -94,6 +95,32 @@
   font-size: 1.2vw;
   margin-top: 2vw;
   margin-left: 250px;
+}
+
+.fancy-curve {
+  position: absolute;
+  border-radius: 50%;
+  right: 0;
+  top: 0;
+  border: 25px solid #ff5148;
+  max-width: 300px;
+  width: 100%;
+  max-height: 300px;
+  height: 100%;
+  transform: translate(40%, -65%);
+}
+.fancy-circle {
+  right: 0;
+  top: 0;
+  position: absolute;
+  max-width: 210px;
+  max-height: 210px;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: #c32b24;
+  transform: translate(40%, -70%);
+  z-index: 10;
 }
 .aiseHi {
   height: 20vw;
@@ -262,5 +289,141 @@
   }
   .view-more {
     margin-left: 6.5vw;
+  }
+}
+
+@media screen and (width <= 1360px) {
+  .fancy-curve {
+    position: absolute;
+    border-radius: 50%;
+    right: 0;
+    top: 0;
+    border: 25px solid #ff5148;
+    max-width: 200px;
+    width: 100%;
+    max-height: 200px;
+    height: 100%;
+    transform: translate(40%, -65%);
+  }
+  .fancy-circle {
+    right: 0;
+    top: 0;
+    position: absolute;
+    max-width: 110px;
+    max-height: 110px;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #c32b24;
+    transform: translate(40%, -70%);
+    z-index: 10;
+  }
+}
+@media screen and (width <= 1000px) {
+  .fancy-curve {
+    position: absolute;
+    border-radius: 50%;
+    right: 0;
+    top: 0;
+    border: 15px solid #ff5148;
+    max-width: 150px;
+    width: 100%;
+    max-height: 150px;
+    height: 100%;
+    transform: translate(40%, -65%);
+  }
+  .fancy-circle {
+    right: 0;
+    top: 0;
+    position: absolute;
+    max-width: 100px;
+    max-height: 100px;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #c32b24;
+    transform: translate(40%, -70%);
+    z-index: 10;
+  }
+}
+@media screen and (width <= 800px) {
+  .fancy-curve {
+    position: absolute;
+    border-radius: 50%;
+    right: 0;
+    top: 0;
+    border: 10px solid #ff5148;
+    max-width: 150px;
+    width: 100%;
+    max-height: 150px;
+    height: 100%;
+    transform: translate(50%, -65%);
+  }
+  .fancy-circle {
+    right: 0;
+    top: 0;
+    position: absolute;
+    max-width: 100px;
+    max-height: 100px;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #c32b24;
+    transform: translate(50%, -70%);
+    z-index: 10;
+  }
+}
+@media screen and (width <= 650px) {
+  .fancy-curve {
+    position: absolute;
+    border-radius: 50%;
+    right: 0;
+    top: 0;
+    border: 10px solid #ff5148;
+    max-width: 125px;
+    width: 100%;
+    max-height: 125px;
+    height: 100%;
+    transform: translate(60%, -65%);
+  }
+  .fancy-circle {
+    right: 0;
+    top: 0;
+    position: absolute;
+    max-width: 80px;
+    max-height: 80px;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #c32b24;
+    transform: translate(60%, -70%);
+    z-index: 10;
+  }
+}
+@media screen and (width <= 320px) {
+  .fancy-curve {
+    position: absolute;
+    border-radius: 50%;
+    right: 0;
+    top: 0;
+    border: 10px solid #ff5148;
+    max-width: 120px;
+    width: 100%;
+    max-height: 120px;
+    height: 100%;
+    transform: translate(70%, -65%);
+  }
+  .fancy-circle {
+    right: 0;
+    top: 0;
+    position: absolute;
+    max-width: 75px;
+    max-height: 75px;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #c32b24;
+    transform: translate(70%, -75%);
+    z-index: 10;
   }
 }
