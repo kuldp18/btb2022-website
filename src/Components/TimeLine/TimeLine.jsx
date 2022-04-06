@@ -42,21 +42,21 @@ function TimeLine(props) {
         ></path>
       </svg>
       <div className="timeline" id="timeline">
-        <div className="fancy-circle"></div>
-        <div className="fancy-curve"></div>
-        <h1 className="timeline-title" data-aos="fade-up">
+        {/* <div className="fancy-circle"></div>
+        <div className="fancy-curve"></div> */}
+        <h1 className="timeline-title">
           TIMELINE
         </h1>
         <div className="timeline-container">
           {currentData.map((ev, index) => (
             <div className="timeline-event-info" key={index}>
-              <p className="event-timing" data-aos="fade-up">
+              <p className="event-timing">
                 {ev.time}
               </p>
-              <h2 className="event" data-aos="fade-up">
+              <h2 className="event">
                 {ev['event-name']}
               </h2>
-              <p className="event-desc" data-aos="fade-up">
+              <p className="event-desc">
                 {ev['event-desc']}
               </p>
               <div className="circle"></div>
@@ -64,7 +64,7 @@ function TimeLine(props) {
                 src={Doodle}
                 alt="doodle"
                 className="doodle"
-                data-aos="fade-up"
+               
               />
             </div>
           ))}

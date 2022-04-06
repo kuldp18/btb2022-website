@@ -64,19 +64,12 @@ export const AboutUs = () => {
               </span>
             </span>
             <div className="text-white description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
-              aliquam eum, ut ipsam quasi ea quis repellendus blanditiis at
-              neque incidunt laudantium dolorum sunt obcaecati dolore assumenda
-              vitae perspiciatis, voluptatem, maiores in corrupti sit sequi
-              perferendis. Eaque pariatur officia natus possimus voluptatibus
-              officiis nulla. Dignissimos adipisci, architecto libero corrupti
-              aliquid provident nostrum molestiae voluptas blanditiis.
-              Laudantium fugit ex porro voluptate cumque, natus reprehenderit
-              fuga dicta veniam aut voluptates sequi, tempore, vero harum vel
-              numquam ducimus sint facere repudiandae aspernatur! Soluta ab
-              recusandae nemo provident tempora magnam aperiam, magni nihil,
-              fuga temporibus asperiores ipsam illum eius corporis excepturi
-              ullam, sapiente quod?
+            LDRP-ITR and Break The Barrier’s mission is to inspire developers to develop ingenious solutions. We aspire in virtual world to inspire the real world. It’s an innovative platform and accelerators in a unique manner. We aim to build a community where the pioneer coders and leading industry partners could meet and collaborate towards the future innovations. 
+Challenges inspire developers uniquely well for several reasons:Deadlines create discipline
+The best learning comes from building and experience
+Prizes are awarded without taking developer IP
+Accomplishing a personal challenge brings satisfaction and confidence.
+Tackling real-world problems gives immense hands-on experience 
             </div>
             <button
               type="button"
