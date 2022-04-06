@@ -41,8 +41,7 @@ export const Home = () => {
           <p class="content-1">BREAK THE</p>
           <p class="content-2">BARRIER</p>
           <p class="content-3">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id deleniti
-            sint sunt illum, molestias excepturi
+          Code recursively and let your idea change the world.
           </p>
           <a href="#timeline">
             <button>Learn more</button>
