@@ -21,6 +21,9 @@ export const Home = () => {
               <a href="#about">About</a>
             </li>
             <li>
+              <a href="#tracks">Tracks</a>
+            </li>
+            <li>
               <a href="#sponsors">Sponsors</a>
             </li>
             <li>
@@ -41,7 +44,7 @@ export const Home = () => {
           <p class="content-1">BREAK THE</p>
           <p class="content-2">BARRIER</p>
           <p class="content-3">
-          Code recursively and let your idea change the world.
+            Code recursively and let your idea change the world.
           </p>
           <a href="#timeline">
             <button>Learn more</button>

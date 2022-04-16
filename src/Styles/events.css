@@ -23,6 +23,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-top: 3vw;
+  text-transform: uppercase;
 }
 .event-showcase-text {
   color: #ad201a;
@@ -42,6 +43,7 @@
 }
 .slick-track {
   padding: 2vw 0vw;
+  padding-top: 0;
 }
 .slick-prev {
   left: -5vw !important;
@@ -100,6 +102,7 @@
   }
   .slick-track {
     padding: 3vw 0vw;
+    padding-top: 0;
   }
   .event-name {
     font-size: 1.6vw;
@@ -123,6 +126,7 @@
   }
   .slick-track {
     padding: 3.2vw 0vw;
+    padding-top: 0;
   }
   .event-name {
     font-size: 12px;
