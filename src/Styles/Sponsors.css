@@ -22,13 +22,19 @@ body {
   height: 50px;
   background: #342b3f;
 }
-.sponsors .title {
+.sponsors .heading {
   color: #ff5148;
   font-size: 4.5rem;
   text-transform: uppercase;
   font-weight: 800;
   margin: 10px 0;
   cursor: pointer;
+}
+.sponsors .heading-sm {
+  font-size: 2rem;
+  margin: 0;
+  text-transform: none;
+  cursor: default;
 }
 
 .sponsors-cards-grid {
@@ -104,7 +110,10 @@ body {
   .sponsor-levels__label {
     font-size: 1.4rem;
   }
-  .sponsors .title {
+  .sponsors .heading {
     font-size: 3.7rem;
+  }
+  .sponsors .heading-sm {
+    font-size: 1.5rem;
   }
 }

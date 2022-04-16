@@ -7,43 +7,8 @@ const Sponsors = () => {
   return (
     <>
       <section className="sponsors" id="sponsors">
-        <h1 className="title">Our Sponsors</h1>
-
-        {/* selectable sponsor levels */}
-
-        <div className="sponsor-levels">
-          <input
-            type="radio"
-            name="sponsorLevel"
-            id="sponsorLevel1"
-            value="Gold"
-            className="sponsor-levels__input"
-          />
-          <label htmlFor="sponsorLevel1" className="sponsor-levels__label">
-            Gold
-          </label>
-          <input
-            type="radio"
-            name="sponsorLevel"
-            id="sponsorLevel2"
-            value="Premium"
-            className="sponsor-levels__input"
-            checked
-          />
-          <label htmlFor="sponsorLevel2" className="sponsor-levels__label">
-            Premium
-          </label>
-          <input
-            type="radio"
-            name="sponsorLevel"
-            id="sponsorLevel3"
-            value="Platinum"
-            className="sponsor-levels__input"
-          />
-          <label htmlFor="sponsorLevel3" className="sponsor-levels__label">
-            Platinum
-          </label>
-        </div>
+        <h1 className="heading">Our Partners</h1>
+        <p className="heading heading-sm">Partners will be revealed soon.</p>
 
         {/* sponsors card grid */}
         <div className="sponsors-cards-grid">
