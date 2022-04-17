@@ -1,0 +1,29 @@
+{
+  "design": [
+    {
+      "name": "Hasti Bhalodiya",
+      "description": "sample description",
+      "image": "images/HastiBhalodiya_DesignTeam.jpg"
+    },
+    {
+      "name": "Korat Dishant",
+      "description": "sample description",
+      "image": "images/Korat Dishant _ design.jpg"
+    },
+    {
+      "name": "Omdevsinh Zala",
+      "description": "sample description",
+      "image": ""
+    },
+    {
+      "name": "Rayirth Jaiswal",
+      "description": "sample description",
+      "image": "images/RayirthJaiswal_Design.jpg"
+    },
+    {
+      "name": "Vandan Gohil",
+      "description": "sample description",
+      "image": "images/VandanGohil_Design.jpg"
+    }
+  ]
+}
