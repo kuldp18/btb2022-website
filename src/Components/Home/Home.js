@@ -36,7 +36,7 @@ export const Home = () => {
               <a href="#faq">FAQ</a>
             </li>
             <li>
-              <a href="#contact">Contact</a>
+              <a href="#footer">Contact</a>
             </li>
             <li>
               <a href="#timeline">Time Line</a>

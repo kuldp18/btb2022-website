@@ -4,7 +4,7 @@ import Logo from './../../require_images/LOGOF.png';
 
 export const Footer = () => {
   return (
-    <footer class="footer">
+    <footer class="footer" id="footer">
       <div class="container">
         <div class="row">
           <div
