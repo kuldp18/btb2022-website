@@ -24,6 +24,9 @@ export const Home = () => {
               <a href="#tracks">Tracks</a>
             </li>
             <li>
+              <a href="#timeline">Timeline</a>
+            </li>
+            <li>
               <a href="#partners">Partners</a>
             </li>
             <li>
@@ -40,9 +43,6 @@ export const Home = () => {
             </li>
             <li>
               <a href="#footer">Contact</a>
-            </li>
-            <li>
-              <a href="#timeline">Time Line</a>
             </li>
           </ul>
         </nav>
