@@ -3,14 +3,17 @@ import './../../Styles/events.css';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import BlockChain from './../../require_images/Rectangle 2740 (1).png';
-import FinTech from './../../require_images/Fintech.png';
-import covidRelief from './../../require_images/covidRelief.png';
+import BlockChain from './../../require_images/BlockChain.jpg';
+import FinTech from './../../require_images/fintech.jpg';
 import ML from './../../require_images/ML.png';
-import Cloud from './../../require_images/cloud-based.jpg';
 import Learning from './../../require_images/learning.jpg';
-import healthcare from './../../require_images/Health-care.jpg';
+import healthcare from './../../require_images/healthcare.jpg';
 import Creative from './../../require_images/Creative.jpg';
+import CloudBased from '../../require_images/cloudbased.jpg';
+import EdTech from '../../require_images/edutech.jpg';
+import HardwareBased from '../../require_images/hardware.jpg';
+import NLP from '../../require_images/nlp.jpg';
+import ARVR from '../../require_images/arvr.jpg';
 
 function Events(props) {
   const SampleNextArrow = (props) => {
@@ -87,59 +90,44 @@ function Events(props) {
         <Slider {...settings}>
           <div className="event-info">
             <img src={BlockChain} alt="blockChain" className="event-img" />
-            <p className="event-name">BlockChain</p>
+            <p className="event-name">BlockChain Based Hack</p>
           </div>
           <div className="event-info FinTech">
             <img src={FinTech} alt="blockChain" className="event-img" />
-            <p className="event-name">FinTech</p>
-          </div>
-          <div className="event-info covid">
-            <img src={covidRelief} alt="blockChain" className="event-img" />
-            <p className="event-name">Covid Relief</p>
+            <p className="event-name">FinTech Hack</p>
           </div>
           <div className="event-info">
             <img src={ML} alt="blockChain" className="event-img" />
-            <p className="event-name">Machine Learning</p>
-          </div>
-          <div className="event-info">
-            <img src={Cloud} alt="blockChain" className="event-img" />
-            <p className="event-name">Cloud Based</p>
-          </div>
-          <div className="event-info">
-            <img src={Learning} alt="blockChain" className="event-img" />
-            <p className="event-name">EduTech</p>
+            <p className="event-name">Machine Learning Hack</p>
           </div>
           <div className="event-info">
             <img src={healthcare} alt="blockChain" className="event-img" />
-            <p className="event-name">Health Care</p>
+            <p className="event-name">Healthcare Hack</p>
+          </div>
+          <div className="event-info">
+            <img src={CloudBased} alt="blockChain" className="event-img" />
+            <p className="event-name">Cloud Based Hack</p>
+          </div>
+          <div className="event-info">
+            <img src={EdTech} alt="blockChain" className="event-img" />
+            <p className="event-name">Education Hack</p>
+          </div>
+          <div className="event-info">
+            <img src={HardwareBased} alt="blockChain" className="event-img" />
+            <p className="event-name">Hardware Hack</p>
           </div>
           <div className="event-info">
             <img src={Creative} alt="blockChain" className="event-img" />
-            <p className="event-name">Creative</p>
+            <p className="event-name">Most Creative Hack</p>
+          </div>
+
+          <div className="event-info">
+            <img src={NLP} alt="blockChain" className="event-img" />
+            <p className="event-name">NLP Hack</p>
           </div>
           <div className="event-info">
-            <img src={BlockChain} alt="blockChain" className="event-img" />
-            <p className="event-name">FinTech</p>
-          </div>
-          <div className="event-info">
-            <img src={BlockChain} alt="blockChain" className="event-img" />
-            <p className="event-name">FinTech</p>
-          </div>
-          <div className="event-info">
-            <img src={BlockChain} alt="blockChain" className="event-img" />
-            <p className="event-name">FinTech</p>
-          </div>
-          <div className="event-info">
-            <img src={BlockChain} alt="blockChain" className="event-img" />
-            <p className="event-name">FinTech</p>
-          </div>
-          <div className="event-info">
-            <img src={BlockChain} alt="blockChain" className="event-img" />
-            <p className="event-name">FinTech</p>
-          </div>
-          <div className="event-info">
-            <img src={BlockChain} alt="blockChain" className="event-img" />
-            <p className="event-name">FinTech</p>
+            <img src={ARVR} alt="blockChain" className="event-img" />
+            <p className="event-name">AR/VR Hack</p>
           </div>
         </Slider>
       </div>
