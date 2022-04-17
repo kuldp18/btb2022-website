@@ -92,8 +92,14 @@ export const Footer = () => {
         </div>
       </div>
       <div className="copyright-text">
-        <p>
-          &#169; BTB Hackathon & its Contributors {new Date().getFullYear()}
+        <p
+          style={{
+            fontWeight: 'bold',
+            textTransform: 'none',
+          }}
+        >
+          &#169; {new Date().getFullYear()} Break The Barrier. All rights
+          reserved &#183; MLH Code of Conduct
         </p>
       </div>
     </footer>
