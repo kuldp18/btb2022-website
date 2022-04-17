@@ -9,6 +9,7 @@ import { Home } from './Components/Home/Home';
 import Sponsors from './Components/Sponsors/Sponsors';
 import ScrollToTop from 'react-scroll-to-top';
 import Workshop from './Components/Workshop';
+import MentorTalks from './Components/MentorTalks';
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
       <TimeLine />
       <Sponsors />
       <Workshop />
+      <MentorTalks />
       <Faq />
       <Footer />
     </>
