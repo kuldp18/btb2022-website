@@ -79,6 +79,11 @@ export const Footer = () => {
           </div>
         </div>
       </div>
+      <div className="copyright-text">
+        <p>
+          &#169; BTB Hackathon & its Contributors {new Date().getFullYear()}
+        </p>
+      </div>
     </footer>
   );
 };
