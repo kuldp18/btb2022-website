@@ -49,20 +49,32 @@ export const Footer = () => {
           <div class="footer-col">
             <h4>CONNECT WITH US</h4>
             <div class="social-links">
-              <a href="#">
+              <a
+                href="https://www.facebook.com/profile.php?id=100079542344570"
+                target="_blank"
+              >
                 <i class="fab fa-facebook fa-lg"></i>
               </a>
-              <a href="#">
+              <a href="https://twitter.com/BTB0110" target="_blank">
                 <i class="fab fa-twitter fa-lg"></i>
               </a>
-              <a href="#">
+              <a
+                href="https://www.instagram.com/breakthebarrier22/"
+                target="_blank"
+              >
                 <i class="fab fa-instagram fa-lg"></i>
               </a>
-              <a href="#">
+              <a
+                href="https://github.com/BreakTheBarrier-LDRP-ITR"
+                target="_blank"
+              >
                 <i class="fab fa-github fa-lg"></i>
               </a>
               <br />
-              <a href="#">
+              <a
+                href="https://www.linkedin.com/in/break-the-barrier-btb-479548235/"
+                target="_blank"
+              >
                 <i class="fab fa-linkedin-in fa-lg"></i>
               </a>
               <a href="#">
