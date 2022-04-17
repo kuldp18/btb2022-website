@@ -3,6 +3,7 @@ import '../../Styles/mainpage.css';
 import wave from '../../require_images/WAVE1.png';
 import arrow from '../../require_images/arrow.png';
 import logo from '../../require_images/LOGOF.png';
+import ldrplogo from '../../require_images/ldrp_logo.png';
 
 export const Home = () => {
   return (
@@ -43,6 +44,15 @@ export const Home = () => {
             </li>
             <li>
               <a href="#footer">Contact</a>
+            </li>
+            <li>
+              <img
+                className="ldrp-logo"
+                alt="LDRP"
+                src={ldrplogo}
+                height="70px"
+                width="70px"
+              />
             </li>
           </ul>
         </nav>
