@@ -4,8 +4,10 @@ import '../../Styles/TeamSection.css';
 const TeamSection = () => {
   return (
     <>
-      <h1 className="stylish-title">Meet the Team</h1>
-      <section className="team-section" id="team-section">
+      <h1 className="stylish-title" id="team-section">
+        Meet the Team
+      </h1>
+      <section className="team-section">
         <div className="teams-container">
           {/* Design Team */}
           <section className="team design-team">

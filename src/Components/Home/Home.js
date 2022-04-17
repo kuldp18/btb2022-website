@@ -33,6 +33,9 @@ export const Home = () => {
               <a href="#mentor-talks">Talks</a>
             </li>
             <li>
+              <a href="#team-section">Team</a>
+            </li>
+            <li>
               <a href="#faq">FAQ</a>
             </li>
             <li>
