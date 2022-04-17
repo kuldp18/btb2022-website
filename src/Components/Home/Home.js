@@ -43,7 +43,7 @@ export const Home = () => {
               <a href="#faq">FAQ</a>
             </li>
             <li>
-              <a href="#footer">Contact</a>
+              <a href="mailto:hackathon@ldrp.ac.in">Contact</a>
             </li>
             <li>
               <img

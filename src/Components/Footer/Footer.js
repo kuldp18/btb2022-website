@@ -80,7 +80,7 @@ export const Footer = () => {
               <a href="#">
                 <i class="fab fa-youtube fa-lg"></i>
               </a>
-              <a href="#">
+              <a href="mailto:hackathon@ldrp.ac.in">
                 <i class="fa fa-envelope fa-lg"></i>
               </a>
               <a href="#">
