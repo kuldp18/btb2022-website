@@ -35,13 +35,13 @@ export const Footer = () => {
             <h4>HELP</h4>
             <ul>
               <li>
-                <a href="#">FAQ Section</a>
+                <a href="#faq">FAQ Section</a>
               </li>
               <li>
                 <a href="#">Support</a>
               </li>
               <li>
-                <a href="#">About BTB</a>
+                <a href="#about">About BTB</a>
               </li>
             </ul>
           </div>
