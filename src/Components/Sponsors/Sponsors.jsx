@@ -6,7 +6,7 @@ import SponsorCard from './SponsorCard';
 const Sponsors = () => {
   return (
     <>
-      <section className="sponsors" id="sponsors">
+      <section className="sponsors" id="partners">
         <h1 className="heading">Our Partners</h1>
         <p className="heading heading-sm">Partners will be revealed soon.</p>
 

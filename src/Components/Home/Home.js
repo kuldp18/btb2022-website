@@ -24,7 +24,10 @@ export const Home = () => {
               <a href="#tracks">Tracks</a>
             </li>
             <li>
-              <a href="#sponsors">Sponsors</a>
+              <a href="#partners">Partners</a>
+            </li>
+            <li>
+              <a href="#workshop">Workshop</a>
             </li>
             <li>
               <a href="#faq">FAQ</a>

@@ -8,6 +8,7 @@ import { Faq } from './Components/Faq/Faq';
 import { Home } from './Components/Home/Home';
 import Sponsors from './Components/Sponsors/Sponsors';
 import ScrollToTop from 'react-scroll-to-top';
+import Workshop from './Components/Workshop';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
       <Events />
       <TimeLine />
       <Sponsors />
+      <Workshop />
       <Faq />
       <Footer />
     </>
