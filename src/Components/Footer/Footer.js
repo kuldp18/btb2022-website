@@ -94,12 +94,11 @@ export const Footer = () => {
       <div className="copyright-text">
         <p
           style={{
-            fontWeight: 'bold',
             textTransform: 'none',
           }}
         >
           &#169; {new Date().getFullYear()} Break The Barrier. All rights
-          reserved &#183; MLH Code of Conduct
+          reserved.
         </p>
       </div>
     </footer>
