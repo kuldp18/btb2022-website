@@ -77,14 +77,16 @@ export const Footer = () => {
               >
                 <i class="fab fa-linkedin-in fa-lg"></i>
               </a>
-              <a href="#">
+              <a
+                href="https://www.youtube.com/channel/UCLzse4JnoUQOgEIQpmdXbug"
+                target="_blank"
+              >
                 <i class="fab fa-youtube fa-lg"></i>
               </a>
               <a href="mailto:hackathon@ldrp.ac.in">
                 <i class="fa fa-envelope fa-lg"></i>
               </a>
-              <a href="#">
-                {' '}
+              <a href="https://discord.gg/8CnCjJgd" target="_blank">
                 <i class="fab fa-discord fa-lg"></i>
               </a>
             </div>
