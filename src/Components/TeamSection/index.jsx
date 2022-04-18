@@ -50,7 +50,7 @@ const TeamSection = () => {
                   <img
                     alt="Omdevsinh Zala"
                     className="profile-image"
-                    src={require('./team-raw-images/Korat Dishant _ design.jpg')}
+                    src={require('./team-raw-images/OmdevsinhZala_Design.jpg')}
                   />
                 </div>
                 <div className="profile-about-container">
@@ -576,7 +576,7 @@ const TeamSection = () => {
                   <img
                     alt="Krishna Patel"
                     className="profile-image"
-                    src={require('./team-raw-images/Karina Vaishali Mehta_CommunityEngagement.PNG')}
+                    src={require('./team-raw-images/KrishnaPatel_CommunityEngagement.jpg')}
                   />
                 </div>
                 <div className="profile-about-container">
@@ -656,7 +656,7 @@ const TeamSection = () => {
                   <img
                     alt="Vikas Pal"
                     className="profile-image"
-                    src={require('./team-raw-images/Siddhant Gandhi_Community Engagement.jpg')}
+                    src={require('./team-raw-images/Vikas_Pal_CommunityEngagement.jpg')}
                   />
                 </div>
                 <div className="profile-about-container">
