@@ -16,7 +16,7 @@ const TeamSection = () => {
               <div className="team-profile-card">
                 <div className="profile-image-container">
                   <img
-                    src={require('./team-images/HastiBhalodiya_DesignTeam.jpg')}
+                    src={require('./team-raw-images/HastiBhalodiya_DesignTeam.jpg')}
                     alt="Hasti Bhalodiya"
                     className="profile-image"
                   />
@@ -32,7 +32,7 @@ const TeamSection = () => {
               <div className="team-profile-card">
                 <div className="profile-image-container">
                   <img
-                    src={require('./team-images/Korat Dishant _ design.jpg')}
+                    src={require('./team-raw-images/Korat Dishant _ design.jpg')}
                     alt="Korat Dishant"
                     className="profile-image"
                   />
@@ -50,7 +50,7 @@ const TeamSection = () => {
                   <img
                     alt="Omdevsinh Zala"
                     className="profile-image"
-                    src={require('./team-images/Korat Dishant _ design.jpg')}
+                    src={require('./team-raw-images/Korat Dishant _ design.jpg')}
                   />
                 </div>
                 <div className="profile-about-container">
@@ -66,7 +66,7 @@ const TeamSection = () => {
                   <img
                     alt="Rayirth Jaiswal"
                     className="profile-image"
-                    src={require('./team-images/RayirthJaiswal_Design.jpg')}
+                    src={require('./team-raw-images/RayirthJaiswal_Design.jpg')}
                   />
                 </div>
                 <div className="profile-about-container">
@@ -82,7 +82,7 @@ const TeamSection = () => {
                   <img
                     alt="Vandan Gohil"
                     className="profile-image"
-                    src={require('./team-images/VandanGohil_Design.jpg')}
+                    src={require('./team-raw-images/VandanGohil_Design.jpg')}
                   />
                 </div>
                 <div className="profile-about-container">
@@ -96,7 +96,7 @@ const TeamSection = () => {
               <div className="team-profile-card">
                 <div className="profile-image-container">
                   <img
-                    src={require('./team-images/DhyeyPatel_graphicteam.jpg')}
+                    src={require('./team-raw-images/DhyeyPatel_graphicteam.jpg')}
                     alt="Dhyey Patel"
                     className="profile-image"
                   />
@@ -118,7 +118,7 @@ const TeamSection = () => {
               <div className="team-profile-card">
                 <div className="profile-image-container">
                   <img
-                    src={require('./team-images/RiyaSonara_ContentWriting.jpg')}
+                    src={require('./team-raw-images/RiyaSonara_ContentWriting.jpg')}
                     alt="Riya Sonara"
                     className="profile-image"
                   />
@@ -134,7 +134,7 @@ const TeamSection = () => {
               <div className="team-profile-card">
                 <div className="profile-image-container">
                   <img
-                    src={require('./team-images/DhruvikGondaliya_ContentWriting.jpg')}
+                    src={require('./team-raw-images/DhruvikGondaliya_ContentWriting.jpg')}
                     alt="Dhruvik Gondaliya"
                     className="profile-image"
                   />
@@ -157,7 +157,7 @@ const TeamSection = () => {
                   <img
                     alt="Dhruvkumar Patel"
                     className="profile-image"
-                    src={require('./team-images/DhruvkumarPatel_ContentWriting.jpg')}
+                    src={require('./team-raw-images/DhruvkumarPatel_ContentWriting.jpg')}
                   />
                 </div>
                 <div className="profile-about-container">
@@ -173,7 +173,7 @@ const TeamSection = () => {
                   <img
                     alt="Khushboo Kolhe"
                     className="profile-image"
-                    src={require('./team-images/KhushbooKolhe_ContentWriting.jpg')}
+                    src={require('./team-raw-images/KhushbooKolhe_ContentWriting.jpg')}
                   />
                 </div>
                 <div className="profile-about-container">
@@ -189,7 +189,7 @@ const TeamSection = () => {
                   <img
                     alt="Pragat Kholia"
                     className="profile-image"
-                    src={require('./team-images/PragatKholia_ContentWriting.jpg')}
+                    src={require('./team-raw-images/PragatKholia_ContentWriting.jpg')}
                   />
                 </div>
                 <div className="profile-about-container">
@@ -205,7 +205,7 @@ const TeamSection = () => {
                   <img
                     alt="Raval Krupesh"
                     className="profile-image"
-                    src={require('./team-images/RavalKrupesh_ContentWriting.jpg')}
+                    src={require('./team-raw-images/RavalKrupesh_ContentWriting.jpg')}
                   />
                 </div>
                 <div className="profile-about-container">
@@ -221,7 +221,7 @@ const TeamSection = () => {
                   <img
                     alt="Vaghela Dhruvi"
                     className="profile-image"
-                    src={require('./team-images/VaghelaDhruvi_ContentWriting.jpg')}
+                    src={require('./team-raw-images/VaghelaDhruvi_ContentWriting.jpg')}
                   />
                 </div>
                 <div className="profile-about-container">
@@ -237,7 +237,7 @@ const TeamSection = () => {
                   <img
                     alt="Yagni Shah"
                     className="profile-image"
-                    src={require('./team-images/YagniShah_ContentWriting.jpg')}
+                    src={require('./team-raw-images/YagniShah_ContentWriting.jpg')}
                   />
                 </div>
                 <div className="profile-about-container">
@@ -257,7 +257,7 @@ const TeamSection = () => {
               <div className="team-profile-card">
                 <div className="profile-image-container">
                   <img
-                    src={require('./team-images/AshutoshJaiswal_Logistics.jpg')}
+                    src={require('./team-raw-images/AshutoshJaiswal_Logistics.jpg')}
                     alt="Ashutosh Jaiswal"
                     className="profile-image"
                   />
@@ -273,7 +273,7 @@ const TeamSection = () => {
               <div className="team-profile-card">
                 <div className="profile-image-container">
                   <img
-                    src={require('./team-images/Janviprajapati_logistic.jpg')}
+                    src={require('./team-raw-images/Janviprajapati_logistic.jpg')}
                     alt="Janvi Prajapati"
                     className="profile-image"
                   />
@@ -296,7 +296,7 @@ const TeamSection = () => {
                   <img
                     alt="Krishita Viroja"
                     className="profile-image"
-                    src={require('./team-images/KrishitaViroja_Logistics.jpg')}
+                    src={require('./team-raw-images/KrishitaViroja_Logistics.jpeg')}
                   />
                 </div>
                 <div className="profile-about-container">
@@ -312,7 +312,7 @@ const TeamSection = () => {
                   <img
                     alt="Manav Rijwani"
                     className="profile-image"
-                    src={require('./team-images/ManavRijwani_Logistics.jpg')}
+                    src={require('./team-raw-images/ManavRijwani_Logistics.jpeg')}
                   />
                 </div>
                 <div className="profile-about-container">
@@ -328,7 +328,7 @@ const TeamSection = () => {
                   <img
                     alt="Nirav Panchal"
                     className="profile-image"
-                    src={require('./team-images/NiravPanchal_Logistics.jpg')}
+                    src={require('./team-raw-images/NiravPanchal_Logistics.jpg')}
                   />
                 </div>
                 <div className="profile-about-container">
@@ -344,7 +344,7 @@ const TeamSection = () => {
                   <img
                     alt="Pranshu Pancholi"
                     className="profile-image"
-                    src={require('./team-images/PranshuPancholi_Logistics.jpg')}
+                    src={require('./team-raw-images/PranshuPancholi_Logistics.jpg')}
                   />
                 </div>
                 <div className="profile-about-container">
@@ -360,7 +360,7 @@ const TeamSection = () => {
                   <img
                     alt="Pushti Shah"
                     className="profile-image"
-                    src={require('./team-images/PushtiShah_Logistics.jpg')}
+                    src={require('./team-raw-images/PushtiShah_Logistics.jpg')}
                   />
                 </div>
                 <div className="profile-about-container">
@@ -376,7 +376,7 @@ const TeamSection = () => {
                   <img
                     alt="Shyam Sagothia"
                     className="profile-image"
-                    src={require('./team-images/ShyamSagothia_Logistics.jpg')}
+                    src={require('./team-raw-images/ShyamSagothia_Logistics.jpg')}
                   />
                 </div>
                 <div className="profile-about-container">
@@ -392,7 +392,7 @@ const TeamSection = () => {
                   <img
                     alt="Vaidehi Kayastha"
                     className="profile-image"
-                    src={require('./team-images/VaidehiKayastha_LogisticsTeam.jpg')}
+                    src={require('./team-raw-images/VaidehiKayastha_LogisticsTeam.jpg')}
                   />
                 </div>
                 <div className="profile-about-container">
@@ -412,7 +412,7 @@ const TeamSection = () => {
               <div className="team-profile-card">
                 <div className="profile-image-container">
                   <img
-                    src={require('./team-images/AakashMaurya_OutreachCoreTeam.jpg')}
+                    src={require('./team-raw-images/AakashMaurya_OutreachCoreTeam.jpeg')}
                     alt="Aakash Maurya"
                     className="profile-image"
                   />
@@ -428,7 +428,7 @@ const TeamSection = () => {
               <div className="team-profile-card">
                 <div className="profile-image-container">
                   <img
-                    src={require('./team-images/ChitraTrivedi_OutreachCoreTeam.jpg')}
+                    src={require('./team-raw-images/ChitraTrivedi_OutreachCoreTeam.jpg')}
                     alt="Chitra Trivedi"
                     className="profile-image"
                   />
@@ -446,7 +446,7 @@ const TeamSection = () => {
                   <img
                     alt="Dev Patel"
                     className="profile-image"
-                    src={require('./team-images/DevPatel_OutReach.jpg')}
+                    src={require('./team-raw-images/DevPatel_OutReach.PNG')}
                   />
                 </div>
                 <div className="profile-about-container">
@@ -462,7 +462,7 @@ const TeamSection = () => {
                   <img
                     alt="Madhvesh Kanjariya"
                     className="profile-image"
-                    src={require('./team-images/MadhveshKanjariya_OutreachCoreTeam.jpg')}
+                    src={require('./team-raw-images/MadhveshKanjariya_OutreachCoreTeam.jpg')}
                   />
                 </div>
                 <div className="profile-about-container">
@@ -478,7 +478,7 @@ const TeamSection = () => {
                   <img
                     alt="Nikhil Parikh"
                     className="profile-image"
-                    src={require('./team-images/Nikhil Parikh_Outreach.jpg')}
+                    src={require('./team-raw-images/Nikhil Parikh_Outreach.JPG')}
                   />
                 </div>
                 <div className="profile-about-container">
@@ -498,7 +498,7 @@ const TeamSection = () => {
               <div className="team-profile-card">
                 <div className="profile-image-container">
                   <img
-                    src={require('./team-images/AayushPatel_CommunityEngagement.jpg')}
+                    src={require('./team-raw-images/AayushPatel_CommunityEngagement.jpg')}
                     alt="Aayush Patel"
                     className="profile-image"
                   />
@@ -514,7 +514,7 @@ const TeamSection = () => {
               <div className="team-profile-card">
                 <div className="profile-image-container">
                   <img
-                    src={require('./team-images/Diya shah_Community Engagement.jpg')}
+                    src={require('./team-raw-images/Diya shah_Community Engagement.jpg')}
                     alt="Diya Shah"
                     className="profile-image"
                   />
@@ -537,7 +537,7 @@ const TeamSection = () => {
                   <img
                     alt="Jain Shreyas"
                     className="profile-image"
-                    src={require('./team-images/JainShreyasSunilkumar_CommunityEngagement.jpg')}
+                    src={require('./team-raw-images/JainShreyasSunilkumar_CommunityEngagement.jpg')}
                   />
                 </div>
                 <div className="profile-about-container">
@@ -553,7 +553,7 @@ const TeamSection = () => {
                   <img
                     alt="Karina Vaishali Mehta"
                     className="profile-image"
-                    src={require('./team-images/Karina Vaishali Mehta_CommunityEngagement.jpg')}
+                    src={require('./team-raw-images/Karina Vaishali Mehta_CommunityEngagement.PNG')}
                   />
                 </div>
                 <div className="profile-about-container">
@@ -576,7 +576,7 @@ const TeamSection = () => {
                   <img
                     alt="Krishna Patel"
                     className="profile-image"
-                    src={require('./team-images/Karina Vaishali Mehta_CommunityEngagement.jpg')}
+                    src={require('./team-raw-images/Karina Vaishali Mehta_CommunityEngagement.PNG')}
                   />
                 </div>
                 <div className="profile-about-container">
@@ -592,7 +592,7 @@ const TeamSection = () => {
                   <img
                     alt="Parth Vora"
                     className="profile-image"
-                    src={require('./team-images/ParthVora_CommunityEngagement.jpg')}
+                    src={require('./team-raw-images/ParthVora_CommunityEngagement.jpg')}
                   />
                 </div>
                 <div className="profile-about-container">
@@ -608,7 +608,7 @@ const TeamSection = () => {
                   <img
                     alt="Patel Nijal"
                     className="profile-image"
-                    src={require('./team-images/PatelNijal_CommunityEngagement.jpg')}
+                    src={require('./team-raw-images/PatelNijal_CommunityEngagement.jpg')}
                   />
                 </div>
                 <div className="profile-about-container">
@@ -624,7 +624,7 @@ const TeamSection = () => {
                   <img
                     alt="Sarthak Jadav"
                     className="profile-image"
-                    src={require('./team-images/Sarthakjadav_CommunityEngagement.jpg')}
+                    src={require('./team-raw-images/Sarthakjadav_CommunityEngagement.jpg')}
                   />
                 </div>
                 <div className="profile-about-container">
@@ -640,7 +640,7 @@ const TeamSection = () => {
                   <img
                     alt="Siddhant Gandhi"
                     className="profile-image"
-                    src={require('./team-images/Siddhant Gandhi_Community Engagement.jpg')}
+                    src={require('./team-raw-images/Siddhant Gandhi_Community Engagement.jpg')}
                   />
                 </div>
                 <div className="profile-about-container">
@@ -656,7 +656,7 @@ const TeamSection = () => {
                   <img
                     alt="Vikas Pal"
                     className="profile-image"
-                    src={require('./team-images/Siddhant Gandhi_Community Engagement.jpg')}
+                    src={require('./team-raw-images/Siddhant Gandhi_Community Engagement.jpg')}
                   />
                 </div>
                 <div className="profile-about-container">
@@ -676,7 +676,7 @@ const TeamSection = () => {
               <div className="team-profile-card">
                 <div className="profile-image-container">
                   <img
-                    src={require('./team-images/KeyurChaniyara_WebDev.jpg')}
+                    src={require('./team-raw-images/KeyurChaniyara_WebDev.jpg')}
                     alt="Keyur Chaniyara"
                     className="profile-image"
                   />
@@ -692,7 +692,7 @@ const TeamSection = () => {
               <div className="team-profile-card">
                 <div className="profile-image-container">
                   <img
-                    src={require('./team-images/NandiniGohel_WebDev.jpg')}
+                    src={require('./team-raw-images/NandiniGohel_WebDev.jpeg')}
                     alt="Nandini Gohel"
                     className="profile-image"
                   />
@@ -710,7 +710,7 @@ const TeamSection = () => {
                   <img
                     alt="Prachi Jethava"
                     className="profile-image"
-                    src={require('./team-images/PrachiJethava_WebDev.jpg')}
+                    src={require('./team-raw-images/PrachiJethava_WebDev.jpeg')}
                   />
                 </div>
                 <div className="profile-about-container">
@@ -726,7 +726,7 @@ const TeamSection = () => {
                   <img
                     alt="Yash Hindocha"
                     className="profile-image"
-                    src={require('./team-images/Yash Hindocha_webDev.jpg')}
+                    src={require('./team-raw-images/Yash Hindocha_webDev.jpeg')}
                   />
                 </div>
                 <div className="profile-about-container">
@@ -742,7 +742,7 @@ const TeamSection = () => {
                   <img
                     alt="Yatree Ladani"
                     className="profile-image"
-                    src={require('./team-images/YatreeLadani_WebDev.jpg')}
+                    src={require('./team-raw-images/YatreeLadani_WebDev.jpg')}
                   />
                 </div>
                 <div className="profile-about-container">
@@ -758,7 +758,7 @@ const TeamSection = () => {
                   <img
                     alt="Kuldeep Solanki"
                     className="profile-image"
-                    src={require('./team-images/KuldeepSolanki_webdev.png')}
+                    src={require('./team-raw-images/KuldeepSolanki_webdev.png')}
                   />
                 </div>
                 <div className="profile-about-container">
