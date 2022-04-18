@@ -92,6 +92,22 @@ const TeamSection = () => {
                   </h4>
                 </div>
               </div>
+
+              <div className="team-profile-card">
+                <div className="profile-image-container">
+                  <img
+                    src={require('./team-images/DhyeyPatel_graphicteam.jpg')}
+                    alt="Dhyey Patel"
+                    className="profile-image"
+                  />
+                </div>
+                <div className="profile-about-container">
+                  <h1 className="profile-about-name">Dhyey Patel</h1>
+                  <h4 className="profile-about-description">
+                    sample description
+                  </h4>
+                </div>
+              </div>
             </div>
           </section>
           <hr />
@@ -747,28 +763,6 @@ const TeamSection = () => {
                 </div>
                 <div className="profile-about-container">
                   <h1 className="profile-about-name">Kuldeep Solanki</h1>
-                  <h4 className="profile-about-description">
-                    sample description
-                  </h4>
-                </div>
-              </div>
-            </div>
-          </section>
-          <hr />
-          {/* graphic team */}
-          <section className="team graphic-team">
-            <h3 className="team-title">Team Graphic :</h3>
-            <div className="team-grid">
-              <div className="team-profile-card">
-                <div className="profile-image-container">
-                  <img
-                    src={require('./team-images/DhyeyPatel_graphicteam.jpg')}
-                    alt="Dhyey Patel"
-                    className="profile-image"
-                  />
-                </div>
-                <div className="profile-about-container">
-                  <h1 className="profile-about-name">Dhyey Patel</h1>
                   <h4 className="profile-about-description">
                     sample description
                   </h4>
