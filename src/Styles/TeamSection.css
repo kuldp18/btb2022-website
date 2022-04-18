@@ -92,14 +92,14 @@
   /* border: 1px solid red; */
 }
 .profile-about-name {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   text-transform: uppercase;
   font-weight: 700;
   color: #21192b;
 }
 
 .profile-about-description {
-  font-size: 1rem;
+  font-size: 1.3rem;
   font-weight: 400;
   color: #21192b;
 }
