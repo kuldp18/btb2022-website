@@ -116,7 +116,6 @@
 .profile-image-container {
   border: 1px solid black;
   background: #21192b;
-  padding: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -130,6 +129,9 @@
   object-fit: cover;
   object-position: top center;
   border-radius: 10px;
+}
+.adjust-right-image {
+  object-position: right center;
 }
 
 hr {
