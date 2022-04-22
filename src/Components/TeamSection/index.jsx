@@ -12,7 +12,7 @@ const TeamSection = () => {
         <div className="teams-container">
           {/* Design Team */}
           <section className="team design-team">
-            <h3 className="team-title">Team Design :</h3>
+            {/* <h3 className="team-title">Team Design :</h3> */}
             <div className="team-grid">
               <div className="team-profile-card">
                 <div className="profile-image-container">
@@ -24,7 +24,9 @@ const TeamSection = () => {
                 </div>
                 <div className="profile-about-container">
                   <h1 className="profile-about-name">Omdevsinh Zala</h1>
-                  <h4 className="profile-about-description">Lead</h4>
+                  <h4 className="profile-about-description">
+                    Design Team Lead
+                  </h4>
                 </div>
               </div>
 
@@ -45,7 +47,7 @@ const TeamSection = () => {
               <div className="team-profile-card">
                 <div className="profile-image-container">
                   <img
-                    src={SampleImage}
+                    src={require('./team-raw-images/VrushikMehta_Design.jpg')}
                     alt="Vrushik Mehta"
                     className="profile-image"
                   />
@@ -113,10 +115,9 @@ const TeamSection = () => {
               </div>
             </div>
           </section>
-          <hr />
           {/* Content Writing Team */}
           <section className="team content-writing-team">
-            <h3 className="team-title">Team Content Writing :</h3>
+            {/* <h3 className="team-title">Team Content Writing :</h3> */}
             <div className="team-grid">
               <div className="team-profile-card">
                 <div className="profile-image-container">
@@ -128,7 +129,9 @@ const TeamSection = () => {
                 </div>
                 <div className="profile-about-container">
                   <h1 className="profile-about-name">Krupesh Raval</h1>
-                  <h4 className="profile-about-description">Lead</h4>
+                  <h4 className="profile-about-description">
+                    Content Writing Team Lead
+                  </h4>
                 </div>
               </div>
 
@@ -231,10 +234,9 @@ const TeamSection = () => {
               </div>
             </div>
           </section>
-          <hr />
           {/* Logistics Team */}
           <section className="team logistics-team">
-            <h3 className="team-title">Team Logistics :</h3>
+            {/* <h3 className="team-title">Team Logistics :</h3> */}
             <div className="team-grid">
               <div className="team-profile-card">
                 <div className="profile-image-container">
@@ -246,7 +248,9 @@ const TeamSection = () => {
                 </div>
                 <div className="profile-about-container">
                   <h1 className="profile-about-name">Shlok Patel</h1>
-                  <h4 className="profile-about-description">Lead</h4>
+                  <h4 className="profile-about-description">
+                    Logistics Team Lead
+                  </h4>
                 </div>
               </div>
 
@@ -281,7 +285,7 @@ const TeamSection = () => {
               <div className="team-profile-card">
                 <div className="profile-image-container">
                   <img
-                    src={SampleImage}
+                    src={require('./team-raw-images/SanjayKriplani_Logistics.jpg')}
                     alt="Sanjay Kriplani"
                     className="profile-image adjust-right-image"
                   />
@@ -311,7 +315,7 @@ const TeamSection = () => {
                   <img
                     alt="Aditya Thakar"
                     className="profile-image"
-                    src={SampleImage}
+                    src={require('./team-raw-images/AdityaThakar_Logistics.jpg')}
                   />
                 </div>
                 <div className="profile-about-container">
@@ -405,10 +409,9 @@ const TeamSection = () => {
               </div>
             </div>
           </section>
-          <hr />
           {/* Outreach team */}
           <section className="team outreach-team">
-            <h3 className="team-title">Team Outreach :</h3>
+            {/* <h3 className="team-title">Team Outreach :</h3> */}
             <div className="team-grid">
               <div className="team-profile-card">
                 <div className="profile-image-container">
@@ -420,7 +423,9 @@ const TeamSection = () => {
                 </div>
                 <div className="profile-about-container">
                   <h1 className="profile-about-name">Jay Shah</h1>
-                  <h4 className="profile-about-description">Lead</h4>
+                  <h4 className="profile-about-description">
+                    Outreach Team Lead
+                  </h4>
                 </div>
               </div>
 
@@ -434,7 +439,9 @@ const TeamSection = () => {
                 </div>
                 <div className="profile-about-container">
                   <h1 className="profile-about-name">Vyom Chaudhari</h1>
-                  <h4 className="profile-about-description">Lead</h4>
+                  <h4 className="profile-about-description">
+                    Outreach Team Lead
+                  </h4>
                 </div>
               </div>
 
@@ -565,10 +572,9 @@ const TeamSection = () => {
               </div>
             </div>
           </section>
-          <hr />
           {/* Community Engagement team */}
           <section className="team community-eng-team">
-            <h3 className="team-title">Team Community Engagement :</h3>
+            {/* <h3 className="team-title">Team Community Engagement :</h3> */}
             <div className="team-grid">
               <div className="team-profile-card">
                 <div className="profile-image-container">
@@ -580,7 +586,9 @@ const TeamSection = () => {
                 </div>
                 <div className="profile-about-container">
                   <h1 className="profile-about-name">Vikas Pal</h1>
-                  <h4 className="profile-about-description">Lead</h4>
+                  <h4 className="profile-about-description">
+                    Community Engagement Team Lead
+                  </h4>
                 </div>
               </div>
 
@@ -730,10 +738,9 @@ const TeamSection = () => {
               </div>
             </div>
           </section>
-          <hr />
           {/* web dev team */}
           <section className="team web-dev-team">
-            <h3 className="team-title">Team Web Dev :</h3>
+            {/* <h3 className="team-title">Team Web Dev :</h3> */}
             <div className="team-grid">
               <div className="team-profile-card">
                 <div className="profile-image-container">
@@ -745,7 +752,9 @@ const TeamSection = () => {
                 </div>
                 <div className="profile-about-container">
                   <h1 className="profile-about-name">Keyur Chaniyara</h1>
-                  <h4 className="profile-about-description">Lead</h4>
+                  <h4 className="profile-about-description">
+                    Webdev Team Lead
+                  </h4>
                 </div>
               </div>
 
