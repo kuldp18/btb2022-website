@@ -14,14 +14,17 @@ html {
 
 section.Faq {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   background-color: #21192b;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
+  padding-bottom: 1.5rem;
 }
-
+#faq .accordion-link1:hover {
+  color: #ff5148;
+}
 .title1 {
   font-size: 30px;
   color: #f7f7f7;
@@ -58,6 +61,7 @@ section.Faq {
   border-radius: 10px;
   margin: 10px 0px 10px;
   padding-left: 12px;
+  text-transform: uppercase;
 }
 
 .accordion-link1 ion-icon {
@@ -94,6 +98,7 @@ section.Faq {
   color: #fcfcfc;
   font-size: 1.4rem;
   padding: 2rem;
+  text-transform: none;
 }
 
 .accordion-item1:target .answer1 {

@@ -29,117 +29,218 @@ export const Faq = () => {
             <div class="title1">FAQs</div>
             <div class="accordion-item1" id="question1">
               <a class="accordion-link1" href="#question1">
-                Q. Can we adjust the length of wire?
+                Q. WHAT IS A HACKATHON?
                 <ion-icon name="chevron-down-outline" class="down1"></ion-icon>
                 <ion-icon name="chevron-up-outline" class="up1"></ion-icon>
               </a>
               <div class="answer1">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Tempore impedit officia accusantium eius nihil magnam
-                  architecto ea error beatae voluptatibus ducimus reiciendis ad
-                  aut magni quia sapiente, earum, corporis repellendus adipisci
-                  natus nemo quas. Incidunt repellendus dolores asperiores
-                  quaerat officia iure laudantium, ipsa aut illum. Facilis,
-                  molestiae fuga ut nesciunt alias dicta impedit ex aut.
+                  A hackathon is social coding event where programmers,
+                  designers and developers collaborate to solve a problem and
+                  compete for cash prizes. It’s one part party, one part
+                  work-your-butt-off overnight battle against the clock and the
+                  competition.
                 </p>
               </div>
             </div>
 
             <div class="accordion-item1" id="question2">
               <a class="accordion-link1" href="#question2">
-                Q. Can we adjust the length of wire?
+                Q. WHY WOULD SOMEONE PARTICIPATE IN A HACKATHON?
                 <ion-icon name="chevron-down-outline" class="down1"></ion-icon>
                 <ion-icon name="chevron-up-outline" class="up1"></ion-icon>
               </a>
               <div class="answer1">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Assumenda aliquam autem dolores, adipisci, velit voluptas
-                  debitis nam eveniet tempora ad error ex eaque! Dicta error
-                  officiis aperiam aspernatur iure, voluptate fugiat autem
-                  repellat dolor aut ipsam tenetur odio maxime rem molestias.
-                  Iusto maiores, consequatur aliquid nisi deserunt repellat
-                  libero quam eligendi perspiciatis labore dolore magnam.
+                  People participate in hackathons for lots of reason: the
+                  challenge, the creative outlet, the community collaboration,
+                  the networking, the swag…
                 </p>
               </div>
             </div>
 
             <div class="accordion-item1" id="question3">
               <a class="accordion-link1" href="#question3">
-                Q. Can we adjust the length of wire?
+                Q. WHO IS THIS EVENT FOR?
                 <ion-icon name="chevron-down-outline" class="down1"></ion-icon>
                 <ion-icon name="chevron-up-outline" class="up1"></ion-icon>
               </a>
               <div class="answer1">
                 <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Tenetur, fugit. Consectetur recusandae commodi dolor
-                  distinctio porro sit aliquid deleniti facilis quasi eligendi
-                  numquam quo eveniet a, reprehenderit sequi. Necessitatibus
-                  iure at, et temporibus eligendi veritatis earum nulla,
-                  assumenda tempore dolorem voluptatem minima aperiam
-                  consectetur autem ipsum quibusdam quae quis sunt. Et
-                  perferendis optio quaerat eum.
+                  This event is open to both participants and spectators from
+                  the community who want to cheer them on and see what the
+                  hackathon is all about.
                 </p>
               </div>
             </div>
 
             <div class="accordion-item1" id="question4">
               <a class="accordion-link1" href="#question4">
-                Q. Can we adjust the length of wire?
+                Q. IS THE EVENT OPEN TO ALL AGES?
                 <ion-icon name="chevron-down-outline" class="down1"></ion-icon>
                 <ion-icon name="chevron-up-outline" class="up1"></ion-icon>
               </a>
               <div class="answer1">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero
-                  exercitationem quia odit at cum voluptates veniam temporibus
-                  numquam perspiciatis, sequi, cupiditate natus eos minus
-                  accusantium sit praesentium hic fuga facilis sapiente ut
-                  obcaecati ullam! Cumque, dolorum ducimus eius ratione rem
-                  minima numquam, fugiat similique itaque in reprehenderit
-                  accusantium error corporis molestias nemo, tenetur aut
-                  expedita.
+                  This event is limited to those 18 and up for participants. Be
+                  prepared to show ID to enter. Wristbands will be provided to
+                  those of legal drinking age. Spectators of all ages are able
+                  to attend the kickoff party Friday and awards ceremony on
+                  Saturday.
                 </p>
               </div>
             </div>
 
             <div class="accordion-item1" id="question5">
               <a class="accordion-link1" href="#question5">
-                Q. Can we adjust the length of wire?
+                Q. WHO CAN PARTICIPATE? ARE THERE ANY PREREQUISITES OR REQUIRED
+                SKILLS?
                 <ion-icon name="chevron-down-outline" class="down1"></ion-icon>
                 <ion-icon name="chevron-up-outline" class="up1"></ion-icon>
               </a>
               <div class="answer1">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Temporibus molestiae alias repudiandae quisquam nemo, placeat
-                  animi at, minima aspernatur quidem ipsum deleniti itaque
-                  numquam vero laboriosam fuga! Dolor recusandae ad deleniti,
-                  totam autem facilis quaerat id esse dolorem dicta provident
-                  sed hic assumenda illum fugit impedit similique, natus qui
-                  tempora laborum. Voluptatibus id maiores necessitatibus!
+                  Anyone is welcome to participate in this event. While
+                  experience coding and programming is a huge plus, teams will
+                  also need people with strong presentation skills and brilliant
+                  ideas.
                 </p>
               </div>
             </div>
 
             <div class="accordion-item1" id="question6">
               <a class="accordion-link1" href="#question6">
-                Q. Can we adjust the length of wire?
+                Q. DO I NEED A TEAM?
                 <ion-icon name="chevron-down-outline" class="down1"></ion-icon>
                 <ion-icon name="chevron-up-outline" class="up1"></ion-icon>
               </a>
               <div class="answer1">
                 <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Omnis necessitatibus maxime veritatis, excepturi libero
-                  reiciendis, optio eligendi nostrum id quasi laudantium placeat
-                  corrupti inventore. Repellendus rerum vitae consectetur
-                  laboriosam, ipsa, nobis aliquam incidunt veniam nisi cum
-                  consequuntur? Similique, odio ut! Voluptas voluptates, rem
-                  distinctio, dolor dicta repellendus magnam quis provident iste
-                  culpa quam. Dolore, assumenda!
+                  While you do have the option of working alone, hackathon is a
+                  team event so working with others is encouraged. There are a
+                  few ways to find teammates: You can pick your team from people
+                  you already know, find a team member via social media, meet
+                  them at a pre-hackathon info sessions or at the kick-off
+                  party.
+                </p>
+              </div>
+            </div>
+
+            <div class="accordion-item1" id="question7">
+              <a class="accordion-link1" href="#question7">
+                Q. WILL THERE BE TRAINING?
+                <ion-icon name="chevron-down-outline" class="down1"></ion-icon>
+                <ion-icon name="chevron-up-outline" class="up1"></ion-icon>
+              </a>
+              <div class="answer1">
+                <p>
+                  There is no pre-event training, but we’ll have team members on
+                  site who will be more than happy to answer your questions
+                  throughout the event. There will also be some additional
+                  information provided at the pre-event mixer, which we
+                  encourage everyone to attend.
+                </p>
+              </div>
+            </div>
+            <div class="accordion-item1" id="question8">
+              <a class="accordion-link1" href="#question8">
+                Q. IS THERE ANYTHING THAT I NEED TO PREPARE?
+                <ion-icon name="chevron-down-outline" class="down1"></ion-icon>
+                <ion-icon name="chevron-up-outline" class="up1"></ion-icon>
+              </a>
+              <div class="answer1">
+                <p>
+                  Other than finding fellow brilliant minds with complimentary
+                  skills to team up with, there is nothing that you need to
+                  prepare in advance.
+                </p>
+              </div>
+            </div>
+
+            <div class="accordion-item1" id="question9">
+              <a class="accordion-link1" href="#question9">
+                Q. HOW MUCH DOES IT COST?
+                <ion-icon name="chevron-down-outline" class="down1"></ion-icon>
+                <ion-icon name="chevron-up-outline" class="up1"></ion-icon>
+              </a>
+              <div class="answer1">
+                <p>FREE. Free for spectators. Free for participants.</p>
+              </div>
+            </div>
+
+            <div class="accordion-item1" id="question10">
+              <a class="accordion-link1" href="#question10">
+                Q. Can I only participate in one challenge?
+                <ion-icon name="chevron-down-outline" class="down1"></ion-icon>
+                <ion-icon name="chevron-up-outline" class="up1"></ion-icon>
+              </a>
+              <div class="answer1">
+                <p>
+                  You will have to select your preferred challenge, if you can
+                  combine challenges you can but you still get judged by the
+                  criteria for the single challenge.
+                </p>
+              </div>
+            </div>
+
+            <div class="accordion-item1" id="question11">
+              <a class="accordion-link1" href="#question11">
+                Q. What is the cancelation policy?
+                <ion-icon name="chevron-down-outline" class="down1"></ion-icon>
+                <ion-icon name="chevron-up-outline" class="up1"></ion-icon>
+              </a>
+              <div class="answer1">
+                <p>
+                  It is a bummer if you cancel before and you will cause us a
+                  lot of work, but there are many reasons why cancellation can
+                  happen. So please apply only if you are certain that you want
+                  to participate and be committed to come to save us a lot of
+                  work!
+                </p>
+              </div>
+            </div>
+            <div class="accordion-item1" id="question12">
+              <a class="accordion-link1" href="#question12">
+                Q. Is the hackathon open to anyone?
+                <ion-icon name="chevron-down-outline" class="down1"></ion-icon>
+                <ion-icon name="chevron-up-outline" class="up1"></ion-icon>
+              </a>
+              <div class="answer1">
+                <p>
+                  Application is open to anyone over the age of 16, if you can
+                  participate will be decided by the dishtracker organisation
+                  team.
+                </p>
+              </div>
+            </div>
+
+            <div class="accordion-item1" id="question13">
+              <a class="accordion-link1" href="#question13">
+                Q. What should I bring?
+                <ion-icon name="chevron-down-outline" class="down1"></ion-icon>
+                <ion-icon name="chevron-up-outline" class="up1"></ion-icon>
+              </a>
+              <div class="answer1">
+                <p>
+                  Bring your laptops, mobile phones, Kinects, Oculus Rifts, Leap
+                  Motions, wearable computing devices, to whatever inspires you
+                  or you want to work with.
+                </p>
+              </div>
+            </div>
+            <div class="accordion-item1" id="question14">
+              <a class="accordion-link1" href="#question14">
+                Q. Is there support available?
+                <ion-icon name="chevron-down-outline" class="down1"></ion-icon>
+                <ion-icon name="chevron-up-outline" class="up1"></ion-icon>
+              </a>
+              <div class="answer1">
+                <p>
+                  The environment at the Hackathon is designed specifically to
+                  encourage everyone to have fun and help each other. If you’re
+                  ever stuck on anything, speak to a GastroHackathon team member
+                  who might be able to help. Team mates and other participants
+                  are on hand too, as this is a collaborative environment.
                 </p>
               </div>
             </div>

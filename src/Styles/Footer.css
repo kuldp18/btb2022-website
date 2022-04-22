@@ -33,10 +33,13 @@ ul {
   color: #000d1b;
   text-transform: capitalize;
   margin-bottom: 35px;
-  margin-left: 35px;
+  margin-left: 23px;
   font-weight: 500;
   position: relative;
   cursor: default;
+}
+.footer-col h4#cws-h4 {
+  margin-left: 15px;
 }
 .footer-col h4::before {
   content: '';
@@ -62,9 +65,9 @@ ul {
   display: block;
   transition: all 0.3s ease;
 }
+
 .footer-col ul li a:hover {
   color: #ff5148;
-  padding-left: 8px;
 }
 .footer-col .social-links a {
   display: inline-block;
@@ -78,9 +81,9 @@ ul {
   color: #24262b;
   transition: all 0.1s ease-in-out;
 }
+
 .footer-col .social-links a:hover {
-  color: #fff;
-  background-color: #ff5148;
+  color: #ff5148;
 }
 .copyright-text {
   position: absolute;

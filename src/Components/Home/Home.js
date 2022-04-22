@@ -4,6 +4,7 @@ import wave from '../../require_images/WAVE1.png';
 import arrow from '../../require_images/arrow.png';
 import logo from '../../require_images/LOGOF.png';
 import ldrplogo from '../../require_images/ldrp_logo.png';
+import '../../Styles/home.css';
 
 export const Home = () => {
   return (

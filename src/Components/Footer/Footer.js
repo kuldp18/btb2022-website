@@ -47,47 +47,87 @@ export const Footer = () => {
           </div>
 
           <div class="footer-col">
-            <h4>CONNECT WITH US</h4>
+            <h4 id="cws-h4">CONNECT WITH US</h4>
             <div class="social-links">
               <a
                 href="https://www.facebook.com/profile.php?id=100079542344570"
                 target="_blank"
               >
-                <i class="fab fa-facebook fa-lg"></i>
+                <i
+                  class="fab fa-facebook fa-lg"
+                  style={{
+                    fontSize: '2.5rem',
+                  }}
+                ></i>
               </a>
               <a href="https://twitter.com/BTB0110" target="_blank">
-                <i class="fab fa-twitter fa-lg"></i>
+                <i
+                  class="fab fa-twitter fa-lg"
+                  style={{
+                    fontSize: '2.5rem',
+                  }}
+                ></i>
               </a>
               <a
                 href="https://www.instagram.com/breakthebarrier22/"
                 target="_blank"
               >
-                <i class="fab fa-instagram fa-lg"></i>
+                <i
+                  class="fab fa-instagram fa-lg"
+                  style={{
+                    fontSize: '2.5rem',
+                  }}
+                ></i>
               </a>
               <a
                 href="https://github.com/BreakTheBarrier-LDRP-ITR"
                 target="_blank"
               >
-                <i class="fab fa-github fa-lg"></i>
+                <i
+                  class="fab fa-github fa-lg"
+                  style={{
+                    fontSize: '2.5rem',
+                  }}
+                ></i>
               </a>
               <br />
               <a
                 href="https://www.linkedin.com/in/break-the-barrier-btb-479548235/"
                 target="_blank"
               >
-                <i class="fab fa-linkedin-in fa-lg"></i>
+                <i
+                  class="fab fa-linkedin-in fa-lg"
+                  style={{
+                    fontSize: '2.5rem',
+                  }}
+                ></i>
               </a>
               <a
                 href="https://www.youtube.com/channel/UCLzse4JnoUQOgEIQpmdXbug"
                 target="_blank"
               >
-                <i class="fab fa-youtube fa-lg"></i>
+                <i
+                  class="fab fa-youtube fa-lg"
+                  style={{
+                    fontSize: '2.5rem',
+                  }}
+                ></i>
               </a>
               <a href="mailto:hackathon@ldrp.ac.in">
-                <i class="fa fa-envelope fa-lg"></i>
+                <i
+                  class="fa fa-envelope fa-lg"
+                  style={{
+                    fontSize: '2.5rem',
+                  }}
+                ></i>
               </a>
               <a href="https://discord.gg/8CnCjJgd" target="_blank">
-                <i class="fab fa-discord fa-lg"></i>
+                <i
+                  class="fab fa-discord fa-lg"
+                  style={{
+                    fontSize: '2.5rem',
+                  }}
+                ></i>
               </a>
             </div>
           </div>
