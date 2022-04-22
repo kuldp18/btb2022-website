@@ -31,19 +31,19 @@ export const Home = () => {
               <a href="#partners">Partners</a>
             </li>
             <li>
-              <a href="#workshop">Workshop</a>
+              <a href="#workshop">Workshops</a>
             </li>
             <li>
               <a href="#mentor-talks">Talks</a>
             </li>
             <li>
-              <a href="#team-section">Team</a>
+              <a href="#team-section">Our Team</a>
             </li>
             <li>
-              <a href="#faq">FAQ</a>
+              <a href="#faq">FAQs</a>
             </li>
             <li>
-              <a href="mailto:hackathon@ldrp.ac.in">Contact</a>
+              <a href="mailto:hackathon@ldrp.ac.in">Contact Us</a>
             </li>
             <li>
               <img
