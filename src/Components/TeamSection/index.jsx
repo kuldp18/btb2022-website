@@ -749,7 +749,7 @@ const TeamSection = () => {
             <div className="team-profile-card">
               <div className="profile-image-container">
                 <img
-                  src={SampleImage}
+                  src={require('./team-raw-images/ChintanPatel_CommunityEngagement.jpg')}
                   alt="Chintan Patel"
                   className="profile-image"
                 />
