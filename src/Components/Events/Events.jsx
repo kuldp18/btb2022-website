@@ -88,44 +88,131 @@ function Events(props) {
       <div className="events-slider">
         <Slider {...settings}>
           <div className="event-info">
-            <img src={BlockChain} alt="blockChain" className="event-img" />
+            <div className="img-wrapper">
+              <img
+                src={BlockChain}
+                alt="blockChain"
+                className="event-img blur"
+              />
+              <div className="content fade">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
+                illum a neque fugiat dolores eveniet! Quam ducimus, labore, enim
+                sapiente accusantium fugit incidunt quia corrupti cum delectus
+                beatae nihil et.
+              </div>
+            </div>
             <p className="event-name">BlockChain Based Hack</p>
           </div>
           <div className="event-info FinTech">
-            <img src={FinTech} alt="blockChain" className="event-img" />
+            <div className="img-wrapper">
+              <img src={FinTech} alt="blockChain" className="event-img blur" />
+              <div className="content fade">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Minima, asperiores quisquam a delectus accusantium error ipsum
+                voluptatem magnam animi natus.
+              </div>
+            </div>
             <p className="event-name">FinTech Hack</p>
           </div>
           <div className="event-info">
-            <img src={ML} alt="blockChain" className="event-img" />
+            <div className="img-wrapper">
+              <img src={ML} alt="blockChain" className="event-img blur" />
+              <div className="content fade">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Minima, asperiores quisquam a delectus accusantium error ipsum
+                voluptatem magnam animi natus.
+              </div>
+            </div>
             <p className="event-name">Machine Learning Hack</p>
           </div>
           <div className="event-info">
-            <img src={healthcare} alt="blockChain" className="event-img" />
+            <div className="img-wrapper">
+              <img
+                src={healthcare}
+                alt="blockChain"
+                className="event-img blur"
+              />
+              <div className="content fade">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Minima, asperiores quisquam a delectus accusantium error ipsum
+                voluptatem magnam animi natus.
+              </div>
+            </div>
             <p className="event-name">Healthcare Hack</p>
           </div>
           <div className="event-info">
-            <img src={CloudBased} alt="blockChain" className="event-img" />
+            <div className="img-wrapper">
+              <img
+                src={CloudBased}
+                alt="blockChain"
+                className="event-img blur"
+              />
+              <div className="content fade">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Minima, asperiores quisquam a delectus accusantium error ipsum
+                voluptatem magnam animi natus.
+              </div>
+            </div>
             <p className="event-name">Cloud Based Hack</p>
           </div>
           <div className="event-info">
-            <img src={EdTech} alt="blockChain" className="event-img" />
+            <div className="img-wrapper">
+              <img src={EdTech} alt="blockChain" className="event-img blur" />
+              <div className="content fade">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Minima, asperiores quisquam a delectus accusantium error ipsum
+                voluptatem magnam animi natus.
+              </div>
+            </div>
             <p className="event-name">Education Hack</p>
           </div>
           <div className="event-info">
-            <img src={HardwareBased} alt="blockChain" className="event-img" />
+            <div className="img-wrapper">
+              <img
+                src={HardwareBased}
+                alt="blockChain"
+                className="event-img blur"
+              />
+              <div className="content fade">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Minima, asperiores quisquam a delectus accusantium error ipsum
+                voluptatem magnam animi natus.
+              </div>
+            </div>
             <p className="event-name">Hardware Hack</p>
           </div>
           <div className="event-info">
-            <img src={Creative} alt="blockChain" className="event-img" />
+            <div className="img-wrapper">
+              <img src={Creative} alt="blockChain" className="event-img blur" />
+              <div className="content fade">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Minima, asperiores quisquam a delectus accusantium error ipsum
+                voluptatem magnam animi natus.
+              </div>
+            </div>
             <p className="event-name">Most Creative Hack</p>
           </div>
 
           <div className="event-info">
-            <img src={NLP} alt="blockChain" className="event-img" />
+            <div className="img-wrapper">
+              <img src={NLP} alt="blockChain" className="event-img blur" />
+              <div className="content fade">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Minima, asperiores quisquam a delectus accusantium error ipsum
+                voluptatem magnam animi natus.
+              </div>
+            </div>
             <p className="event-name">NLP Hack</p>
           </div>
           <div className="event-info">
-            <img src={ARVR} alt="blockChain" className="event-img" />
+            <div className="img-wrapper">
+              <img src={ARVR} alt="blockChain" className="event-img blur" />
+              <div className="content fade">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Minima, asperiores quisquam a delectus accusantium error ipsum
+                voluptatem magnam animi natus.
+              </div>
+            </div>
             <p className="event-name">AR/VR Hack</p>
           </div>
         </Slider>
