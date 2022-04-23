@@ -137,8 +137,10 @@ function Events(props) {
               />
               <div className="content fade">
                 <span>
-                  Looking for healthy and ecstatic life? No need to search now.
-                  Be our guest and live a serene life.
+                  Breakthroughs beat outbreaks! Recent shifts in healthcare
+                  trends, growing population also present an array of
+                  opportunities for innovation your ideas can help the world
+                  recover better.
                 </span>
               </div>
             </div>
@@ -166,9 +168,8 @@ function Events(props) {
               <img src={EdTech} alt="blockChain" className="event-img blur" />
               <div className="content fade">
                 <span>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Deserunt quo fuga, suscipit facilis omnis iusto dolores sed
-                  ipsam qui aut.
+                  Our educational needs are undergoing massive shifts right now
+                  with a huge demand for high-quality educational technology.
                 </span>
               </div>
             </div>
