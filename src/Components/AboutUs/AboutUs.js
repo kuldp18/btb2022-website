@@ -63,7 +63,12 @@ export const AboutUs = () => {
                 <span className="text-white font-weight-bold display-1">.</span>
               </span>
             </span>
-            <div className="text-white description">
+            <div
+              className="text-white description"
+              style={{
+                marginTop: '2rem',
+              }}
+            >
               LDRP-ITR and Break The Barrier’s mission is to inspire developers
               to develop ingenious solutions. We aspire in virtual world to
               inspire the real world. It’s an innovative platform and
@@ -78,8 +83,12 @@ export const AboutUs = () => {
             </div>
             <a
               type="button"
-              className="btn btn-outline-danger btn-lg col-sm-1  learn-more-btn"
+              className="btn btn-outline-danger btn-lg col-sm-1 learn-more-btn"
+              id="learn-more-btn"
               href="#timeline"
+              style={{
+                color: '#FF5148',
+              }}
             >
               Learn More
             </a>

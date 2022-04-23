@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../Styles/mainpage.css';
 import wave from '../../require_images/WAVE1.png';
-import arrow from '../../require_images/arrow.png';
+import arrow from '../../require_images/down.gif';
 import logo from '../../require_images/LOGOF.png';
 import ldrplogo from '../../require_images/ldrp_logo.png';
 import '../../Styles/home.css';
@@ -62,7 +62,16 @@ export const Home = () => {
       <section id="home" class="home2">
         <div class="header-content2">
           <p class="content-1">BREAK THE</p>
-          <p class="content-2">BARRIER</p>
+          <p
+            class="content-2"
+            style={{
+              fontFamily: 'Aqua Grotesque',
+              stroke: 'orange',
+              color: '#FF5148',
+            }}
+          >
+            BARRIER
+          </p>
           <p class="content-3">
             Code recursively and let your idea change the world.
           </p>
@@ -71,7 +80,7 @@ export const Home = () => {
           </a>
           <div class="arrow2">
             <a href="#about">
-              <img src={arrow} alt="arrow icon" />
+              <img src={arrow} alt="arrow icon" width="100" />
             </a>
           </div>
         </div>

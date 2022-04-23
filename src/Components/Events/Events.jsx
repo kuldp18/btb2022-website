@@ -47,7 +47,7 @@ function Events(props) {
   }
   const settings = {
     dots: false,
-    infinite: false,
+    infinite: true,
     slidesToShow: 4,
     slidesToScroll: 1,
     nextArrow: <SampleNextArrow />,
@@ -155,9 +155,9 @@ function Events(props) {
               />
               <div className="content fade">
                 <span>
-                  #Out of space? And want important things to be the clasp.
-                  Don't worry cloud is there The journey of a thousand apps
-                  begins in the cloud…
+                  Out of space? And want important things to be the clasp. Don't
+                  worry cloud is there The journey of a thousand apps begins in
+                  the cloud…
                 </span>
               </div>
             </div>
@@ -202,7 +202,7 @@ function Events(props) {
                 </span>
               </div>
             </div>
-            <p className="event-name">Most Creative Hack</p>
+            <p className="event-name">Creative Hack</p>
           </div>
 
           <div className="event-info">

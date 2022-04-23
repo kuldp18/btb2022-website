@@ -127,11 +127,9 @@ body {
   /* identical to box height */
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   letter-spacing: 0.12em;
-
-  background: linear-gradient(180deg, #ff5148 0%, #a71912 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: #ff5148;
+  stroke: #ff5148;
+  -webkit-text-stroke-width: 5px;
   /* text-fill-color: transparent; */
 }
 

@@ -29,218 +29,143 @@ export const Faq = () => {
             <div class="title1">FAQs</div>
             <div class="accordion-item1" id="question1">
               <a class="accordion-link1" href="#question1">
-                Q. WHAT IS A HACKATHON?
+                Q. Who can participate?
                 <ion-icon name="chevron-down-outline" class="down1"></ion-icon>
                 <ion-icon name="chevron-up-outline" class="up1"></ion-icon>
               </a>
               <div class="answer1">
                 <p>
-                  A hackathon is social coding event where programmers,
-                  designers and developers collaborate to solve a problem and
-                  compete for cash prizes. It’s one part party, one part
-                  work-your-butt-off overnight battle against the clock and the
-                  competition.
+                  Anyone who is up for challenges and looking forward to learn
+                  something new is welcome to apply. However the participant
+                  should be a student of any college/university in India.
                 </p>
               </div>
             </div>
 
             <div class="accordion-item1" id="question2">
               <a class="accordion-link1" href="#question2">
-                Q. WHY WOULD SOMEONE PARTICIPATE IN A HACKATHON?
+                Q. Is there any participation fee?
                 <ion-icon name="chevron-down-outline" class="down1"></ion-icon>
                 <ion-icon name="chevron-up-outline" class="up1"></ion-icon>
               </a>
               <div class="answer1">
-                <p>
-                  People participate in hackathons for lots of reason: the
-                  challenge, the creative outlet, the community collaboration,
-                  the networking, the swag…
-                </p>
+                <p>No, there is no participation fee.</p>
               </div>
             </div>
 
             <div class="accordion-item1" id="question3">
               <a class="accordion-link1" href="#question3">
-                Q. WHO IS THIS EVENT FOR?
+                Q. How do I apply?
                 <ion-icon name="chevron-down-outline" class="down1"></ion-icon>
                 <ion-icon name="chevron-up-outline" class="up1"></ion-icon>
               </a>
               <div class="answer1">
                 <p>
-                  This event is open to both participants and spectators from
-                  the community who want to cheer them on and see what the
-                  hackathon is all about.
+                  We will be adding the registration link soon. Stay connected
+                  with us on our social media for more updates.
                 </p>
               </div>
             </div>
 
             <div class="accordion-item1" id="question4">
               <a class="accordion-link1" href="#question4">
-                Q. IS THE EVENT OPEN TO ALL AGES?
+                Q. Can I participate remotely?
                 <ion-icon name="chevron-down-outline" class="down1"></ion-icon>
                 <ion-icon name="chevron-up-outline" class="up1"></ion-icon>
               </a>
               <div class="answer1">
                 <p>
-                  This event is limited to those 18 and up for participants. Be
-                  prepared to show ID to enter. Wristbands will be provided to
-                  those of legal drinking age. Spectators of all ages are able
-                  to attend the kickoff party Friday and awards ceremony on
-                  Saturday.
+                  Yes, the workshops and the hackathon will be completely
+                  online.
                 </p>
               </div>
             </div>
 
             <div class="accordion-item1" id="question5">
               <a class="accordion-link1" href="#question5">
-                Q. WHO CAN PARTICIPATE? ARE THERE ANY PREREQUISITES OR REQUIRED
-                SKILLS?
+                Q. How many participants are allowed in one team?
                 <ion-icon name="chevron-down-outline" class="down1"></ion-icon>
                 <ion-icon name="chevron-up-outline" class="up1"></ion-icon>
               </a>
               <div class="answer1">
                 <p>
-                  Anyone is welcome to participate in this event. While
-                  experience coding and programming is a huge plus, teams will
-                  also need people with strong presentation skills and brilliant
-                  ideas.
+                  You are welcome to work alone, but we definitely recommend
+                  working with a team. A team for this hackathon can be set from
+                  an individual member and limited to a maximum of 4 members.
                 </p>
               </div>
             </div>
 
             <div class="accordion-item1" id="question6">
               <a class="accordion-link1" href="#question6">
-                Q. DO I NEED A TEAM?
+                Q. Can I participate in more than one tracks?
                 <ion-icon name="chevron-down-outline" class="down1"></ion-icon>
                 <ion-icon name="chevron-up-outline" class="up1"></ion-icon>
               </a>
               <div class="answer1">
                 <p>
-                  While you do have the option of working alone, hackathon is a
-                  team event so working with others is encouraged. There are a
-                  few ways to find teammates: You can pick your team from people
-                  you already know, find a team member via social media, meet
-                  them at a pre-hackathon info sessions or at the kick-off
-                  party.
+                  We recommend you to participate in only one track and put your
+                  best foot forward. However, you can participate in as many
+                  tracks as you want according to your interests.
                 </p>
               </div>
             </div>
 
             <div class="accordion-item1" id="question7">
               <a class="accordion-link1" href="#question7">
-                Q. WILL THERE BE TRAINING?
+                Q. How does an online Hackathon work?
                 <ion-icon name="chevron-down-outline" class="down1"></ion-icon>
                 <ion-icon name="chevron-up-outline" class="up1"></ion-icon>
               </a>
               <div class="answer1">
                 <p>
-                  There is no pre-event training, but we’ll have team members on
-                  site who will be more than happy to answer your questions
-                  throughout the event. There will also be some additional
-                  information provided at the pre-event mixer, which we
-                  encourage everyone to attend.
+                  You don’t have to be online for 48 hours! We will be providing
+                  the problem statements then you can start your project and
+                  hack with your team however you would like.
                 </p>
               </div>
             </div>
             <div class="accordion-item1" id="question8">
               <a class="accordion-link1" href="#question8">
-                Q. IS THERE ANYTHING THAT I NEED TO PREPARE?
+                Q. Where to submit our work?
                 <ion-icon name="chevron-down-outline" class="down1"></ion-icon>
                 <ion-icon name="chevron-up-outline" class="up1"></ion-icon>
               </a>
               <div class="answer1">
                 <p>
-                  Other than finding fellow brilliant minds with complimentary
-                  skills to team up with, there is nothing that you need to
-                  prepare in advance.
+                  We will be taking the project submissions on devpost and you
+                  are required to submit a video presentation of your project
+                  via YouTube.
                 </p>
               </div>
             </div>
 
             <div class="accordion-item1" id="question9">
               <a class="accordion-link1" href="#question9">
-                Q. HOW MUCH DOES IT COST?
+                Q. I can't code, can I still join?
                 <ion-icon name="chevron-down-outline" class="down1"></ion-icon>
                 <ion-icon name="chevron-up-outline" class="up1"></ion-icon>
               </a>
               <div class="answer1">
-                <p>FREE. Free for spectators. Free for participants.</p>
+                <p>
+                  Of course! Our hackathon is open to all, beginners all the way
+                  to more advanced students! We will be hosting a number of
+                  workshops to help you learn and enhance your skills. Remember,
+                  anyone can code, we just need a path to follow!
+                </p>
               </div>
             </div>
 
             <div class="accordion-item1" id="question10">
               <a class="accordion-link1" href="#question10">
-                Q. Can I only participate in one challenge?
+                Q. What if I still have questions?
                 <ion-icon name="chevron-down-outline" class="down1"></ion-icon>
                 <ion-icon name="chevron-up-outline" class="up1"></ion-icon>
               </a>
               <div class="answer1">
                 <p>
-                  You will have to select your preferred challenge, if you can
-                  combine challenges you can but you still get judged by the
-                  criteria for the single challenge.
-                </p>
-              </div>
-            </div>
-
-            <div class="accordion-item1" id="question11">
-              <a class="accordion-link1" href="#question11">
-                Q. What is the cancelation policy?
-                <ion-icon name="chevron-down-outline" class="down1"></ion-icon>
-                <ion-icon name="chevron-up-outline" class="up1"></ion-icon>
-              </a>
-              <div class="answer1">
-                <p>
-                  It is a bummer if you cancel before and you will cause us a
-                  lot of work, but there are many reasons why cancellation can
-                  happen. So please apply only if you are certain that you want
-                  to participate and be committed to come to save us a lot of
-                  work!
-                </p>
-              </div>
-            </div>
-            <div class="accordion-item1" id="question12">
-              <a class="accordion-link1" href="#question12">
-                Q. Is the hackathon open to anyone?
-                <ion-icon name="chevron-down-outline" class="down1"></ion-icon>
-                <ion-icon name="chevron-up-outline" class="up1"></ion-icon>
-              </a>
-              <div class="answer1">
-                <p>
-                  Application is open to anyone over the age of 16, if you can
-                  participate will be decided by the dishtracker organisation
-                  team.
-                </p>
-              </div>
-            </div>
-
-            <div class="accordion-item1" id="question13">
-              <a class="accordion-link1" href="#question13">
-                Q. What should I bring?
-                <ion-icon name="chevron-down-outline" class="down1"></ion-icon>
-                <ion-icon name="chevron-up-outline" class="up1"></ion-icon>
-              </a>
-              <div class="answer1">
-                <p>
-                  Bring your laptops, mobile phones, Kinects, Oculus Rifts, Leap
-                  Motions, wearable computing devices, to whatever inspires you
-                  or you want to work with.
-                </p>
-              </div>
-            </div>
-            <div class="accordion-item1" id="question14">
-              <a class="accordion-link1" href="#question14">
-                Q. Is there support available?
-                <ion-icon name="chevron-down-outline" class="down1"></ion-icon>
-                <ion-icon name="chevron-up-outline" class="up1"></ion-icon>
-              </a>
-              <div class="answer1">
-                <p>
-                  The environment at the Hackathon is designed specifically to
-                  encourage everyone to have fun and help each other. If you’re
-                  ever stuck on anything, speak to a GastroHackathon team member
-                  who might be able to help. Team mates and other participants
-                  are on hand too, as this is a collaborative environment.
+                  Shoot your questions on our discord and we will surely get
+                  back to you as soon as we can.
                 </p>
               </div>
             </div>

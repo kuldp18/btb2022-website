@@ -7,8 +7,10 @@ const Sponsors = () => {
   return (
     <>
       <section className="sponsors" id="partners">
-        <h1 className="heading">Our Partners</h1>
-        <p className="heading heading-sm">Partners will be revealed soon.</p>
+        <h1 className="heading stylish-title">Partners</h1>
+        <p className="heading heading-sm">
+          We will be revealing our Partners soon.
+        </p>
 
         {/* sponsors card grid */}
         <div className="sponsors-cards-grid">

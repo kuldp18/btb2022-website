@@ -78,10 +78,7 @@ export const Footer = () => {
                   }}
                 ></i>
               </a>
-              <a
-                href="https://github.com/BreakTheBarrier-LDRP-ITR"
-                target="_blank"
-              >
+              <a href="#" target="_blank">
                 <i
                   class="fab fa-github fa-lg"
                   style={{

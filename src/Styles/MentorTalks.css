@@ -10,6 +10,19 @@
   font-family: 'MetropolisRegular';
   position: relative;
 }
+.stylish-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  text-align: center;
+  font-size: 4rem;
+  background: -webkit-linear-gradient(#ff5148, #ad201a);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 3vw;
+  text-transform: uppercase;
+}
+
 .mentor-talks .heading {
   font-size: 4.5rem;
   text-transform: uppercase;

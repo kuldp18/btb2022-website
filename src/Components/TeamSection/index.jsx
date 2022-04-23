@@ -263,13 +263,13 @@ const TeamSection = () => {
             <div className="team-profile-card">
               <div className="profile-image-container">
                 <img
-                  src={require('./team-raw-images/Janviprajapati_logistic.jpg')}
-                  alt="Janvi Prajapati"
-                  className="profile-image adjust-right-image"
+                  alt="Shyam Sagothia"
+                  className="profile-image"
+                  src={require('./team-raw-images/ShyamSagothia_Logistics.jpg')}
                 />
               </div>
               <div className="profile-about-container">
-                <h1 className="profile-about-name">Janvi Prajapati</h1>
+                <h1 className="profile-about-name">Shyam Sagothia</h1>
                 <h4 className="profile-about-description">Team Logistics</h4>
               </div>
             </div>
@@ -291,13 +291,13 @@ const TeamSection = () => {
             <div className="team-profile-card">
               <div className="profile-image-container">
                 <img
-                  alt="Krishita Viroja"
+                  alt="Pushti Shah"
                   className="profile-image"
-                  src={require('./team-raw-images/KrishitaViroja_Logistics.jpeg')}
+                  src={require('./team-raw-images/PushtiShah_Logistics.jpg')}
                 />
               </div>
               <div className="profile-about-container">
-                <h1 className="profile-about-name">Krishita Viroja</h1>
+                <h1 className="profile-about-name">Pushti Shah</h1>
                 <h4 className="profile-about-description">Team Logistics</h4>
               </div>
             </div>
@@ -312,6 +312,20 @@ const TeamSection = () => {
               </div>
               <div className="profile-about-container">
                 <h1 className="profile-about-name">Aditya Thakar</h1>
+                <h4 className="profile-about-description">Team Logistics</h4>
+              </div>
+            </div>
+
+            <div className="team-profile-card">
+              <div className="profile-image-container">
+                <img
+                  src={require('./team-raw-images/Janviprajapati_logistic.jpg')}
+                  alt="Janvi Prajapati"
+                  className="profile-image adjust-right-image"
+                />
+              </div>
+              <div className="profile-about-container">
+                <h1 className="profile-about-name">Janvi Prajapati</h1>
                 <h4 className="profile-about-description">Team Logistics</h4>
               </div>
             </div>
@@ -361,34 +375,6 @@ const TeamSection = () => {
             <div className="team-profile-card">
               <div className="profile-image-container">
                 <img
-                  alt="Pushti Shah"
-                  className="profile-image"
-                  src={require('./team-raw-images/PushtiShah_Logistics.jpg')}
-                />
-              </div>
-              <div className="profile-about-container">
-                <h1 className="profile-about-name">Pushti Shah</h1>
-                <h4 className="profile-about-description">Team Logistics</h4>
-              </div>
-            </div>
-
-            <div className="team-profile-card">
-              <div className="profile-image-container">
-                <img
-                  alt="Shyam Sagothia"
-                  className="profile-image"
-                  src={require('./team-raw-images/ShyamSagothia_Logistics.jpg')}
-                />
-              </div>
-              <div className="profile-about-container">
-                <h1 className="profile-about-name">Shyam Sagothia</h1>
-                <h4 className="profile-about-description">Team Logistics</h4>
-              </div>
-            </div>
-
-            <div className="team-profile-card">
-              <div className="profile-image-container">
-                <img
                   alt="Vaidehi Kayastha"
                   className="profile-image"
                   src={require('./team-raw-images/VaidehiKayastha_LogisticsTeam.jpg')}
@@ -396,6 +382,20 @@ const TeamSection = () => {
               </div>
               <div className="profile-about-container">
                 <h1 className="profile-about-name">Vaidehi Kayastha</h1>
+                <h4 className="profile-about-description">Team Logistics</h4>
+              </div>
+            </div>
+
+            <div className="team-profile-card">
+              <div className="profile-image-container">
+                <img
+                  alt="Krishita Viroja"
+                  className="profile-image"
+                  src={require('./team-raw-images/KrishitaViroja_Logistics.jpeg')}
+                />
+              </div>
+              <div className="profile-about-container">
+                <h1 className="profile-about-name">Krishita Viroja</h1>
                 <h4 className="profile-about-description">Team Logistics</h4>
               </div>
             </div>
@@ -504,8 +504,8 @@ const TeamSection = () => {
               <div className="profile-image-container">
                 <img
                   alt="Vatsal Mavani"
-                  className="profile-image"
-                  src={SampleImage}
+                  className="profile-image adjust-right-image"
+                  src={require('./team-raw-images/Vatsal mavani.jpg')}
                 />
               </div>
               <div className="profile-about-container">
@@ -516,13 +516,13 @@ const TeamSection = () => {
             <div className="team-profile-card">
               <div className="profile-image-container">
                 <img
-                  alt="Ved Patel"
+                  alt="Ved Prajapati"
                   className="profile-image"
-                  src={SampleImage}
+                  src={require('./team-raw-images/Ved Prajapati.jpg')}
                 />
               </div>
               <div className="profile-about-container">
-                <h1 className="profile-about-name">Ved Patel</h1>
+                <h1 className="profile-about-name">Ved Prajapati</h1>
                 <h4 className="profile-about-description">Team Webdev</h4>
               </div>
             </div>
