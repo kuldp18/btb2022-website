@@ -1,6 +1,6 @@
 import React from 'react';
 import './../../Styles/Footer.css';
-import Logo from './../../require_images/LOGOF.png';
+import Logo from './../../require_images/final footer logo.png';
 
 export const Footer = () => {
   return (
@@ -10,24 +10,23 @@ export const Footer = () => {
           <div
             class="footer-col"
             style={{
-              backgroundColor: '#21192B',
               display: 'flex',
               justifyContent: 'center',
               borderRadius: '20px',
             }}
           >
-            <img src={Logo} width="70%" />
+            <img src={Logo} width="60%" />
           </div>
           <div class="footer-col">
             <h4>EVENTS</h4>
             <ul>
               <li>
-                <a href="#">Upcoming Hackathons</a>
+                <a href="#workshop">Workshops</a>
               </li>
               {/* <li><a href="#">Winners of Events</a></li>
   	 				<li><a href="#">Prizes</a></li> */}
               <li>
-                <a href="#">Schedules</a>
+                <a href="#mentor-talks">Talks</a>
               </li>
             </ul>
           </div>

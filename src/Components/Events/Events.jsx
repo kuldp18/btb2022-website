@@ -3,17 +3,16 @@ import './../../Styles/events.css';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import BlockChain from './../../require_images/BlockChain.jpg';
-import FinTech from './../../require_images/fintech.jpg';
+import BlockChain from './../../require_images/blockchain-final.png';
+import FinTech from './../../require_images/Fintech.png';
 import ML from './../../require_images/ML.png';
-import Learning from './../../require_images/learning.jpg';
-import healthcare from './../../require_images/healthcare.jpg';
-import Creative from './../../require_images/Creative.jpg';
-import CloudBased from '../../require_images/cloudbased.jpg';
-import EdTech from '../../require_images/edutech.jpg';
-import HardwareBased from '../../require_images/hardware.jpg';
-import NLP from '../../require_images/nlp.jpg';
-import ARVR from '../../require_images/arvr.jpg';
+import healthcare from './../../require_images/healthcare-final.png';
+import Creative from './../../require_images/creative-final.png';
+import CloudBased from '../../require_images/cloud-based-final.png';
+import EdTech from '../../require_images/edutech-final.png';
+import HardwareBased from '../../require_images/hardware-final.png';
+import NLP from '../../require_images/nlp final.png';
+import ARVR from '../../require_images/ar vr-final.png';
 
 function Events(props) {
   const SampleNextArrow = (props) => {

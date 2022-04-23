@@ -1,72 +1,17 @@
 [
-    {
-        "time" : "28 March, 9:00 AM to 10:00 AM",
-        "event-name" : "OPENING CEREMONY",
-        "event-desc" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown"
-    },
-    {
-        "time" : "28 March, 9:00 AM to 10:00 AM",
-        "event-name" : "discussions and brief",
-        "event-desc" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown"
-    },
-    {
-        "time" : "28 March, 9:00 AM to 10:00 AM",
-        "event-name" : "Hackathon Day 1",
-        "event-desc" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown"
-    },
-    {
-        "time" : "28 March, 9:00 AM to 10:00 AM",
-        "event-name" : "Hackathon Day 2",
-        "event-desc" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown"
-    },
-    {
-        "time" : "28 March, 9:00 AM to 10:00 AM",
-        "event-name" : "Hackathon Day 3",
-        "event-desc" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown"
-    },
-    {
-        "time" : "28 March, 9:00 AM to 10:00 AM",
-        "event-name" : "Hackathon Day 4",
-        "event-desc" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown"
-    },
-    {
-        "time" : "28 March, 9:00 AM to 10:00 AM",
-        "event-name" : "Hackathon Day 5",
-        "event-desc" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown"
-    },
-    {
-        "time" : "28 March, 9:00 AM to 10:00 AM",
-        "event-name" : "Hackathon Day 6",
-        "event-desc" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown"
-    },
-    {
-        "time" : "28 March, 9:00 AM to 10:00 AM",
-        "event-name" : "Hackathon Day 7",
-        "event-desc" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown"
-    },
-    {
-        "time" : "28 March, 9:00 AM to 10:00 AM",
-        "event-name" : "Hackathon Day 8",
-        "event-desc" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown"
-    },
-    {
-        "time" : "28 March, 9:00 AM to 10:00 AM",
-        "event-name" : "Hackathon Day 9",
-        "event-desc" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown"
-    },
-    {
-        "time" : "28 March, 9:00 AM to 10:00 AM",
-        "event-name" : "Hackathon Day 10",
-        "event-desc" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown"
-    },
-    {
-        "time" : "28 March, 9:00 AM to 10:00 AM",
-        "event-name" : "Hackathon Day 11",
-        "event-desc" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown"
-    },
-    {
-        "time" : "28 March, 9:00 AM to 10:00 AM",
-        "event-name" : "Hackathon Day 12",
-        "event-desc" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown"
-    }
+  {
+    "time": "28 March, 9:00 AM to 10:00 AM",
+    "event-name": "WORKSHOP AND TALKS",
+    "event-desc": "You can find the whole event’s schedule here[embed the link to schedule/timeline]. Numbers of workshops from the industry experts, working professionals, experienced developers, CEOs, and more... This is an ocean of knowledge and mindful personalities. Grab the golden opportunity to learn from these great minds. <click here> Workshops starting form <date> and <time>"
+  },
+  {
+    "time": "28 March, 9:00 AM to 10:00 AM",
+    "event-name": "Opening ceremony",
+    "event-desc": "Opening ceremony of the hackathon is going to be hosted virtually at <platform-name>, on <date> and <time>. We will give a quick welcome to all the participants and give an overview. Links will be shared shortly to join the opening ceremony."
+  },
+  {
+    "time": "28 March, 9:00 AM to 10:00 AM",
+    "event-name": "Hacking starts…",
+    "event-desc": "Hackathon will commence on <Date> and will be running for 48 hours"
+  }
 ]
