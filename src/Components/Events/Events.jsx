@@ -95,10 +95,11 @@ function Events(props) {
                 className="event-img blur"
               />
               <div className="content fade">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
-                illum a neque fugiat dolores eveniet! Quam ducimus, labore, enim
-                sapiente accusantium fugit incidunt quia corrupti cum delectus
-                beatae nihil et.
+                <span>
+                  Let’s advance to decrypt the Block and Chain your efforts to
+                  enhance the existing one with your unique way, be a part to be
+                  part...
+                </span>
               </div>
             </div>
             <p className="event-name">BlockChain Based Hack</p>
@@ -107,9 +108,10 @@ function Events(props) {
             <div className="img-wrapper">
               <img src={FinTech} alt="blockChain" className="event-img blur" />
               <div className="content fade">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Minima, asperiores quisquam a delectus accusantium error ipsum
-                voluptatem magnam animi natus.
+                <span>
+                  Let's make our sluggish technology sleek and swift by
+                  enrolling with FinTech.
+                </span>
               </div>
             </div>
             <p className="event-name">FinTech Hack</p>
@@ -118,9 +120,10 @@ function Events(props) {
             <div className="img-wrapper">
               <img src={ML} alt="blockChain" className="event-img blur" />
               <div className="content fade">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Minima, asperiores quisquam a delectus accusantium error ipsum
-                voluptatem magnam animi natus.
+                <span>
+                  Want to learn, how machines learn? Join to rest your desire.
+                  This is your sign to build a project that solves it...
+                </span>
               </div>
             </div>
             <p className="event-name">Machine Learning Hack</p>
@@ -133,9 +136,10 @@ function Events(props) {
                 className="event-img blur"
               />
               <div className="content fade">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Minima, asperiores quisquam a delectus accusantium error ipsum
-                voluptatem magnam animi natus.
+                <span>
+                  Looking for healthy and ecstatic life? No need to search now.
+                  Be our guest and live a serene life.
+                </span>
               </div>
             </div>
             <p className="event-name">Healthcare Hack</p>
@@ -148,9 +152,11 @@ function Events(props) {
                 className="event-img blur"
               />
               <div className="content fade">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Minima, asperiores quisquam a delectus accusantium error ipsum
-                voluptatem magnam animi natus.
+                <span>
+                  #Out of space? And want important things to be the clasp.
+                  Don't worry cloud is there The journey of a thousand apps
+                  begins in the cloud…
+                </span>
               </div>
             </div>
             <p className="event-name">Cloud Based Hack</p>
@@ -159,9 +165,11 @@ function Events(props) {
             <div className="img-wrapper">
               <img src={EdTech} alt="blockChain" className="event-img blur" />
               <div className="content fade">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Minima, asperiores quisquam a delectus accusantium error ipsum
-                voluptatem magnam animi natus.
+                <span>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Deserunt quo fuga, suscipit facilis omnis iusto dolores sed
+                  ipsam qui aut.
+                </span>
               </div>
             </div>
             <p className="event-name">Education Hack</p>
@@ -174,9 +182,11 @@ function Events(props) {
                 className="event-img blur"
               />
               <div className="content fade">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Minima, asperiores quisquam a delectus accusantium error ipsum
-                voluptatem magnam animi natus.
+                <span>
+                  In love with machines, and can't control your hands when it
+                  comes to hardware? Grab this chance to hack the hardware and
+                  let your modifications outstrip.
+                </span>
               </div>
             </div>
             <p className="event-name">Hardware Hack</p>
@@ -185,9 +195,10 @@ function Events(props) {
             <div className="img-wrapper">
               <img src={Creative} alt="blockChain" className="event-img blur" />
               <div className="content fade">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Minima, asperiores quisquam a delectus accusantium error ipsum
-                voluptatem magnam animi natus.
+                <span>
+                  Do you see the world in your way? then let your idea lead the
+                  world in the most creative way
+                </span>
               </div>
             </div>
             <p className="event-name">Most Creative Hack</p>
@@ -197,9 +208,11 @@ function Events(props) {
             <div className="img-wrapper">
               <img src={NLP} alt="blockChain" className="event-img blur" />
               <div className="content fade">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Minima, asperiores quisquam a delectus accusantium error ipsum
-                voluptatem magnam animi natus.
+                <span>
+                  Let machines understand the natural language with your
+                  preferred processes and unleash the ways technology can
+                  ameliorate the world.
+                </span>
               </div>
             </div>
             <p className="event-name">NLP Hack</p>
@@ -208,9 +221,11 @@ function Events(props) {
             <div className="img-wrapper">
               <img src={ARVR} alt="blockChain" className="event-img blur" />
               <div className="content fade">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Minima, asperiores quisquam a delectus accusantium error ipsum
-                voluptatem magnam animi natus.
+                <span>
+                  Want to get submerged in your virtual world? Register for
+                  AR/VR hack and get a spectacular experience of your simulated
+                  3D world
+                </span>
               </div>
             </div>
             <p className="event-name">AR/VR Hack</p>
