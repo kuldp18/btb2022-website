@@ -28,9 +28,13 @@
   background: #342b3f;
 }
 
-button.learn-more {
+.learn-more-btn {
   width: 180px;
   padding: 1rem 2.5rem;
+}
+
+a.learn-more-btn:hover {
+  color: white !important;
 }
 
 .about-flex-container {
@@ -40,6 +44,7 @@ button.learn-more {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  column-gap: 5rem;
 }
 
 .description {
@@ -54,11 +59,15 @@ button.learn-more {
 }
 
 .about-left span.heading {
-  font-size: 5.3em;
+  font-size: 9.3em;
   font-weight: bold;
-  line-height: 95px;
+  line-height: 30px;
   text-align: justify;
   font-family: 'MetropolisRegular', sans-serif;
+  font-weight: 800;
+}
+.about-left span.heading span {
+  font-weight: bold;
 }
 
 .about-right img {

@@ -1,0 +1,12 @@
+.header2 .navbar2 ul li a:hover {
+  color: #ff5148;
+  opacity: 1;
+}
+
+.header2 .navbar2 ul li a {
+  opacity: 0.6;
+}
+
+.header-content2 > p {
+  font-family: 'Aqua Grotesque', sans-serif;
+}

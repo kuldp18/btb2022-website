@@ -29,117 +29,143 @@ export const Faq = () => {
             <div class="title1">FAQs</div>
             <div class="accordion-item1" id="question1">
               <a class="accordion-link1" href="#question1">
-                Q. Can we adjust the length of wire?
+                Q. Who can participate?
                 <ion-icon name="chevron-down-outline" class="down1"></ion-icon>
                 <ion-icon name="chevron-up-outline" class="up1"></ion-icon>
               </a>
               <div class="answer1">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Tempore impedit officia accusantium eius nihil magnam
-                  architecto ea error beatae voluptatibus ducimus reiciendis ad
-                  aut magni quia sapiente, earum, corporis repellendus adipisci
-                  natus nemo quas. Incidunt repellendus dolores asperiores
-                  quaerat officia iure laudantium, ipsa aut illum. Facilis,
-                  molestiae fuga ut nesciunt alias dicta impedit ex aut.
+                  Anyone who is up for challenges and looking forward to learn
+                  something new is welcome to apply. However the participant
+                  should be a student of any college/university in India.
                 </p>
               </div>
             </div>
 
             <div class="accordion-item1" id="question2">
               <a class="accordion-link1" href="#question2">
-                Q. Can we adjust the length of wire?
+                Q. Is there any participation fee?
                 <ion-icon name="chevron-down-outline" class="down1"></ion-icon>
                 <ion-icon name="chevron-up-outline" class="up1"></ion-icon>
               </a>
               <div class="answer1">
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Assumenda aliquam autem dolores, adipisci, velit voluptas
-                  debitis nam eveniet tempora ad error ex eaque! Dicta error
-                  officiis aperiam aspernatur iure, voluptate fugiat autem
-                  repellat dolor aut ipsam tenetur odio maxime rem molestias.
-                  Iusto maiores, consequatur aliquid nisi deserunt repellat
-                  libero quam eligendi perspiciatis labore dolore magnam.
-                </p>
+                <p>No, there is no participation fee.</p>
               </div>
             </div>
 
             <div class="accordion-item1" id="question3">
               <a class="accordion-link1" href="#question3">
-                Q. Can we adjust the length of wire?
+                Q. How do I apply?
                 <ion-icon name="chevron-down-outline" class="down1"></ion-icon>
                 <ion-icon name="chevron-up-outline" class="up1"></ion-icon>
               </a>
               <div class="answer1">
                 <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Tenetur, fugit. Consectetur recusandae commodi dolor
-                  distinctio porro sit aliquid deleniti facilis quasi eligendi
-                  numquam quo eveniet a, reprehenderit sequi. Necessitatibus
-                  iure at, et temporibus eligendi veritatis earum nulla,
-                  assumenda tempore dolorem voluptatem minima aperiam
-                  consectetur autem ipsum quibusdam quae quis sunt. Et
-                  perferendis optio quaerat eum.
+                  We will be adding the registration link soon. Stay connected
+                  with us on our social media for more updates.
                 </p>
               </div>
             </div>
 
             <div class="accordion-item1" id="question4">
               <a class="accordion-link1" href="#question4">
-                Q. Can we adjust the length of wire?
+                Q. Can I participate remotely?
                 <ion-icon name="chevron-down-outline" class="down1"></ion-icon>
                 <ion-icon name="chevron-up-outline" class="up1"></ion-icon>
               </a>
               <div class="answer1">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero
-                  exercitationem quia odit at cum voluptates veniam temporibus
-                  numquam perspiciatis, sequi, cupiditate natus eos minus
-                  accusantium sit praesentium hic fuga facilis sapiente ut
-                  obcaecati ullam! Cumque, dolorum ducimus eius ratione rem
-                  minima numquam, fugiat similique itaque in reprehenderit
-                  accusantium error corporis molestias nemo, tenetur aut
-                  expedita.
+                  Yes, the workshops and the hackathon will be completely
+                  online.
                 </p>
               </div>
             </div>
 
             <div class="accordion-item1" id="question5">
               <a class="accordion-link1" href="#question5">
-                Q. Can we adjust the length of wire?
+                Q. How many participants are allowed in one team?
                 <ion-icon name="chevron-down-outline" class="down1"></ion-icon>
                 <ion-icon name="chevron-up-outline" class="up1"></ion-icon>
               </a>
               <div class="answer1">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Temporibus molestiae alias repudiandae quisquam nemo, placeat
-                  animi at, minima aspernatur quidem ipsum deleniti itaque
-                  numquam vero laboriosam fuga! Dolor recusandae ad deleniti,
-                  totam autem facilis quaerat id esse dolorem dicta provident
-                  sed hic assumenda illum fugit impedit similique, natus qui
-                  tempora laborum. Voluptatibus id maiores necessitatibus!
+                  You are welcome to work alone, but we definitely recommend
+                  working with a team. A team for this hackathon can be set from
+                  an individual member and limited to a maximum of 4 members.
                 </p>
               </div>
             </div>
 
             <div class="accordion-item1" id="question6">
               <a class="accordion-link1" href="#question6">
-                Q. Can we adjust the length of wire?
+                Q. Can I participate in more than one tracks?
                 <ion-icon name="chevron-down-outline" class="down1"></ion-icon>
                 <ion-icon name="chevron-up-outline" class="up1"></ion-icon>
               </a>
               <div class="answer1">
                 <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Omnis necessitatibus maxime veritatis, excepturi libero
-                  reiciendis, optio eligendi nostrum id quasi laudantium placeat
-                  corrupti inventore. Repellendus rerum vitae consectetur
-                  laboriosam, ipsa, nobis aliquam incidunt veniam nisi cum
-                  consequuntur? Similique, odio ut! Voluptas voluptates, rem
-                  distinctio, dolor dicta repellendus magnam quis provident iste
-                  culpa quam. Dolore, assumenda!
+                  We recommend you to participate in only one track and put your
+                  best foot forward. However, you can participate in as many
+                  tracks as you want according to your interests.
+                </p>
+              </div>
+            </div>
+
+            <div class="accordion-item1" id="question7">
+              <a class="accordion-link1" href="#question7">
+                Q. How does an online Hackathon work?
+                <ion-icon name="chevron-down-outline" class="down1"></ion-icon>
+                <ion-icon name="chevron-up-outline" class="up1"></ion-icon>
+              </a>
+              <div class="answer1">
+                <p>
+                  You don’t have to be online for 48 hours! We will be providing
+                  the problem statements then you can start your project and
+                  hack with your team however you would like.
+                </p>
+              </div>
+            </div>
+            <div class="accordion-item1" id="question8">
+              <a class="accordion-link1" href="#question8">
+                Q. Where to submit our work?
+                <ion-icon name="chevron-down-outline" class="down1"></ion-icon>
+                <ion-icon name="chevron-up-outline" class="up1"></ion-icon>
+              </a>
+              <div class="answer1">
+                <p>
+                  We will be taking the project submissions on devpost and you
+                  are required to submit a video presentation of your project
+                  via YouTube.
+                </p>
+              </div>
+            </div>
+
+            <div class="accordion-item1" id="question9">
+              <a class="accordion-link1" href="#question9">
+                Q. I can't code, can I still join?
+                <ion-icon name="chevron-down-outline" class="down1"></ion-icon>
+                <ion-icon name="chevron-up-outline" class="up1"></ion-icon>
+              </a>
+              <div class="answer1">
+                <p>
+                  Of course! Our hackathon is open to all, beginners all the way
+                  to more advanced students! We will be hosting a number of
+                  workshops to help you learn and enhance your skills. Remember,
+                  anyone can code, we just need a path to follow!
+                </p>
+              </div>
+            </div>
+
+            <div class="accordion-item1" id="question10">
+              <a class="accordion-link1" href="#question10">
+                Q. What if I still have questions?
+                <ion-icon name="chevron-down-outline" class="down1"></ion-icon>
+                <ion-icon name="chevron-up-outline" class="up1"></ion-icon>
+              </a>
+              <div class="answer1">
+                <p>
+                  Shoot your questions on our discord and we will surely get
+                  back to you as soon as we can.
                 </p>
               </div>
             </div>

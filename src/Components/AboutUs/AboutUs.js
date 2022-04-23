@@ -63,20 +63,35 @@ export const AboutUs = () => {
                 <span className="text-white font-weight-bold display-1">.</span>
               </span>
             </span>
-            <div className="text-white description">
-            LDRP-ITR and Break The Barrier’s mission is to inspire developers to develop ingenious solutions. We aspire in virtual world to inspire the real world. It’s an innovative platform and accelerators in a unique manner. We aim to build a community where the pioneer coders and leading industry partners could meet and collaborate towards the future innovations. 
-Challenges inspire developers uniquely well for several reasons:Deadlines create discipline
-The best learning comes from building and experience
-Prizes are awarded without taking developer IP
-Accomplishing a personal challenge brings satisfaction and confidence.
-Tackling real-world problems gives immense hands-on experience 
+            <div
+              className="text-white description"
+              style={{
+                marginTop: '2rem',
+              }}
+            >
+              LDRP-ITR and Break The Barrier’s mission is to inspire developers
+              to develop ingenious solutions. We aspire in virtual world to
+              inspire the real world. It’s an innovative platform and
+              accelerators in a unique manner. We aim to build a community where
+              the pioneer coders and leading industry partners could meet and
+              collaborate towards the future innovations. Challenges inspire
+              developers uniquely well for several reasons:Deadlines create
+              discipline The best learning comes from building and experience
+              Prizes are awarded without taking developer IP Accomplishing a
+              personal challenge brings satisfaction and confidence. Tackling
+              real-world problems gives immense hands-on experience
             </div>
-            <button
+            <a
               type="button"
-              className="btn btn-outline-danger btn-lg col-sm-1  learn-more"
+              className="btn btn-outline-danger btn-lg col-sm-1 learn-more-btn"
+              id="learn-more-btn"
+              href="#timeline"
+              style={{
+                color: '#FF5148',
+              }}
             >
               Learn More
-            </button>
+            </a>
           </div>
           <div className="about-right">
             <img

@@ -1,8 +1,10 @@
 import React from 'react';
 import '../../Styles/mainpage.css';
 import wave from '../../require_images/WAVE1.png';
-import arrow from '../../require_images/arrow.png';
+import arrow from '../../require_images/down.gif';
 import logo from '../../require_images/LOGOF.png';
+import ldrplogo from '../../require_images/ldrp_logo.png';
+import '../../Styles/home.css';
 
 export const Home = () => {
   return (
@@ -21,16 +23,37 @@ export const Home = () => {
               <a href="#about">About</a>
             </li>
             <li>
-              <a href="#sponsors">Sponsors</a>
+              <a href="#tracks">Tracks</a>
             </li>
             <li>
-              <a href="#faq">FAQ</a>
+              <a href="#timeline">Timeline</a>
             </li>
             <li>
-              <a href="#contact">Contact</a>
+              <a href="#partners">Partners</a>
             </li>
             <li>
-              <a href="#timeline">Time Line</a>
+              <a href="#workshop">Workshops</a>
+            </li>
+            <li>
+              <a href="#mentor-talks">Talks</a>
+            </li>
+            <li>
+              <a href="#team-section">Our Team</a>
+            </li>
+            <li>
+              <a href="#faq">FAQs</a>
+            </li>
+            <li>
+              <a href="mailto:hackathon@ldrp.ac.in">Contact Us</a>
+            </li>
+            <li>
+              <img
+                className="ldrp-logo"
+                alt="LDRP"
+                src={ldrplogo}
+                height="70px"
+                width="70px"
+              />
             </li>
           </ul>
         </nav>
@@ -39,16 +62,25 @@ export const Home = () => {
       <section id="home" class="home2">
         <div class="header-content2">
           <p class="content-1">BREAK THE</p>
-          <p class="content-2">BARRIER</p>
+          <p
+            class="content-2"
+            style={{
+              fontFamily: 'Aqua Grotesque',
+              stroke: 'orange',
+              color: '#FF5148',
+            }}
+          >
+            BARRIER
+          </p>
           <p class="content-3">
-          Code recursively and let your idea change the world.
+            Code recursively and let your idea change the world.
           </p>
           <a href="#timeline">
             <button>Learn more</button>
           </a>
           <div class="arrow2">
             <a href="#about">
-              <img src={arrow} alt="arrow icon" />
+              <img src={arrow} alt="arrow icon" width="100" />
             </a>
           </div>
         </div>
