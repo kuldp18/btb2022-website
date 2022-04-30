@@ -2,7 +2,6 @@
   "name": "fronted",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://breakthebarrier.ldrp.ac.in/",
   "dependencies": {
     "@fontsource/metropolis": "^4.5.1",
     "@testing-library/jest-dom": "^5.16.2",
