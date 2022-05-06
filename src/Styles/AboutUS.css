@@ -13,7 +13,7 @@
     100% 0,
     0 0
   ); */
-  clip-path: polygon(0 96%, 21% 100%, 63% 97%, 83% 100%, 100% 97%, 100% 0, 0 0);
+  /* clip-path: polygon(0 96%, 21% 100%, 63% 97%, 83% 100%, 100% 97%, 100% 0, 0 0); */
 
   overflow: hidden;
 }
@@ -85,6 +85,7 @@ a.learn-more-btn:hover {
   flex-direction: row;
   justify-content: space-between;
   padding: 10px 0;
+  display: none;
 }
 .fancy-red-circles .fancy-red-circle {
   width: 400px;
@@ -136,6 +137,14 @@ a.learn-more-btn:hover {
   bottom: 0;
 }
 
+svg#separator {
+  z-index: auto;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
 @media screen and (max-width: 750px) {
   .fancy-red-circle.red-circle-1 {
     width: 55px;
@@ -178,23 +187,11 @@ a.learn-more-btn:hover {
   .about-right img {
     width: 100%;
     max-width: 216px;
+    object-fit: cover;
   }
   .about-left span.heading {
     font-size: 1.75em;
     line-height: 30px;
-  }
-}
-@media screen and (width <= 600px) {
-  #about {
-    clip-path: polygon(
-      0 98%,
-      21% 100%,
-      61% 98%,
-      83% 100%,
-      100% 98%,
-      100% 0,
-      0 0
-    );
   }
 }
 
@@ -214,5 +211,20 @@ a.learn-more-btn:hover {
   .about-left span.heading {
     font-size: 1.45em;
     line-height: 20px;
+  }
+}
+
+/* disabled red circles */
+@media screen and (width <= 700px) {
+  .fancy-red-circles .fancy-red-circle {
+    display: none;
+  }
+}
+
+/* decrease image about img size  */
+@media screen and (width <= 838px) {
+  .about-right > img {
+    width: 100%;
+    margin-top: 1.5em;
   }
 }

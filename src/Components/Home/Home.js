@@ -1,15 +1,17 @@
 import React from 'react';
 import '../../Styles/mainpage.css';
-import wave from '../../require_images/WAVE1.png';
+import waveDesktop from '../../require_images/wave-desktop.png';
 import arrow from '../../require_images/down.gif';
 import logo from '../../require_images/LOGOF.png';
 import ldrplogo from '../../require_images/ldrp_logo.png';
 import '../../Styles/home.css';
+import Navbar from '../Navbar/Navbar';
 
 export const Home = () => {
   return (
     <div>
-      <header class="header2">
+      <Navbar />
+      {/* <header class="header2">
         <img class="logo2" src={logo} alt="" height="100px" width="100px" />
 
         <div class="fas fa-bars"></div>
@@ -57,7 +59,7 @@ export const Home = () => {
             </li>
           </ul>
         </nav>
-      </header>
+      </header> */}
 
       <section id="home" class="home2">
         <div class="header-content2">
@@ -75,8 +77,11 @@ export const Home = () => {
           <p class="content-3">
             Code recursively and let your idea change the world.
           </p>
-          <a href="#timeline">
-            <button>Learn more</button>
+          <a href="#">
+            <button>Register As Mentor</button>
+          </a>
+          <a href="#">
+            <button>Register As Student</button>
           </a>
           <div class="arrow2">
             <a href="#about">
@@ -86,7 +91,7 @@ export const Home = () => {
         </div>
 
         <div class="wave1">
-          <img src={wave} alt="" />
+          <img src={waveDesktop} alt="wave" />
         </div>
       </section>
     </div>

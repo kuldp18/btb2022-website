@@ -10,20 +10,22 @@ import Sponsors from './Components/Sponsors/Sponsors';
 import ScrollToTop from 'react-scroll-to-top';
 import Workshop from './Components/Workshop';
 import MentorTalks from './Components/MentorTalks';
-import TeamSection from './Components/TeamSection';
+import { IoIosArrowUp } from 'react-icons/io';
 
 function App() {
   return (
     <>
       <ScrollToTop
         smooth
-        color="#e12f26"
         top={150}
-        width="30"
-        height="30"
+        width="40"
+        height="40"
+        component={<IoIosArrowUp />}
         style={{
-          backgroundColor: '#21192b',
+          backgroundColor: '#28192b',
           border: '2px solid rgba(255,255,255,0.8)',
+          fontSize: '2.3rem',
+          color: '#fff',
           borderRadius: '50%',
         }}
       />
@@ -34,7 +36,7 @@ function App() {
       <Sponsors />
       <Workshop />
       <MentorTalks />
-      <TeamSection />
+
       <Faq />
       <Footer />
     </>
