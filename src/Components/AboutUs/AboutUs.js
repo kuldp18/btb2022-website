@@ -1,6 +1,7 @@
 import React from 'react';
 import laptop from '../../require_images/Laptop.png';
 import '../../Styles/AboutUS.css';
+import Separator from '../Separator';
 
 export const AboutUs = () => {
   return (
@@ -9,7 +10,7 @@ export const AboutUs = () => {
         id="about"
         className="100-vh 100-vw"
         style={{
-          backgroundColor: '#21192B',
+          backgroundColor: '#28192B',
         }}
       >
         <div className="about-flex-container">
@@ -81,17 +82,6 @@ export const AboutUs = () => {
               personal challenge brings satisfaction and confidence. Tackling
               real-world problems gives immense hands-on experience
             </div>
-            <a
-              type="button"
-              className="btn btn-outline-danger btn-lg col-sm-1 learn-more-btn"
-              id="learn-more-btn"
-              href="#timeline"
-              style={{
-                color: '#FF5148',
-              }}
-            >
-              Learn More
-            </a>
           </div>
           <div className="about-right">
             <img
@@ -113,6 +103,8 @@ export const AboutUs = () => {
           </div>
         </div>
       </div>
+
+      <Separator />
     </>
   );
 };
