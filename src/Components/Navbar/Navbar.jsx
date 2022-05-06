@@ -3,6 +3,7 @@ import '../../Styles/Navbar.css';
 import logo from '../../require_images/LOGOF.png';
 import ldrplogo from '../../require_images/ldrp_logo.png';
 import ksvlogo from '../../require_images/ksvlogo.png';
+import { GiHamburgerMenu } from 'react-icons/gi';
 
 const Navbar = () => {
   return (
