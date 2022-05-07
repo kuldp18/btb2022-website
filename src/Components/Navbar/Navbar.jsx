@@ -4,6 +4,7 @@ import logo from '../../require_images/LOGOF.png';
 import ldrplogo from '../../require_images/ldrp_logo.png';
 import ksvlogo from '../../require_images/ksvlogo.png';
 import { GiHamburgerMenu } from 'react-icons/gi';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
@@ -32,7 +33,7 @@ const Navbar = () => {
             <a href="#partners">Partners</a>
           </li>
           <li>
-            <a href="/Team">Our Team</a>
+            <Link to="/team">Our Team</Link>
           </li>
         </ul>
       </nav>
