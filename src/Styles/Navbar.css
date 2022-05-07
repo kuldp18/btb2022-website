@@ -4,9 +4,24 @@
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  height: 100px;
+  height: 90px;
   background-color: #28192b;
-  padding: 2rem;
+  padding: 0 2rem;
+}
+.is-sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  box-shadow: 0 2px 24px 0 rgb(0 0 0 / 15%);
+  animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  backdrop-filter: blur(6px) saturate(200%);
+  -webkit-backdrop-filter: blur(6px) saturate(200%);
+  background-color: rgba(255, 255, 255, 0.76);
+  border: 1px solid rgba(255, 255, 255, 0.125);
 }
 .logo {
   flex: 1;
@@ -33,9 +48,17 @@
   border: none;
   outline: none;
   color: rgba(255, 255, 255, 0.6);
+  text-transform: uppercase;
+  font-weight: 400;
 }
 .nav ul li a:hover {
   color: #fd5047;
+}
+.nav ul li a.sticky-link {
+  color: #fd5047;
+}
+.nav ul li a.sticky-link:hover {
+  color: rgba(38, 38, 38, 0.824);
 }
 .college-images {
   display: flex;

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../../Styles/Navbar.css';
 import logo from '../../require_images/LOGOF.png';
 import ldrplogo from '../../require_images/ldrp_logo.png';
@@ -6,36 +6,68 @@ import ksvlogo from '../../require_images/ksvlogo.png';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { Link } from 'react-router-dom';
 
-const Navbar = () => {
+const Navbar = ({ makeSticky, hideLinks }) => {
+  useEffect(() => {
+    window.addEventListener('scroll', isSticky);
+    return () => {
+      window.removeEventListener('scroll', isSticky);
+    };
+  });
+  const isSticky = (e) => {
+    const header = document.querySelector('.header');
+    const anchorLinks = document.querySelectorAll('.nav ul li a');
+    const scrollTop = window.scrollY;
+
+    if (makeSticky && scrollTop >= 100) {
+      header.classList.add('is-sticky');
+      anchorLinks.forEach((link) => {
+        link.classList.add('sticky-link');
+      });
+    } else {
+      header.classList.remove('is-sticky');
+      anchorLinks.forEach((link) => {
+        link.classList.remove('sticky-link');
+      });
+    }
+  };
+
   return (
     <header className="header">
       <div className="logo">
         <img class="btb-logo" src={logo} alt="" height="100px" width="100px" />
       </div>
       <nav className="nav">
-        <ul>
-          <li>
-            <a href="#about">About Us</a>
-          </li>
-          <li>
-            <a href="#workshop">Workshop</a>
-          </li>
-          <li>
-            <a href="mailto:hackathon@ldrp.ac.in">Contact Us</a>
-          </li>
-          <li>
-            <a href="#timeline">Timeline</a>
-          </li>
-          <li>
-            <a href="#faq">FAQ</a>
-          </li>
-          <li>
-            <a href="#partners">Partners</a>
-          </li>
-          <li>
-            <Link to="/team">Our Team</Link>
-          </li>
-        </ul>
+        {hideLinks ? (
+          <ul>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+          </ul>
+        ) : (
+          <ul>
+            <li>
+              <a href="#about">About Us</a>
+            </li>
+            <li>
+              <a href="#workshop">Workshop</a>
+            </li>
+            <li>
+              <a href="mailto:hackathon@ldrp.ac.in">Contact Us</a>
+            </li>
+            <li>
+              <a href="#timeline">Timeline</a>
+            </li>
+            <li>
+              <a href="#faq">FAQ</a>
+            </li>
+            <li>
+              <a href="#partners">Partners</a>
+            </li>
+            <li>
+              <Link to="/team">Our Team</Link>
+            </li>
+          </ul>
+        )}
       </nav>
       <div className="college-images">
         <img
