@@ -111,6 +111,13 @@ const Navbar = ({ makeSticky, hideLinks }) => {
         }
         .header {
           height: ${hamburgerOpen ? '100vh' : '100px'};
+          flex-direction: ${hamburgerOpen ? 'column' : 'row'};
+        }
+        @media (max-width: 500px) {
+          .header {
+            height: ${hamburgerOpen ? '100vh' : '90px'};
+            flex-direction: ${hamburgerOpen ? 'column' : 'row'};
+          }
         }
       `}</style>
     </>
