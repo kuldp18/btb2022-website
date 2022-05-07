@@ -2,6 +2,7 @@ import React from 'react';
 import '../../Styles/TeamSection.css';
 import SampleImage from '../../require_images/team-profile-sample.png';
 import Navbar from '../Navbar/Navbar';
+import { Footer } from '../Footer/Footer';
 
 const TeamSection = () => {
   return (
@@ -900,6 +901,7 @@ const TeamSection = () => {
           </div>
         </div>
       </section>
+      <Footer />
     </>
   );
 };
