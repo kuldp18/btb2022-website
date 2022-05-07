@@ -10,7 +10,9 @@ import Sponsors from './Components/Sponsors/Sponsors';
 import ScrollToTop from 'react-scroll-to-top';
 import Workshop from './Components/Workshop';
 import MentorTalks from './Components/MentorTalks';
+import TeamSection from './Components/TeamSection'
 import { IoIosArrowUp } from 'react-icons/io';
+import { Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
@@ -39,6 +41,11 @@ function App() {
 
       <Faq />
       <Footer />
+      {/* <Routes>
+        <Route path='/Team' element={<TeamSection/>}>
+
+        </Route>
+      </Routes> */}
     </>
   );
 }

@@ -31,9 +31,9 @@ const Navbar = () => {
           <li>
             <a href="#partners">Partners</a>
           </li>
-          <li>
-            <a href="#">Our Team</a>
-          </li>
+          {/* <li>
+            <a href="/Team">Our Team</a>
+          </li> */}
         </ul>
       </nav>
       <div className="college-images">

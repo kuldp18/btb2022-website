@@ -138,6 +138,14 @@ export const Footer = () => {
           &#169; {new Date().getFullYear()} Break The Barrier. All rights
           reserved.
         </p>
+
+
+      <p>
+
+          <a   style={{
+          textDecoration: 'none',color:'#ff5148'
+        }} href="https://docs.google.com/document/d/1KmL3NKZ604dLvEraJ6TeQvNH3ZI5DwhU/edit?usp=sharing&ouid=114895267717905083044&rtpof=true&sd=true" download="w3logo">
+             Code of Cunduct</a></p>
       </div>
     </footer>
   );
