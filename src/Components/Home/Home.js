@@ -4,6 +4,15 @@ import waveDesktop from '../../require_images/wave-desktop.png';
 import arrow from '../../require_images/down.gif';
 import '../../Styles/home.css';
 import Navbar from '../Navbar/Navbar';
+import Events from '../Events/Events';
+import TimeLine from '../TimeLine/TimeLine';
+import { AboutUs } from '../AboutUs/AboutUs';
+import { Footer } from '../Footer/Footer';
+import { Faq } from '../Faq/Faq';
+import Workshop from '../Workshop';
+import MentorTalks from '../MentorTalks';
+import Sponsors from '../Sponsors/Sponsors';
+
 
 export const Home = () => {
   return (
@@ -43,6 +52,15 @@ export const Home = () => {
           <img src={waveDesktop} alt="wave" />
         </div>
       </section>
+      <AboutUs/>
+      <Events />
+      <TimeLine />
+      <Sponsors/>
+      <Workshop />
+      <MentorTalks />
+
+      <Faq />
+      <Footer />
     </div>
   );
 };

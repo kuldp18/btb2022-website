@@ -31,8 +31,8 @@ function App() {
           borderRadius: '50%',
         }}
       />
-      <Home />
-      <AboutUs />
+     
+      {/* <AboutUs />
       <Events />
       <TimeLine />
       <Sponsors />
@@ -40,12 +40,13 @@ function App() {
       <MentorTalks />
 
       <Faq />
-      <Footer />
-      {/* <Routes>
+      <Footer /> */}
+      <Routes>
+        <Route path='' element={<Home/>}></Route>
         <Route path='/Team' element={<TeamSection/>}>
 
         </Route>
-      </Routes> */}
+      </Routes>
     </>
   );
 }
