@@ -13,11 +13,10 @@ import Workshop from '../Workshop';
 import MentorTalks from '../MentorTalks';
 import Sponsors from '../Sponsors/Sponsors';
 
-
 export const Home = () => {
   return (
     <div>
-      <Navbar />
+      <Navbar makeSticky={true} />
 
       <section id="home" class="home2">
         <div class="header-content2">
@@ -52,10 +51,10 @@ export const Home = () => {
           <img src={waveDesktop} alt="wave" />
         </div>
       </section>
-      <AboutUs/>
+      <AboutUs />
       <Events />
       <TimeLine />
-      <Sponsors/>
+      <Sponsors />
       <Workshop />
       <MentorTalks />
 
