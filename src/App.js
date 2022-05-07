@@ -42,7 +42,7 @@ function App() {
       <Faq />
       <Footer /> */}
       <Routes>
-        <Route path="" element={<Home />}></Route>
+        <Route path="/" element={<Home />}></Route>
         <Route path="/team" element={<TeamSection />}></Route>
       </Routes>
     </>

@@ -21,13 +21,14 @@
   backdrop-filter: blur(6px) saturate(200%);
   -webkit-backdrop-filter: blur(6px) saturate(200%);
   background-color: rgba(255, 255, 255, 0.76);
-  border: 1px solid rgba(255, 255, 255, 0.125);
 }
 .logo {
   flex: 1;
 }
 .header .nav {
   flex: 6;
+  position: relative;
+  /* border: 1px solid green; */
 }
 
 .header .nav ul {
@@ -66,4 +67,22 @@
   justify-content: space-between;
   align-items: center;
   flex: 1;
+}
+
+.nav .hamburger {
+  display: none;
+}
+
+@media (max-width: 850px) {
+  .nav .hamburger {
+    display: inline-flex;
+    z-index: 10;
+    position: absolute;
+    top: -10px;
+    left: 0;
+  }
+
+  .header .nav ul {
+    flex-direction: column;
+  }
 }

@@ -1,12 +1,17 @@
-import React, { useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import '../../Styles/Navbar.css';
 import logo from '../../require_images/LOGOF.png';
 import ldrplogo from '../../require_images/ldrp_logo.png';
 import ksvlogo from '../../require_images/ksvlogo.png';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { Link } from 'react-router-dom';
+import Hamburger from '../Hamburger';
 
 const Navbar = ({ makeSticky, hideLinks }) => {
+  const [hamburgerOpen, setHamburgerOpen] = useState(false);
+  const toggleHamburger = () => {
+    setHamburgerOpen(!hamburgerOpen);
+  };
   useEffect(() => {
     window.addEventListener('scroll', isSticky);
     return () => {
@@ -32,60 +37,83 @@ const Navbar = ({ makeSticky, hideLinks }) => {
   };
 
   return (
-    <header className="header">
-      <div className="logo">
-        <img class="btb-logo" src={logo} alt="" height="100px" width="100px" />
-      </div>
-      <nav className="nav">
-        {hideLinks ? (
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-          </ul>
-        ) : (
-          <ul>
-            <li>
-              <a href="#about">About Us</a>
-            </li>
-            <li>
-              <a href="#workshop">Workshop</a>
-            </li>
-            <li>
-              <a href="mailto:hackathon@ldrp.ac.in">Contact Us</a>
-            </li>
-            <li>
-              <a href="#timeline">Timeline</a>
-            </li>
-            <li>
-              <a href="#faq">FAQ</a>
-            </li>
-            <li>
-              <a href="#partners">Partners</a>
-            </li>
-            <li>
-              <Link to="/team">Our Team</Link>
-            </li>
-          </ul>
-        )}
-      </nav>
-      <div className="college-images">
-        <img
-          className="ldrp-logo"
-          alt="LDRP"
-          src={ldrplogo}
-          height="70px"
-          width="70px"
-        />
-        <img
-          className="ksv-logo"
-          alt="ksv"
-          src={ksvlogo}
-          height="70px"
-          width="70px"
-        />
-      </div>
-    </header>
+    <>
+      <header className="header">
+        <div className="logo">
+          <img
+            class="btb-logo"
+            src={logo}
+            alt=""
+            height="100px"
+            width="100px"
+          />
+        </div>
+        <nav className="nav">
+          {hideLinks ? (
+            <ul>
+              <li>
+                <Link to="/">Home</Link>
+              </li>
+            </ul>
+          ) : (
+            <>
+              <ul>
+                <li>
+                  <a href="#about">About Us</a>
+                </li>
+                <li>
+                  <a href="#workshop">Workshop</a>
+                </li>
+                <li>
+                  <a href="mailto:hackathon@ldrp.ac.in">Contact Us</a>
+                </li>
+                <li>
+                  <a href="#timeline">Timeline</a>
+                </li>
+                <li>
+                  <a href="#faq">FAQ</a>
+                </li>
+                <li>
+                  <a href="#partners">Partners</a>
+                </li>
+                <li>
+                  <Link to="/team">Our Team</Link>
+                </li>
+              </ul>
+            </>
+          )}
+          <div className="hamburger" onClick={toggleHamburger}>
+            <Hamburger isOpen={hamburgerOpen} />
+          </div>
+        </nav>
+        <div className="college-images">
+          <img
+            className="ldrp-logo"
+            alt="LDRP"
+            src={ldrplogo}
+            height="70px"
+            width="70px"
+          />
+          <img
+            className="ksv-logo"
+            alt="ksv"
+            src={ksvlogo}
+            height="70px"
+            width="70px"
+          />
+        </div>
+      </header>
+      <style jsx>{`
+        @media (max-width: 850px) {
+          .header .nav ul {
+            display: ${hamburgerOpen ? 'flex' : 'none'};
+          }
+        }
+        .header {
+          height: ${hamburgerOpen ? '100vh' : '100px'};
+        }
+      `}</style>
+    </>
   );
 };
 
