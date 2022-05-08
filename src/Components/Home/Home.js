@@ -12,6 +12,7 @@ import { Faq } from '../Faq/Faq';
 import Workshop from '../Workshop';
 import MentorTalks from '../MentorTalks';
 import Sponsors from '../Sponsors/Sponsors';
+import PrizesSection from '../PrizesSection';
 
 export const Home = () => {
   return (
@@ -34,11 +35,11 @@ export const Home = () => {
           <p class="content-3">
             Code recursively and let your idea change the world.
           </p>
-          <a href="#">
+          <a href="https://forms.gle/X7tBvE2X6dCQkLBB8" target="_blank">
             <button>Register As Mentor</button>
           </a>
-          <a href="#">
-            <button>Register As Student</button>
+          <a href="https://forms.gle/aXUWJTzfT1HyajJ59" target="_blank">
+            <button>Register As Participant</button>
           </a>
           <div class="arrow2">
             <a href="#about">
@@ -57,7 +58,7 @@ export const Home = () => {
       <Sponsors />
       <Workshop />
       <MentorTalks />
-
+      <PrizesSection />
       <Faq />
       <Footer />
     </div>

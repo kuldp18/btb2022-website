@@ -4,7 +4,7 @@ import './../../Styles/Faq.css';
 export const Faq = () => {
   return (
     <>
-      <svg
+      {/* <svg
         id="wave"
         style={{ transform: 'rotate(0deg)', transition: '0.3s' }}
         viewBox="0 0 1440 100"
@@ -22,7 +22,7 @@ export const Faq = () => {
           fill="#21192B"
           d="M0,30L288,80L576,60L864,40L1152,60L1440,20L1728,10L2016,20L2304,90L2592,50L2880,10L3168,30L3456,70L3744,0L4032,50L4320,70L4608,80L4896,0L5184,80L5472,0L5760,20L6048,40L6336,30L6624,40L6912,70L6912,100L6624,100L6336,100L6048,100L5760,100L5472,100L5184,100L4896,100L4608,100L4320,100L4032,100L3744,100L3456,100L3168,100L2880,100L2592,100L2304,100L2016,100L1728,100L1440,100L1152,100L864,100L576,100L288,100L0,100Z"
         ></path>
-      </svg>
+      </svg> */}
       <section className="Faq" id="faq">
         <div class="container1">
           <div class="accordion1">
@@ -164,8 +164,17 @@ export const Faq = () => {
               </a>
               <div class="answer1">
                 <p>
-                  Shoot your questions on our discord and we will surely get
-                  back to you as soon as we can.
+                  Shoot your questions on our{' '}
+                  <a
+                    href="https://discord.gg/uN3dhWBKKT"
+                    target="_blank"
+                    style={{
+                      color: '#ff5148',
+                    }}
+                  >
+                    discord
+                  </a>{' '}
+                  and we will surely get back to you as soon as we can.
                 </p>
               </div>
             </div>

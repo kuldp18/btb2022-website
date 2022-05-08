@@ -37,7 +37,7 @@ export const Footer = () => {
                 <a href="#faq">FAQ Section</a>
               </li>
               <li>
-                <a href="#">Support</a>
+                <a href="mailto:ldrphackathon2022@ldrp.ac.in">Support</a>
               </li>
               <li>
                 <a href="#about">About BTB</a>
@@ -49,7 +49,7 @@ export const Footer = () => {
             <h4 id="cws-h4">CONNECT WITH US</h4>
             <div class="social-links">
               <a
-                href="https://www.facebook.com/profile.php?id=100079542344570"
+                href="https://www.facebook.com/Break-The-Barrier-Hackathon-108922648435289/"
                 target="_blank"
               >
                 <i
@@ -88,7 +88,7 @@ export const Footer = () => {
               </a>
               <br />
               <a
-                href="https://www.linkedin.com/in/break-the-barrier-btb-479548235/"
+                href="https://www.linkedin.com/company/breakthebarrieer/"
                 target="_blank"
               >
                 <i
@@ -109,7 +109,7 @@ export const Footer = () => {
                   }}
                 ></i>
               </a>
-              <a href="mailto:hackathon@ldrp.ac.in">
+              <a href="mailto:ldrphackathon2022@ldrp.ac.in">
                 <i
                   class="fa fa-envelope fa-lg"
                   style={{
@@ -117,7 +117,7 @@ export const Footer = () => {
                   }}
                 ></i>
               </a>
-              <a href="https://discord.gg/8CnCjJgd" target="_blank">
+              <a href=" https://discord.gg/uN3dhWBKKT" target="_blank">
                 <i
                   class="fab fa-discord fa-lg"
                   style={{
@@ -136,16 +136,20 @@ export const Footer = () => {
           }}
         >
           &#169; {new Date().getFullYear()} Break The Barrier. All rights
-          reserved.
+          reserved &nbsp;
         </p>
-
-
-      <p>
-
-          <a   style={{
-          textDecoration: 'none',color:'#ff5148'
-        }} href="https://docs.google.com/document/d/1KmL3NKZ604dLvEraJ6TeQvNH3ZI5DwhU/edit?usp=sharing&ouid=114895267717905083044&rtpof=true&sd=true" download="w3logo">
-             Code of Cunduct</a></p>
+        <p>
+          <a
+            style={{
+              textDecoration: 'none',
+              color: '#ff5148',
+            }}
+            href="https://docs.google.com/document/d/1KmL3NKZ604dLvEraJ6TeQvNH3ZI5DwhU/edit?usp=sharing&ouid=114895267717905083044&rtpof=true&sd=true"
+            download="w3logo"
+          >
+            &#8226; Code of Conduct
+          </a>
+        </p>
       </div>
     </footer>
   );

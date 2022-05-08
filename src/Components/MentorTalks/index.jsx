@@ -10,7 +10,6 @@ const MentorTalks = () => {
           Schedule for the talks will be announced soon.
         </p>
       </section>
-      <hr />
     </>
   );
 };
