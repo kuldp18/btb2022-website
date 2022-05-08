@@ -12,6 +12,7 @@ import { Faq } from '../Faq/Faq';
 import Workshop from '../Workshop';
 import MentorTalks from '../MentorTalks';
 import Sponsors from '../Sponsors/Sponsors';
+import PrizesSection from '../PrizesSection';
 
 export const Home = () => {
   return (
@@ -57,7 +58,7 @@ export const Home = () => {
       <Sponsors />
       <Workshop />
       <MentorTalks />
-
+      <PrizesSection />
       <Faq />
       <Footer />
     </div>
