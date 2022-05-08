@@ -34,11 +34,11 @@ export const Home = () => {
           <p class="content-3">
             Code recursively and let your idea change the world.
           </p>
-          <a href="#">
+          <a href="https://forms.gle/X7tBvE2X6dCQkLBB8" target="_blank">
             <button>Register As Mentor</button>
           </a>
-          <a href="#">
-            <button>Register As Student</button>
+          <a href="https://forms.gle/aXUWJTzfT1HyajJ59" target="_blank">
+            <button>Register As Participant</button>
           </a>
           <div class="arrow2">
             <a href="#about">

@@ -164,8 +164,17 @@ export const Faq = () => {
               </a>
               <div class="answer1">
                 <p>
-                  Shoot your questions on our discord and we will surely get
-                  back to you as soon as we can.
+                  Shoot your questions on our{' '}
+                  <a
+                    href="https://discord.gg/uN3dhWBKKT"
+                    target="_blank"
+                    style={{
+                      color: '#ff5148',
+                    }}
+                  >
+                    discord
+                  </a>{' '}
+                  and we will surely get back to you as soon as we can.
                 </p>
               </div>
             </div>

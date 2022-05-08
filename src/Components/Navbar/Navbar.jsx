@@ -62,16 +62,16 @@ const Navbar = ({ makeSticky, hideLinks }) => {
                   <a href="#about">About Us</a>
                 </li>
                 <li>
-                  <a href="#workshop">Workshop</a>
+                  <a href="#workshop">Workshops</a>
                 </li>
                 <li>
-                  <a href="mailto:hackathon@ldrp.ac.in">Contact Us</a>
+                  <a href="mailto:ldrphackathon2022@ldrp.ac.in">Contact Us</a>
                 </li>
                 <li>
                   <a href="#timeline">Timeline</a>
                 </li>
                 <li>
-                  <a href="#faq">FAQ</a>
+                  <a href="#faq">FAQs</a>
                 </li>
                 <li>
                   <a href="#partners">Partners</a>
