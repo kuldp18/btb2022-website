@@ -87,13 +87,15 @@ const Navbar = ({ makeSticky, hideLinks }) => {
           </div>
         </nav>
         <div className="college-images">
-          <img
-            className="ldrp-logo"
-            alt="LDRP"
-            src={ldrplogo}
-            height="70px"
-            width="70px"
-          />
+          <a href="https://www.ldrp.ac.in/" target="_blank">
+            <img
+              className="ldrp-logo"
+              alt="LDRP"
+              src={ldrplogo}
+              height="70px"
+              width="70px"
+            />
+          </a>
           <img
             className="ksv-logo"
             alt="ksv"

@@ -113,15 +113,15 @@ export const Faq = () => {
 
             <div class="accordion-item1" id="question7">
               <a class="accordion-link1" href="#question7">
-                Q. How does an online Hackathon work?
+                Q. How does an online Hackathon works?
                 <ion-icon name="chevron-down-outline" class="down1"></ion-icon>
                 <ion-icon name="chevron-up-outline" class="up1"></ion-icon>
               </a>
               <div class="answer1">
                 <p>
-                  You don’t have to be online for 48 hours! We will be providing
-                  the problem statements then you can start your project and
-                  hack with your team however you would like.
+                  You don’t have to be online for 48 hours! You can build your
+                  projects at your comfort and submit them before the deadline
+                  along with a video presentation of the same.
                 </p>
               </div>
             </div>
