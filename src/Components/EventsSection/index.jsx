@@ -95,7 +95,7 @@ function EventsSection(props) {
     ],
   };
   return (
-    <div className="events-section1">
+    <div className="events-section1" id="workshop">
       <div className="hexagon1">
         <img src={hexagon} className="hexagon_img1" alt="Hexagon" />
       </div>
@@ -103,16 +103,38 @@ function EventsSection(props) {
       <div className="title-1">UPCOMING WORKSHOPS</div>
       <div className="card-slider1">
         <Slider {...settings}>
+          <Card
+            image={require('../../require_images/Workshop-JOGANDEEP.jpg')}
+            name="JOGANDEEP SINGH"
+            description="INTERACTION WORKSHOP"
+            date="15/05/2022"
+          />
+          <Card
+            image={require('../../require_images/Workshop-Ankit.jpg')}
+            name="ANKIT BANSAL"
+            description="SQL WORKSHOP"
+            date="15/05/2022"
+          />
+          <Card
+            image={require('../../require_images/Workshop-Shravan.jpg')}
+            name="SHRAVAN TIKOO"
+            description="DESIGN WORKSHOP"
+            date="15/05/2022"
+          />
+          <Card
+            image={require('../../require_images/Workshop-Shravan.jpg')}
+            name="SHRAVAN TIKOO"
+            description="DESIGN WORKSHOP"
+            date="15/05/2022"
+          />
+
+          {/* <Card />
           <Card />
           <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
+          <Card /> */}
         </Slider>
       </div>
-      <div className="title-1">MENTOR TALKS</div>
+      {/* <div className="title-1">MENTOR TALKS</div>
       <div className="card-slider1">
         <Slider {...settings}>
           <Card />
@@ -123,7 +145,7 @@ function EventsSection(props) {
           <Card />
           <Card />
         </Slider>
-      </div>
+      </div> */}
     </div>
   );
 }

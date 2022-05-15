@@ -17,7 +17,7 @@ import bronze from '../../require_images/bronze_trophy.jpg';
 function PrizesSection() {
   return (
     <div className="prizes-section">
-      <h1 className="red">GRAND PRIZES</h1>
+      <h1 className="red prizes-title">GRAND PRIZES</h1>
       <p className="white">
         we have a prize pool worth <span className="red-1"> 200K INR </span>
         along with captiving rewards in BTB 2022.
@@ -41,56 +41,36 @@ function PrizesSection() {
       </div>
       <div className="space"></div>
       <div>
-        <div className="card-inline">
-          <Card />
-        </div>
-        <div className="card-inline">
-          <Card />
-        </div>
+        <div className="card-inline">{/* <Card /> */}</div>
+        <div className="card-inline">{/* <Card /> */}</div>
       </div>
 
       {/* for two */}
 
       <div>
-        <div className="card-inline">
-          <Card />
-        </div>
-        <div className="card-inline">
-          <Card />
-        </div>
+        <div className="card-inline">{/* <Card /> */}</div>
+        <div className="card-inline">{/* <Card /> */}</div>
       </div>
 
       {/* for three */}
 
       <div>
-        <div className="card-inline">
-          <Card />
-        </div>
-        <div className="card-inline">
-          <Card />
-        </div>
+        <div className="card-inline">{/* <Card /> */}</div>
+        <div className="card-inline">{/* <Card /> */}</div>
       </div>
 
       {/* for four */}
 
       <div>
-        <div className="card-inline">
-          <Card />
-        </div>
-        <div className="card-inline">
-          <Card />
-        </div>
+        <div className="card-inline">{/* <Card /> */}</div>
+        <div className="card-inline">{/* <Card /> */}</div>
       </div>
 
       {/* for five */}
 
       <div>
-        <div className="card-inline">
-          <Card />
-        </div>
-        <div className="card-inline">
-          <Card />
-        </div>
+        <div className="card-inline">{/* <Card /> */}</div>
+        <div className="card-inline">{/* <Card /> */}</div>
       </div>
     </div>
   );

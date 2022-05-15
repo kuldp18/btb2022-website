@@ -14,12 +14,16 @@ const Sponsors = () => {
 
         {/* sponsors card grid */}
         <div className="sponsors-cards-grid">
+          <SponsorCard
+            image={require('../../require_images/taskade-circle-icon.png')}
+            name="Taskcade"
+          />
+
+          {/* <SponsorCard image={SponsorImage} />
           <SponsorCard image={SponsorImage} />
           <SponsorCard image={SponsorImage} />
           <SponsorCard image={SponsorImage} />
-          <SponsorCard image={SponsorImage} />
-          <SponsorCard image={SponsorImage} />
-          <SponsorCard image={SponsorImage} />
+          <SponsorCard image={SponsorImage} /> */}
         </div>
       </section>
     </>
