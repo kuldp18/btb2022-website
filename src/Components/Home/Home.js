@@ -17,7 +17,7 @@ import PrizesSection from '../PrizesSection';
 export const Home = () => {
   return (
     <div>
-      <Navbar makeSticky={true} />
+      <Navbar makeSticky={false} />
 
       <section id="home" class="home2">
         <div class="header-content2">
