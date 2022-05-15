@@ -1,0 +1,42 @@
+@import url('https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/metropolis.min.css');
+.Event-card1 {
+  height: max-content;
+  width: max-content;
+  background-color: #fbfdff1a;
+  border-radius: 12.1968px;
+}
+.rectangle1 {
+  height: 140px;
+  width: 260px;
+  border-radius: 12.1968px;
+  padding: 9px 9px 0px 9px;
+}
+.line-1,
+.line-2-name1 {
+  color: #ffffff;
+  font-family: 'Metropolis';
+}
+.line-1 {
+  margin: 10px 0px 18px 10px;
+  text-align: left;
+}
+.light-gray1 {
+  color: #87838c;
+  text-align: left;
+  margin: 10px 0px 0px 10px;
+}
+.line-2-name1,
+.light-gray1 {
+  font-size: 0.9em;
+  margin-top: 9px;
+}
+.red-btn1 {
+  background: #de4139;
+  color: #ffffff;
+  height: 30px;
+  width: 120px;
+  font-family: 'Metropolis';
+  margin: 25px 0px 25px 0px;
+  border: none;
+  border-radius: 4.69185px;
+}

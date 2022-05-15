@@ -8,13 +8,14 @@ import { Faq } from './Components/Faq/Faq';
 import { Home } from './Components/Home/Home';
 import Sponsors from './Components/Sponsors/Sponsors';
 import ScrollToTop from 'react-scroll-to-top';
-import Workshop from './Components/Workshop';
-import MentorTalks from './Components/MentorTalks';
+
 import TeamSection from './Components/TeamSection';
 import { IoIosArrowUp } from 'react-icons/io';
 import { Route, Routes } from 'react-router-dom';
 
 function App() {
+  const x = 0;
+  const y = -2;
   return (
     <>
       <ScrollToTop
@@ -22,11 +23,17 @@ function App() {
         top={150}
         width="40"
         height="40"
-        component={<IoIosArrowUp />}
+        component={
+          <IoIosArrowUp
+            style={{
+              transform: `translate(${x}px,${y}px)`,
+            }}
+          />
+        }
         style={{
           backgroundColor: '#28192b',
           border: '2px solid rgba(255,255,255,0.8)',
-          fontSize: '2.3rem',
+          fontSize: '2.2rem',
           color: '#fff',
           borderRadius: '50%',
         }}

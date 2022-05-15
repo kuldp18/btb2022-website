@@ -1,61 +1,99 @@
-import React from 'react';
+// import logo from './logo.svg';
 import '../../Styles/Prizes.css';
-import PrizesImage from '../../require_images/prizes.png';
+import Card from './Card';
+// import CardEight from './CardEight';
+// import CardFive from './CardFive';
+// import CardFour from './CardFour';
+// import CardNine from './CardNine';
+// import CardOne from './CardOne';
+// import CardSeven from './CardSeven';
+// import CardSix from './CardSix';
+// import CardThree from './CardThree';
+// import CardTwo from './CardTwo';
+import silver from '../../require_images/silver_trophy.jpg';
+import gold from '../../require_images/gold_trophy.jpg';
+import bronze from '../../require_images/bronze_trophy.jpg';
 
-const PrizesSection = () => {
+function PrizesSection() {
   return (
-    <>
-      <section className="prizes-section">
-        <div className="top">
-          <h1 className="stylish-title">Grand Prizes</h1>
-          <p
-            className="description"
-            style={{
-              textTransform: 'none',
-            }}
-          >
-            We have a prize pool of worth more than{' '}
-            <span
-              className="stylish-title"
-              style={{
-                fontSize: '2.5rem',
-              }}
-            >
-              200k INR
-            </span>{' '}
-            along with other captivating rewards in BTB 2022.
-          </p>
+    <div className="prizes-section">
+      <h1 className="red">GRAND PRIZES</h1>
+      <p className="white">
+        we have a prize pool worth <span className="red-1"> 200K INR </span>
+        along with captiving rewards in BTB 2022.
+      </p>
+      <div className="flex-container">
+        <div className="gold">
+          <img className="trophy_img" src={gold} alt="gold_trophy"></img>
+          <p className="white-letter">1st Prize</p>
+          <p className="red-letter">Rs. 30,000</p>
         </div>
-        <div className="hero-img">
-          <img src={PrizesImage} alt="Prizes" />
+        <div className="silver">
+          <img className="trophy_img" src={silver} alt="silver_trophy"></img>
+          <p className="white-letter">2nd Prize</p>
+          <p className="red-letter">Rs. 25,000</p>
         </div>
-        <div className="more-text">
-          <p
-            style={{
-              textAlign: 'center',
-            }}
-          >
-            Winners of each track will be awarded with amazing prizes such as
-            smart speakers, earphones, head phones, mechanical keyboards, smart
-            watches, bluetooth neck bands and many more. As well as each winner
-            will be awarded with a merit certificate and some premium softwares.
-          </p>
-          <br />
-          <p
-            style={{
-              border: '2px solid #ff5148',
-              borderRadius: '5px',
-              padding: '1rem',
-              backgroundColor: '#3a263e',
-            }}
-          >
-            We also have special prizes for the best project by an all Women
-            Team!!!
-          </p>
+        <div className="bronze">
+          <img className="trophy_img" src={bronze} alt="bronze_trophy"></img>
+          <p className="white-letter">3rd Prize</p>
+          <p className="red-letter">Rs. 20,000</p>
         </div>
-      </section>
-    </>
+      </div>
+      <div className="space"></div>
+      <div>
+        <div className="card-inline">
+          <Card />
+        </div>
+        <div className="card-inline">
+          <Card />
+        </div>
+      </div>
+
+      {/* for two */}
+
+      <div>
+        <div className="card-inline">
+          <Card />
+        </div>
+        <div className="card-inline">
+          <Card />
+        </div>
+      </div>
+
+      {/* for three */}
+
+      <div>
+        <div className="card-inline">
+          <Card />
+        </div>
+        <div className="card-inline">
+          <Card />
+        </div>
+      </div>
+
+      {/* for four */}
+
+      <div>
+        <div className="card-inline">
+          <Card />
+        </div>
+        <div className="card-inline">
+          <Card />
+        </div>
+      </div>
+
+      {/* for five */}
+
+      <div>
+        <div className="card-inline">
+          <Card />
+        </div>
+        <div className="card-inline">
+          <Card />
+        </div>
+      </div>
+    </div>
   );
-};
+}
 
 export default PrizesSection;

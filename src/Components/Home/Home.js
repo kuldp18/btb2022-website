@@ -9,10 +9,9 @@ import TimeLine from '../TimeLine/TimeLine';
 import { AboutUs } from '../AboutUs/AboutUs';
 import { Footer } from '../Footer/Footer';
 import { Faq } from '../Faq/Faq';
-import Workshop from '../Workshop';
-import MentorTalks from '../MentorTalks';
 import Sponsors from '../Sponsors/Sponsors';
 import PrizesSection from '../PrizesSection';
+import EventsSection from '../EventsSection';
 
 export const Home = () => {
   return (
@@ -21,6 +20,18 @@ export const Home = () => {
 
       <section id="home" class="home2">
         <div class="header-content2">
+          <p
+            className="LDRP-header"
+            style={{
+              color: 'white',
+              fontSize: '2.3rem',
+              fontFamily: 'Metropolis',
+              color: 'rgba(223, 61, 53, 1)',
+              fontWeight: '500',
+            }}
+          >
+            LDRP INSTITUTE OF TECHNOLOGY AND RESEARCH PRESENTS
+          </p>
           <p class="content-1">BREAK THE</p>
           <p
             class="content-2"
@@ -32,14 +43,39 @@ export const Home = () => {
           >
             BARRIER
           </p>
-          <p class="content-3">
+          <p
+            class="content-3"
+            style={{
+              fontFamily: 'Metropolis',
+            }}
+          >
             Code recursively and let your idea change the world.
           </p>
-          <a href="https://forms.gle/X7tBvE2X6dCQkLBB8" target="_blank">
-            <button>Register As Mentor</button>
-          </a>
+
           <a href="https://forms.gle/aXUWJTzfT1HyajJ59" target="_blank">
-            <button>Register As Participant</button>
+            <button
+              style={{
+                maxWidth: '250px',
+                width: '100%',
+                fontFamily: 'Metropolis',
+              }}
+            >
+              Register as Participant
+            </button>
+          </a>
+          <a href="https://forms.gle/X7tBvE2X6dCQkLBB8" target="_blank">
+            <button
+              style={{
+                maxWidth: '250px',
+                width: '100%',
+                background: 'none',
+                border: '2px solid rgba(223, 61, 53, 1)',
+                color: 'rgba(223, 61, 53, 1)',
+                fontFamily: 'Metropolis',
+              }}
+            >
+              Register as Mentor
+            </button>
           </a>
           <div class="arrow2">
             <a href="#about">
@@ -56,8 +92,7 @@ export const Home = () => {
       <Events />
       <TimeLine />
       <Sponsors />
-      <Workshop />
-      <MentorTalks />
+      <EventsSection />
       <PrizesSection />
       <Faq />
       <Footer />
