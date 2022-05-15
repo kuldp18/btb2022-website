@@ -85,13 +85,22 @@ export const AboutUs = () => {
                 into a huge pool of knowledge. [Go to the timeline and
                 workshops…]
               </p>
-              <span>
+              <span
+                style={{
+                  fontSize: '3rem',
+                }}
+              >
                 <b>Why join the hackathon?</b>
               </span>
               <p>
                 Challenges inspire developers uniquely well for several reasons:
               </p>
-              <ul>
+              <ul
+                style={{
+                  listStyle: 'none',
+                }}
+                className="about-ul"
+              >
                 <li>Deadlines create discipline</li>
                 <li>The best learning comes from building and experience</li>
                 <li>

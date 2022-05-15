@@ -137,10 +137,8 @@ function Events(props) {
               />
               <div className="content fade">
                 <span>
-                  Breakthroughs beat outbreaks! Recent shifts in healthcare
-                  trends, growing population also present an array of
-                  opportunities for innovation your ideas can help the world
-                  recover better.
+                  Looking for healthy and ecstatic life? No need to search now.
+                  Be our guest and live a serene life.
                 </span>
               </div>
             </div>
