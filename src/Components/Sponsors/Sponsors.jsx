@@ -8,9 +8,6 @@ const Sponsors = () => {
     <>
       <section className="sponsors" id="partners">
         <h1 className="heading stylish-title">Partners</h1>
-        <p className="heading heading-sm">
-          We will be revealing our Partners soon.
-        </p>
 
         {/* sponsors card grid */}
         <div className="sponsors-cards-grid">
@@ -18,12 +15,14 @@ const Sponsors = () => {
             image={require('../../require_images/taskade-circle-icon.png')}
             name="Taskcade"
           />
-
-          {/* <SponsorCard image={SponsorImage} />
-          <SponsorCard image={SponsorImage} />
-          <SponsorCard image={SponsorImage} />
-          <SponsorCard image={SponsorImage} />
-          <SponsorCard image={SponsorImage} /> */}
+          <SponsorCard
+            image={require('../../require_images/gsdc.png')}
+            name="GDSC"
+          />
+          <SponsorCard
+            image={require('../../require_images/xyz logo final.png')}
+            name=".XYZ"
+          />
         </div>
       </section>
     </>

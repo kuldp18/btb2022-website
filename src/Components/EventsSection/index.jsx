@@ -104,28 +104,28 @@ function EventsSection(props) {
       <div className="card-slider1">
         <Slider {...settings}>
           <Card
-            image={require('../../require_images/Workshop-JOGANDEEP.jpg')}
-            name="JOGANDEEP SINGH"
+            image={require('../../require_images/Workshop-JOGANDEEP.png')}
+            name="JOBAN SINGH"
             description="INTERACTION WORKSHOP"
-            date="15/05/2022"
+            date="23/07/2022"
           />
           <Card
             image={require('../../require_images/Workshop-Ankit.jpg')}
             name="ANKIT BANSAL"
             description="SQL WORKSHOP"
-            date="15/05/2022"
+            date="11/06/2022"
           />
           <Card
-            image={require('../../require_images/Workshop-Shravan.jpg')}
-            name="SHRAVAN TIKOO"
+            image={require('../../require_images/Workshop-Shravan.png')}
+            name="SHRAVAN TICKOO"
             description="DESIGN WORKSHOP"
-            date="15/05/2022"
+            date="02/07/2022"
           />
           <Card
-            image={require('../../require_images/Workshop-Shravan.jpg')}
-            name="SHRAVAN TIKOO"
-            description="DESIGN WORKSHOP"
-            date="15/05/2022"
+            image={require('../../require_images/Workshop-Rahul.png')}
+            name="RAHUL JAIN"
+            description="DATA ENGINEERING WORKSHOP"
+            date="11/06/2022"
           />
 
           {/* <Card />
