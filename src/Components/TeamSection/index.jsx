@@ -7,7 +7,7 @@ import { Footer } from '../Footer/Footer';
 const TeamSection = () => {
   return (
     <>
-      <Navbar makeSticky={true} hideLinks />
+      <Navbar makeSticky={false} hideLinks />
       <h1 className="stylish-title" id="team-section">
         Meet the Team
       </h1>

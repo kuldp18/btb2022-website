@@ -35,9 +35,10 @@ export const Faq = () => {
               </a>
               <div class="answer1">
                 <p>
-                  Anyone who is up for challenges and looking forward to learn
-                  something new is welcome to apply. However the participant
-                  should be a student of any college/university in India.
+                  Anyone who is up for challenges and looking forward to
+                  learning something new is welcome to apply. However, the
+                  participant should be a student of any college/university in
+                  India.
                 </p>
               </div>
             </div>
@@ -75,8 +76,7 @@ export const Faq = () => {
               </a>
               <div class="answer1">
                 <p>
-                  Yes, the workshops and the hackathon will be completely
-                  online.
+                  Yes, the workshops and the hackathons are completely online.
                 </p>
               </div>
             </div>
@@ -89,9 +89,9 @@ export const Faq = () => {
               </a>
               <div class="answer1">
                 <p>
-                  You are welcome to work alone, but we definitely recommend
-                  working with a team. A team for this hackathon can be set from
-                  an individual member and limited to a maximum of 4 members.
+                  You are welcome to work alone, but we recommend working with a
+                  team. A team for this hackathon can be set from an individual
+                  member and limited to a max of 4 members.
                 </p>
               </div>
             </div>
@@ -104,7 +104,7 @@ export const Faq = () => {
               </a>
               <div class="answer1">
                 <p>
-                  We recommend you to participate in only one track and put your
+                  We recommend you participate in only one track and put your
                   best foot forward. However, you can participate in as many
                   tracks as you want according to your interests.
                 </p>
@@ -119,9 +119,9 @@ export const Faq = () => {
               </a>
               <div class="answer1">
                 <p>
-                  You don’t have to be online for 48 hours! You can build your
-                  projects at your comfort and submit them before the deadline
-                  along with a video presentation of the same.
+                  You don’t have to be online for 48 hours! We will be providing
+                  the problem statements then you can start your project and
+                  hack with your team however you would like.
                 </p>
               </div>
             </div>
@@ -133,7 +133,7 @@ export const Faq = () => {
               </a>
               <div class="answer1">
                 <p>
-                  We will be taking the project submissions on devpost and you
+                  We will be taking the project submissions on deposit and you
                   are required to submit a video presentation of your project
                   via YouTube.
                 </p>
@@ -148,10 +148,10 @@ export const Faq = () => {
               </a>
               <div class="answer1">
                 <p>
-                  Of course! Our hackathon is open to all, beginners all the way
-                  to more advanced students! We will be hosting a number of
-                  workshops to help you learn and enhance your skills. Remember,
-                  anyone can code, we just need a path to follow!
+                  Of course! Our hackathon is open to all, from beginners to
+                  more advanced students! We will be hosting several workshops
+                  to help you learn and enhance your skills. Remember, anyone
+                  can code, we just need a path to follow!
                 </p>
               </div>
             </div>

@@ -40,6 +40,14 @@ export const Footer = () => {
                 <a href="mailto:ldrphackathon2022@ldrp.ac.in">Support</a>
               </li>
               <li>
+                <a
+                  href="https://docs.google.com/document/d/1KmL3NKZ604dLvEraJ6TeQvNH3ZI5DwhU/edit?usp=sharing&ouid=114895267717905083044&rtpof=true&sd=true"
+                  target="_blank"
+                >
+                  Code of Conduct
+                </a>
+              </li>
+              <li>
                 <a href="#about">About BTB</a>
               </li>
             </ul>
@@ -136,19 +144,7 @@ export const Footer = () => {
           }}
         >
           &#169; {new Date().getFullYear()} Break The Barrier. All rights
-          reserved &nbsp;
-        </p>
-        <p>
-          <a
-            style={{
-              textDecoration: 'none',
-              color: '#ff5148',
-            }}
-            href="https://docs.google.com/document/d/1KmL3NKZ604dLvEraJ6TeQvNH3ZI5DwhU/edit?usp=sharing&ouid=114895267717905083044&rtpof=true&sd=true"
-            download="w3logo"
-          >
-            &#8226; Code of Conduct
-          </a>
+          reserved. &nbsp;
         </p>
       </div>
     </footer>
