@@ -7,6 +7,8 @@ import hexagon from '../../require_images/hexagon.svg';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import Separator2 from '../Separator2';
+
 function EventsSection(props) {
   const nextArrow = (props) => {
     const { className, style, onClick } = props;
@@ -146,6 +148,15 @@ function EventsSection(props) {
           <Card />
         </Slider>
       </div> */}
+      <Separator2
+        styles={{
+          width: '100vw',
+          maxHeight: '200px',
+          position: 'absolute',
+          top: '-25%',
+          zIndex: '99',
+        }}
+      />
     </div>
   );
 }

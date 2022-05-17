@@ -24,13 +24,6 @@ const Sponsors = () => {
             name=".XYZ"
           />
         </div>
-        <div id="sponsors-separator-down">
-          <img
-            src={require('../../require_images/separator-down.png')}
-            alt="Down separator"
-            id="sponsors-sep-img"
-          />
-        </div>
       </section>
     </>
   );
