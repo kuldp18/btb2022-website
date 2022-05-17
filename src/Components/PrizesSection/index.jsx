@@ -13,10 +13,13 @@ import Card from './Card';
 import silver from '../../require_images/silver_trophy.jpg';
 import gold from '../../require_images/gold_trophy.jpg';
 import bronze from '../../require_images/bronze_trophy.jpg';
+import Separator from '../Separator';
+import Separator2 from '../Separator2';
 
 function PrizesSection() {
   return (
     <div className="prizes-section">
+      {/* <Separator /> */}
       <h1 className="red prizes-title">GRAND PRIZES</h1>
       <p className="white">
         we have a prize pool worth <span className="red-1"> 200K INR </span>
@@ -72,6 +75,15 @@ function PrizesSection() {
         <div className="card-inline">{/* <Card /> */}</div>
         <div className="card-inline">{/* <Card /> */}</div>
       </div>
+      {/* <Separator2
+        styles={{
+          width: '100vw',
+          maxHeight: '200px',
+          position: 'absolute',
+          top: '-25%',
+          zIndex: '99',
+        }}
+      /> */}
     </div>
   );
 }
