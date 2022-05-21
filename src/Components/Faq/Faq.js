@@ -26,7 +26,9 @@ export const Faq = () => {
       <section className="Faq" id="faq">
         <div class="container1">
           <div class="accordion1">
-            <div class="title1">FAQs</div>
+            <div class="title1" id="section-title2">
+              FAQs
+            </div>
             <div class="accordion-item1" id="question1">
               <a class="accordion-link1" href="#question1">
                 Q. Who can participate?
