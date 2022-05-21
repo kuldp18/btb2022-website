@@ -50,7 +50,16 @@ export default function Card({ image, name, date, description }) {
           fontWeight: '300',
         }}
       >
-        Register Now
+        <a
+          href="https://forms.gle/V8ceiVxjnk8x7RkC8"
+          target="_blank"
+          style={{
+            textDecoration: 'none',
+            color: 'white',
+          }}
+        >
+          Register Now
+        </a>
       </button>
     </div>
   );
