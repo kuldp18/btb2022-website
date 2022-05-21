@@ -15,7 +15,13 @@ export const Footer = () => {
               borderRadius: '20px',
             }}
           >
-            <img src={Logo} width="60%" />
+            <img
+              src={Logo}
+              width="60%"
+              style={{
+                objectFit: 'contain',
+              }}
+            />
           </div>
           <div class="footer-col">
             <h4>EVENTS</h4>

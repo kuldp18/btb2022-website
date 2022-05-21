@@ -5,13 +5,14 @@
   background-color: #28192b;
   font-size: 2rem;
   border: 1px solid #28192b;
+  position: relative;
 }
 .hexagon1 {
   position: absolute;
-  display: flex;
-  width: 100%;
-  justify-content: flex-end;
   z-index: 100;
+  top: -5%;
+  right: 0;
+  max-width: 200px;
 }
 .title1 {
   text-align: center;

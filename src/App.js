@@ -36,6 +36,7 @@ function App() {
           fontSize: '2.2rem',
           color: '#fff',
           borderRadius: '50%',
+          zIndex: '100000',
         }}
       />
 

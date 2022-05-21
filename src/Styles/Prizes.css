@@ -1,7 +1,11 @@
 .prizes-section {
   text-align: center;
   background-color: #28192b;
+  /* background-color: white; */
   font-size: 2rem;
+  position: relative;
+  padding-top: 12rem;
+  height: 100%;
 }
 
 .App-logo {

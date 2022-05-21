@@ -4,6 +4,7 @@
   width: 260px;
   background-color: #fbfdff1a;
   border-radius: 12.1968px;
+  padding-top: 0.5rem;
   /* display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -52,7 +53,6 @@
   color: #ffffff;
   height: 30px;
   width: 80%;
-
   font-family: 'Metropolis';
   margin: 0px 20px;
   border: none;

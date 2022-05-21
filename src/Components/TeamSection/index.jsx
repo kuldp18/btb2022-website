@@ -479,20 +479,6 @@ const TeamSection = () => {
             <div className="team-profile-card">
               <div className="profile-image-container">
                 <img
-                  alt="Jaivin Gajera"
-                  className="profile-image"
-                  src={require('./team-raw-images/JAIVIN GAJERA_WEB DEVELOPMENT .jpeg')}
-                />
-              </div>
-              <div className="profile-about-container">
-                <h1 className="profile-about-name">Jaivin Gajera</h1>
-                <h4 className="profile-about-description">Team Webdev</h4>
-              </div>
-            </div>
-
-            <div className="team-profile-card">
-              <div className="profile-image-container">
-                <img
                   alt="Yash Hindocha"
                   className="profile-image"
                   src={require('./team-raw-images/Yash Hindocha_webDev.jpeg')}
@@ -743,22 +729,6 @@ const TeamSection = () => {
               </div>
               <div className="profile-about-container">
                 <h1 className="profile-about-name">Aayush Patel</h1>
-                <h4 className="profile-about-description">
-                  Team Community Engagement
-                </h4>
-              </div>
-            </div>
-
-            <div className="team-profile-card">
-              <div className="profile-image-container">
-                <img
-                  src={require('./team-raw-images/ChintanPatel_CommunityEngagement.jpg')}
-                  alt="Chintan Patel"
-                  className="profile-image"
-                />
-              </div>
-              <div className="profile-about-container">
-                <h1 className="profile-about-name">Chintan Patel</h1>
                 <h4 className="profile-about-description">
                   Team Community Engagement
                 </h4>

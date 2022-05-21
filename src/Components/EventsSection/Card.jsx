@@ -44,8 +44,10 @@ export default function Card({ image, name, date, description }) {
           display: 'flex',
           justifyContent: 'center',
           alignItems: 'center',
-          fontWeight: 'bold',
           width: '85%',
+          fontFamily: 'Metropolis',
+          borderRadius: '10px',
+          fontWeight: '300',
         }}
       >
         Register Now
