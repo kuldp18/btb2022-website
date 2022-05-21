@@ -14,3 +14,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@media screen and (max-width: 600px) {
+  #section-title {
+    font-weight: 300;
+    font-size: 4.4rem !important;
+  }
+  #section-title1 {
+    font-weight: 300;
+    font-size: 4.4rem !important;
+  }
+  #section-title2 {
+    font-weight: 300;
+    font-size: 4.4rem !important;
+  }
+}

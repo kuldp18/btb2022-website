@@ -101,7 +101,15 @@ function EventsSection(props) {
       <div className="hexagon1">
         <img src={hexagon} className="hexagon_img1" alt="Hexagon" />
       </div>
-      <div className="event-title1 title1">EVENTS</div>
+      <div
+        className="event-title1 title1"
+        id="section-title"
+        style={{
+          zIndex: '1000',
+        }}
+      >
+        EVENTS
+      </div>
       <div className="title-1">UPCOMING WORKSHOPS</div>
       <div className="card-slider1">
         <Slider {...settings}>

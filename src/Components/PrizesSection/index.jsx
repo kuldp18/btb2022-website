@@ -20,7 +20,9 @@ function PrizesSection() {
   return (
     <div className="prizes-section">
       {/* <Separator /> */}
-      <h1 className="red prizes-title">GRAND PRIZES</h1>
+      <h1 className="red prizes-title" id="section-title1">
+        GRAND PRIZES
+      </h1>
       <p className="white">
         we have a prize pool worth <span className="red-1"> 200K INR </span>
         along with captiving rewards in BTB 2022.
