@@ -123,7 +123,7 @@ function EventsSection(props) {
       <div className="card-slider1">
         <Slider {...settings}>
           <Card
-            image={require('../../require_images/Workshop-Ankit.jpg')}
+            image={require('../../require_images/Workshop-Ankit.png')}
             name="ANKIT BANSAL"
             description="SQL WORKSHOP"
             date="11/06/2022"
