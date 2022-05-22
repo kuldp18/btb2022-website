@@ -49,6 +49,7 @@ export default function Card({ image, name, date, description }) {
           fontFamily: 'Metropolis',
           borderRadius: '10px',
           fontWeight: '300',
+          fontSize: '1.7rem',
         }}
       >
         <a
@@ -77,6 +78,7 @@ export default function Card({ image, name, date, description }) {
           fontWeight: '300',
           background: 'none',
           border: '1px solid #de4139',
+          fontSize: '1.7rem',
         }}
       >
         <a
