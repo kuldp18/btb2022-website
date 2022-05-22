@@ -8,10 +8,11 @@ import { Faq } from './Components/Faq/Faq';
 import { Home } from './Components/Home/Home';
 import Sponsors from './Components/Sponsors/Sponsors';
 import ScrollToTop from 'react-scroll-to-top';
-
 import TeamSection from './Components/TeamSection';
 import { IoIosArrowUp } from 'react-icons/io';
 import { Route, Routes } from 'react-router-dom';
+import WorkshopTest from './Components/Workshop-test';
+import workshops from './JSON/workshopNames.json';
 
 function App() {
   const x = 0;
@@ -52,6 +53,22 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/team" element={<TeamSection />}></Route>
+        <Route
+          path={workshops[0].slug}
+          element={<WorkshopTest name="interaction" />}
+        ></Route>
+        <Route
+          path={workshops[1].slug}
+          element={<WorkshopTest name="sql" />}
+        ></Route>
+        <Route
+          path={workshops[2].slug}
+          element={<WorkshopTest name="design" />}
+        ></Route>
+        <Route
+          path={workshops[3].slug}
+          element={<WorkshopTest name="data engineering" />}
+        ></Route>
       </Routes>
     </>
   );
