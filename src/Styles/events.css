@@ -94,9 +94,7 @@
     width: 22vw;
     height: 24vw;
   }
-  .events-title {
-    font-size: 3vw;
-  }
+
   .event-showcase-text {
     font-size: 1.6vw;
     width: 54vw;
@@ -164,7 +162,7 @@
     height: 32vw;
   }
   .events-title {
-    font-size: 3.2vw;
+    font-size: 3.7rem;
   }
   .event-showcase-text {
     font-size: 1.8vw;
