@@ -1,6 +1,6 @@
 @import url('https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/metropolis.min.css');
 .Event-card1 {
-  height: 420px;
+  height: 450px;
   width: 260px;
   background-color: #fbfdff1a;
   border-radius: 12.1968px;
@@ -46,6 +46,8 @@
 }
 #date {
   padding-left: 10px;
+  /* border: 1px solid red; */
+  height: 50px;
 }
 
 .red-btn1 {

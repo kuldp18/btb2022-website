@@ -1,9 +1,21 @@
+/* body {
+  background-color: #21192b;
+} */
+.WorkShop-page {
+  width: 100%;
+  height: 100%;
+  /* border: 1px solid red; */
+  background-color: #21192b;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
 .iq_workshop-details-container {
   width: 75vw;
   margin-left: auto;
   margin-right: auto;
   font-family: 'Metropolis' !important;
-  margin-top: 2vw;
+  height: 100%;
+  /* background-color: red; */
 }
 .whop-img {
   user-select: none;

@@ -49,20 +49,52 @@ function App() {
         <Route path="/team" element={<TeamSection />}></Route>
         <Route
           path={workshops[0].slug}
-          element={<WorkshopPage workShopTitle="Interaction Workshop" />}
+          element={
+            <WorkshopPage
+              workShopTitle="Interaction Workshop"
+              workShopDetails="hello"
+              workShopDate="22/22/2222"
+              workShopLink="https://google.com"
+              imgPath={require('./require_images/Workshop-Shravan-Page.png')}
+            />
+          }
         ></Route>
-        {/* <Route
+        <Route
           path={workshops[1].slug}
-          element={<WorkshopPage name="sql" />}
+          element={
+            <WorkshopPage
+              workShopTitle="SQL Workshop"
+              workShopDetails="hello"
+              workShopDate="22/22/2222"
+              workShopLink="https://google.com"
+              imgPath={require('./require_images/Workshop-Shravan-Page.png')}
+            />
+          }
         ></Route>
         <Route
           path={workshops[2].slug}
-          element={<WorkshopPage name="design" />}
+          element={
+            <WorkshopPage
+              workShopTitle="Design Workshop"
+              workShopDetails="hello"
+              workShopDate="22/22/2222"
+              workShopLink="https://google.com"
+              imgPath={require('./require_images/Workshop-Shravan-Page.png')}
+            />
+          }
         ></Route>
         <Route
           path={workshops[3].slug}
-          element={<WorkshopPage name="data engineering" />}
-        ></Route> */}
+          element={
+            <WorkshopPage
+              workShopTitle="Data Engineering Workshop"
+              workShopDetails="hello"
+              workShopDate="22/22/2222"
+              workShopLink="https://google.com"
+              imgPath={require('./require_images/Workshop-Shravan-Page.png')}
+            />
+          }
+        ></Route>
       </Routes>
     </>
   );
