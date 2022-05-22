@@ -5,7 +5,7 @@ import ScrollToTop from 'react-scroll-to-top';
 import TeamSection from './Components/TeamSection';
 import { IoIosArrowUp } from 'react-icons/io';
 import { Route, Routes } from 'react-router-dom';
-import WorkshopTest from './Components/Workshop-test';
+import WorkshopPage from './Components/WorkshopPage';
 import workshops from './JSON/workshopNames.json';
 
 function App() {
@@ -49,20 +49,20 @@ function App() {
         <Route path="/team" element={<TeamSection />}></Route>
         <Route
           path={workshops[0].slug}
-          element={<WorkshopTest name="interaction" />}
+          element={<WorkshopPage workShopTitle="Interaction Workshop" />}
         ></Route>
-        <Route
+        {/* <Route
           path={workshops[1].slug}
-          element={<WorkshopTest name="sql" />}
+          element={<WorkshopPage name="sql" />}
         ></Route>
         <Route
           path={workshops[2].slug}
-          element={<WorkshopTest name="design" />}
+          element={<WorkshopPage name="design" />}
         ></Route>
         <Route
           path={workshops[3].slug}
-          element={<WorkshopTest name="data engineering" />}
-        ></Route>
+          element={<WorkshopPage name="data engineering" />}
+        ></Route> */}
       </Routes>
     </>
   );

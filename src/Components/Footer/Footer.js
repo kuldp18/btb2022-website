@@ -105,6 +105,7 @@ export const Footer = () => {
               id="cws-h4"
               style={{
                 fontFamily: 'Metropolis',
+                marginLeft: '5px',
               }}
             >
               CONNECT WITH US
@@ -173,7 +174,8 @@ export const Footer = () => {
               </a>
               <a href="mailto:ldrphackathon2022@ldrp.ac.in">
                 <i
-                  class="fa fa-envelope fa-lg"
+                  class="fa fa-envelope"
+                  aria-hidden="true"
                   style={{
                     fontSize: '2.5rem',
                   }}

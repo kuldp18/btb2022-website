@@ -1,0 +1,162 @@
+.iq_workshop-details-container {
+  width: 75vw;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Metropolis' !important;
+  margin-top: 2vw;
+}
+.whop-img {
+  user-select: none;
+  width: 100%;
+}
+.iq_workshop-data {
+  padding-left: 5px;
+}
+.iq_workshop_title {
+  margin-top: 1.6vw;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.iq_workshop_title h1 {
+  font-size: 2vw;
+  color: #ff5148;
+  /* padding-left: 5px; */
+}
+.iq_workshop_title button {
+  font-size: 1vw;
+  background-color: #ff5148;
+  color: white;
+  font-weight: 500;
+  padding: 0.7vw 5vw;
+  border: none;
+  border-radius: 1vw;
+  letter-spacing: 1px;
+  margin-right: 5px;
+  transition: all 500ms;
+}
+.iq_workshop_title button:hover {
+  color: #ff5148;
+  border: 1px solid #ff5148;
+  background: transparent;
+  cursor: pointer;
+}
+.iq_details_title {
+  color: #ff5148;
+  font-size: 1.2vw;
+  font-weight: 500;
+  margin-top: 2vw;
+  /* padding-left: 5px; */
+}
+.iq_workshop-details {
+  color: white;
+  font-size: 1vw;
+}
+.iq_workshop_date {
+  color: white;
+  font-size: 1vw;
+  margin-top: 1.5vw;
+}
+.iq_workshop_date span {
+  color: #ff5148;
+  font-size: 1.2vw;
+  padding-right: 6px;
+}
+.iq_interest {
+  color: white;
+  font-size: 1.3vw;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-top: 1.5vw;
+}
+@media only screen and (max-width: 1024px) {
+  .iq_workshop_title h1 {
+    font-size: 2.3vw;
+  }
+  .iq_workshop_title button {
+    font-size: 1.3vw;
+  }
+  .iq_details_title {
+    font-size: 1.7vw;
+  }
+  .iq_workshop-details {
+    font-size: 1.3vw;
+  }
+  .iq_workshop_date {
+    font-size: 1.3vw;
+  }
+  .iq_workshop_date span {
+    font-size: 1.5vw;
+  }
+  .iq_interest {
+    font-size: 1.6vw;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .iq_workshop_title h1 {
+    font-size: 2.5vw;
+  }
+  .iq_workshop_title button {
+    font-size: 10px;
+  }
+  .iq_details_title {
+    font-size: 14px;
+  }
+  .iq_workshop-details {
+    font-size: 10px;
+  }
+  .iq_workshop_date {
+    font-size: 12px;
+    margin-top: 1.8vw;
+  }
+  .iq_workshop_date span {
+    font-size: 14px;
+  }
+  .iq_interest {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .iq_workshop_title h1 {
+    font-size: 19px;
+  }
+  .iq_workshop_title button {
+    font-size: 10px;
+    margin-top: 2vw;
+  }
+  .iq_workshop-details {
+    font-size: 9px;
+  }
+  .iq_workshop_date span {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .iq_workshop-details-container {
+    width: 85vw;
+  }
+  .iq_workshop_title h1 {
+    font-size: 3.8vw;
+  }
+  .iq_workshop_title button {
+    font-size: 9px;
+    margin-top: 2vw;
+  }
+  .iq_details_title {
+    font-size: 3vw;
+  }
+  .iq_workshop-details {
+    font-size: 9px;
+  }
+  .iq_workshop_date {
+    font-size: 2.6vw;
+  }
+  .iq_workshop_date span {
+    font-size: 2.8vw;
+  }
+  .iq_interest {
+    font-size: 2.8vw;
+  }
+}

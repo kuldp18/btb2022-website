@@ -20,15 +20,12 @@
 }
 
 .prizes-title {
-  text-align: center;
-  font-family: 'MetropolisRegular';
-  letter-spacing: 3px;
-  font-weight: bolder;
-  -webkit-text-stroke-width: 2px;
-
-  font-size: 4.5rem !important;
+  color: #fff;
+  font-size: 4.5rem;
+  text-transform: uppercase;
   font-weight: 800;
-  color: white !important;
+  margin: 10px 0;
+  cursor: pointer;
 }
 
 .App-header {
@@ -40,6 +37,31 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.prizes-description {
+  color: white;
+  padding: 2rem;
+  width: 100%;
+}
+.prizes-description p {
+  margin-bottom: 5rem;
+  text-transform: none;
+  font-family: 'Metropolis';
+}
+.prizes-description span {
+  border: 1px solid red;
+  padding: 1.5rem;
+  text-transform: none;
+  background: linear-gradient(
+    131.14deg,
+    rgba(255, 81, 72, 0.12) 0%,
+    rgba(255, 81, 72, 0) 100%
+  );
+  border: 2px solid #ff5148;
+
+  border-radius: 10px;
+  font-family: 'Metropolis';
 }
 
 .App-link {

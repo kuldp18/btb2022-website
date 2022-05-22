@@ -4,17 +4,7 @@
   height: 100%;
   padding-bottom: 6rem;
   padding-top: 4rem;
-  font-family: 'MetropolisRegular', Arial, Helvetica, sans-serif;
-  /* clip-path: polygon(
-    0 100%,
-    23% 96%,
-    44% 100%,
-    85% 95%,
-    100% 100%,
-    100% 0,
-    0 0
-  ); */
-  /* clip-path: polygon(0 96%, 21% 100%, 63% 97%, 83% 100%, 100% 97%, 100% 0, 0 0); */
+  font-family: 'Metropolis';
 
   overflow: hidden;
 }

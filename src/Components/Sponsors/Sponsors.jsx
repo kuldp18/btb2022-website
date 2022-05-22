@@ -30,6 +30,14 @@ const Sponsors = () => {
             image={require('../../require_images/xyz logo final.png')}
             name=".XYZ"
           />
+          <SponsorCard
+            image={require('../../require_images/echo3d.png')}
+            name="echo3D"
+          />
+          <SponsorCard
+            image={require('../../require_images/aspire4her.png')}
+            name="Aspire For Her"
+          />
         </div>
       </section>
     </>
