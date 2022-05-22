@@ -6,6 +6,8 @@
   position: relative;
   padding-top: 12rem;
   height: 100%;
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
 
 .App-logo {
@@ -25,6 +27,7 @@
   letter-spacing: 3px;
   font-weight: bolder;
   -webkit-text-stroke-width: 2px;
+
   font-size: 4.5rem !important;
   font-weight: 800;
   color: white !important;

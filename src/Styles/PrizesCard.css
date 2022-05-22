@@ -10,7 +10,6 @@
 .flex-container {
   margin-top: 3%;
   display: flex;
-  flex-flow: row wrap;
   align-items: center;
   justify-content: center;
 }
@@ -27,7 +26,6 @@
   mix-blend-mode: exclusion;
 }
 .silver {
-  width: 137px;
   height: 31px;
   margin-bottom: 30px;
   order: 1;
