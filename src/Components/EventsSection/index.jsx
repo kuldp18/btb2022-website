@@ -107,11 +107,19 @@ function EventsSection(props) {
         id="section-title"
         style={{
           zIndex: '1000',
+          fontFamily: 'Metropolis',
         }}
       >
         EVENTS
       </div>
-      <div className="title-1">UPCOMING WORKSHOPS</div>
+      <div
+        className="title-1"
+        style={{
+          fontFamily: 'Metropolis',
+        }}
+      >
+        UPCOMING WORKSHOPS
+      </div>
       <div className="card-slider1">
         <Slider {...settings}>
           <Card

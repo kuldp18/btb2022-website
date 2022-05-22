@@ -18,17 +18,23 @@ export default function Card({ image, name, date, description, workshopName }) {
           style={{
             fontSize: '1.6rem',
             fontWeight: 'bold',
-
             height: '40px',
+            fontFamily: 'Metropolis',
           }}
         >
           {description}
         </p>
         <p className="light-gray1">
-          <span className="line-2-name1">
+          <span
+            className="line-2-name1"
+            style={{
+              fontFamily: 'Metropolis',
+            }}
+          >
             <span
               style={{
                 opacity: '0.4',
+                fontFamily: 'Metropolis',
               }}
             >
               Speaker:
@@ -36,7 +42,13 @@ export default function Card({ image, name, date, description, workshopName }) {
             {name}
           </span>
         </p>
-        <p className="light-gray1" id="date">
+        <p
+          className="light-gray1"
+          id="date"
+          style={{
+            fontFamily: 'Metropolis',
+          }}
+        >
           Date: <span className="line-2-name1">{date}</span>
         </p>
         <button

@@ -10,7 +10,7 @@ body {
   height: 100%;
   background: #f6f9fd;
   font-family: 'MetropolisRegular';
-  margin-bottom: 3.4rem;
+  margin-bottom: 10.4rem;
   position: relative;
 }
 .sponsors::before {
@@ -101,6 +101,7 @@ body {
   margin-bottom: 2rem;
   font-weight: 700;
   text-transform: uppercase;
+  font-family: 'Metropolis';
 }
 
 .sponsor-levels {

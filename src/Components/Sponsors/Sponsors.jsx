@@ -7,7 +7,14 @@ const Sponsors = () => {
   return (
     <>
       <section className="sponsors" id="partners">
-        <h1 className="heading stylish-title">Partners</h1>
+        <h1
+          className="heading stylish-title"
+          style={{
+            fontFamily: 'Metropolis',
+          }}
+        >
+          Partners
+        </h1>
 
         {/* sponsors card grid */}
         <div className="sponsors-cards-grid">
