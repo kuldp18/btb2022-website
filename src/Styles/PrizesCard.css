@@ -10,7 +10,6 @@
 .flex-container {
   margin-top: 3%;
   display: flex;
-  flex-flow: row wrap;
   align-items: center;
   justify-content: center;
 }
@@ -24,10 +23,9 @@
 .trophy_img {
   height: 210px;
   width: 150px;
-  mix-blend-mode: exclusion;
+  mix-blend-mode: screen;
 }
 .silver {
-  width: 137px;
   height: 31px;
   margin-bottom: 30px;
   order: 1;

@@ -154,7 +154,7 @@ body {
   margin-top: 1rem;
   font-size: 2rem;
   font-weight: 400;
-  box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.3);
+  /* box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.3); */
 }
 
 .home2 button:hover {

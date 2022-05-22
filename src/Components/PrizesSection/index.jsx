@@ -20,18 +20,43 @@ function PrizesSection() {
   return (
     <div className="prizes-section">
       {/* <Separator /> */}
-      <h1 className="red prizes-title" id="section-title1">
+      <h1
+        className="prizes-title"
+        id="section-title1"
+        style={{
+          fontFamily: 'Metropolis',
+        }}
+      >
         GRAND PRIZES
       </h1>
-      <p className="white">
+      <p
+        className="white"
+        style={{
+          fontFamily: 'Metropolis',
+        }}
+      >
         we have a prize pool worth <span className="red-1"> 200K INR </span>
         along with captiving rewards in BTB 2022.
       </p>
       <div className="flex-container">
         <div className="gold">
           <img className="trophy_img" src={gold} alt="gold_trophy"></img>
-          <p className="white-letter">1st Prize</p>
-          <p className="red-letter">Rs. 30,000</p>
+          <p
+            className="white-letter"
+            style={{
+              fontFamily: 'Metropolis',
+            }}
+          >
+            1st Prize
+          </p>
+          <p
+            className="red-letter"
+            style={{
+              fontFamily: 'Metropolis',
+            }}
+          >
+            Rs. 30,000
+          </p>
         </div>
         <div className="silver">
           <img className="trophy_img" src={silver} alt="silver_trophy"></img>
@@ -45,6 +70,18 @@ function PrizesSection() {
         </div>
       </div>
       <div className="space"></div>
+      <div className="prizes-description">
+        <p>
+          Winners of each track will be awarded with amazing prizes such as
+          smart speakers, earphones, head phones, mechanical keyboards, smart
+          watches, bluetooth neck bands and many more. As well as each winner
+          will be awarded with a merit certificate and some premium softwares.
+        </p>
+        <span>
+          We also have special prizes for the best project by an all Women
+          Team!!!
+        </span>
+      </div>
       <div>
         <div className="card-inline">{/* <Card /> */}</div>
         <div className="card-inline">{/* <Card /> */}</div>

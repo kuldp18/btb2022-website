@@ -82,7 +82,14 @@ function Events(props) {
   };
   return (
     <div className="events-stuffs" id="tracks">
-      <h1 className="events-title">Tracks</h1>
+      <h1
+        className="events-title"
+        style={{
+          fontFamily: 'Metropolis',
+        }}
+      >
+        Tracks
+      </h1>
       {/* <p className="event-showcase-text">enter description here (if any)</p> */}
 
       <div className="events-slider">

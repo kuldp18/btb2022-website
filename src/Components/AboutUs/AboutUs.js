@@ -18,29 +18,30 @@ export const AboutUs = () => {
             <span className="heading">
               <span
                 class="text-white font-weight-bold display-1"
-                style={{ fontFamily: 'Arial, Helvetica, sans-serif' }}
+                style={{ fontFamily: 'Metropolis' }}
               >
                 WE{' '}
               </span>
               <span
                 style={{
                   color: '#FF5148',
-                  fontFamily: 'Arial, Helvetica, sans-serif',
+                  fontFamily: 'Metropolis',
                 }}
                 class="font-weight-bold display-1"
               >
                 CODE<span className="text-white display-1">,</span>
               </span>
+              <br />
               <span
                 className="text-white font-weight-bold display-1"
-                style={{ fontFamily: 'Arial, Helvetica, sans-serif' }}
+                style={{ fontFamily: 'Metropolis' }}
               >
                 WE{' '}
               </span>{' '}
               <span
                 style={{
                   color: '#FF5148',
-                  fontFamily: 'Arial, Helvetica, sans-serif',
+                  fontFamily: 'Metropolis',
                 }}
                 className="font-weight-bold display-1"
               >
@@ -49,14 +50,14 @@ export const AboutUs = () => {
               <br />
               <span
                 className="text-white font-weight-bold col display-1"
-                style={{ fontFamily: 'Arial, Helvetica, sans-serif' }}
+                style={{ fontFamily: 'Metropolis' }}
               >
                 WE ARE{' '}
               </span>{' '}
               <span
                 style={{
                   color: '#FF5148',
-                  fontFamily: 'Arial, Helvetica, sans-serif',
+                  fontFamily: 'Metropolis',
                 }}
                 className="font-weight-bold col display-1"
               >
@@ -78,7 +79,11 @@ export const AboutUs = () => {
                 community where the pioneer coders and leading industry partners
                 could meet and collaborate toward future innovations.
               </p>
-              <p>
+              <p
+                style={{
+                  marginBottom: '3rem',
+                }}
+              >
                 Featured workshops and mentorship sessions backed by industry
                 specialists, senior developers, and professionals. 14+ workshops
                 are going to be hosted in June-July 2022. Be ready to dive deep
@@ -87,12 +92,17 @@ export const AboutUs = () => {
               </p>
               <span
                 style={{
-                  fontSize: '3rem',
+                  fontSize: '2.6rem',
                 }}
               >
                 <b>Why join the hackathon?</b>
               </span>
-              <p>
+              <p
+                style={{
+                  margin: '10px 0',
+                  display: 'block',
+                }}
+              >
                 Challenges inspire developers uniquely well for several reasons:
               </p>
               <ul

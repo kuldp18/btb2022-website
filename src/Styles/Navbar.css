@@ -43,6 +43,7 @@
 .nav ul li {
   margin: 2.5rem;
   font-size: 1.81rem;
+  font-family: 'Metropolis';
 }
 .nav ul li a {
   text-decoration: none;

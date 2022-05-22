@@ -94,9 +94,7 @@
     width: 22vw;
     height: 24vw;
   }
-  .events-title {
-    font-size: 3vw;
-  }
+
   .event-showcase-text {
     font-size: 1.6vw;
     width: 54vw;
@@ -139,6 +137,7 @@
   width: 100%;
   height: 100%;
   padding-top: 2.5rem;
+  font-family: 'Metropolis';
 }
 .event-info .img-wrapper > img,
 .event-info .img-wrapper > .content {
@@ -163,7 +162,7 @@
     height: 32vw;
   }
   .events-title {
-    font-size: 3.2vw;
+    font-size: 3.7rem;
   }
   .event-showcase-text {
     font-size: 1.8vw;

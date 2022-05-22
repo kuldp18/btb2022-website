@@ -18,9 +18,9 @@
   text-align: center;
   font-family: 'MetropolisRegular';
   letter-spacing: 3px;
-  font-weight: bolder;
+  font-weight: 600 !important;
   -webkit-text-stroke-width: 2px;
-  font-size: 2.5vw !important;
+  font-size: 4.5rem !important;
 }
 .hexagon_img1 {
   height: 120px;
@@ -58,4 +58,10 @@
 }
 .slick-next1 {
   right: -3.7vw !important;
+}
+
+@media screen and (max-width: 400px) {
+  .title-1 {
+    font-size: 3.7rem !important;
+  }
 }

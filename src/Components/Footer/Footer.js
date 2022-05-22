@@ -24,43 +24,92 @@ export const Footer = () => {
             />
           </div>
           <div class="footer-col">
-            <h4>EVENTS</h4>
+            <h4
+              style={{
+                fontFamily: 'Metropolis',
+              }}
+            >
+              EVENTS
+            </h4>
             <ul>
-              <li>
+              <li
+                style={{
+                  fontFamily: 'Metropolis',
+                }}
+              >
                 <a href="#workshop">Workshops</a>
               </li>
               {/* <li><a href="#">Winners of Events</a></li>
   	 				<li><a href="#">Prizes</a></li> */}
               <li>
-                <a href="#mentor-talks">Talks</a>
+                <a
+                  href="#mentor-talks"
+                  style={{
+                    fontFamily: 'Metropolis',
+                  }}
+                >
+                  Talks
+                </a>
               </li>
             </ul>
           </div>
           <div class="footer-col">
-            <h4>HELP</h4>
+            <h4
+              style={{
+                fontFamily: 'Metropolis',
+              }}
+            >
+              HELP
+            </h4>
             <ul>
-              <li>
+              {/* <li>
                 <a href="#faq">FAQ Section</a>
-              </li>
-              <li>
-                <a href="mailto:ldrphackathon2022@ldrp.ac.in">Support</a>
-              </li>
+              </li> */}
               <li>
                 <a
                   href="https://docs.google.com/document/d/1KmL3NKZ604dLvEraJ6TeQvNH3ZI5DwhU/edit?usp=sharing&ouid=114895267717905083044&rtpof=true&sd=true"
                   target="_blank"
+                  style={{
+                    fontFamily: 'Metropolis',
+                  }}
                 >
                   Code of Conduct
                 </a>
               </li>
               <li>
-                <a href="#about">About BTB</a>
+                <a
+                  href="mailto:ldrphackathon2022@ldrp.ac.in"
+                  style={{
+                    fontFamily: 'Metropolis',
+                  }}
+                >
+                  Support
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="#about"
+                  style={{
+                    fontFamily: 'Metropolis',
+                  }}
+                >
+                  About BTB
+                </a>
               </li>
             </ul>
           </div>
 
           <div class="footer-col">
-            <h4 id="cws-h4">CONNECT WITH US</h4>
+            <h4
+              id="cws-h4"
+              style={{
+                fontFamily: 'Metropolis',
+                marginLeft: '5px',
+              }}
+            >
+              CONNECT WITH US
+            </h4>
             <div class="social-links">
               <a
                 href="https://www.facebook.com/Break-The-Barrier-Hackathon-108922648435289/"
@@ -125,7 +174,8 @@ export const Footer = () => {
               </a>
               <a href="mailto:ldrphackathon2022@ldrp.ac.in">
                 <i
-                  class="fa fa-envelope fa-lg"
+                  class="fa fa-envelope"
+                  aria-hidden="true"
                   style={{
                     fontSize: '2.5rem',
                   }}
@@ -147,6 +197,7 @@ export const Footer = () => {
         <p
           style={{
             textTransform: 'none',
+            fontFamily: 'Metropolis',
           }}
         >
           &#169; {new Date().getFullYear()} Break The Barrier. All rights

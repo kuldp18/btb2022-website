@@ -1,0 +1,22 @@
+[
+  {
+    "id": 0,
+    "name": "Interaction Workshop",
+    "slug": "interaction-workshop"
+  },
+  {
+    "id": 1,
+    "name": "SQL Workshop",
+    "slug": "sql-workshop"
+  },
+  {
+    "id": 2,
+    "name": "Design Workshop",
+    "slug": "design-workshop"
+  },
+  {
+    "id": 3,
+    "name": "Data Engineering Workshop",
+    "slug": "data-engineering-workshop"
+  }
+]

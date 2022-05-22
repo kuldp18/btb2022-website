@@ -52,13 +52,41 @@ function TimeLine(props) {
       <div className="timeline" id="timeline">
         {/* <div className="fancy-circle"></div>
         <div className="fancy-curve"></div> */}
-        <h1 className="timeline-title">TIMELINE</h1>
+        <h1
+          className="timeline-title"
+          style={{
+            fontFamily: 'Metropolis',
+          }}
+        >
+          TIMELINE
+        </h1>
         <div className="timeline-container">
           {currentData.map((ev, index) => (
             <div className="timeline-event-info" key={index}>
-              <p className="event-timing">{ev.time}</p>
-              <h2 className="event">{ev['event-name']}</h2>
-              <p className="event-desc">{ev['event-desc']}</p>
+              <p
+                className="event-timing"
+                style={{
+                  fontFamily: 'Metropolis',
+                }}
+              >
+                {ev.time}
+              </p>
+              <h2
+                className="event"
+                style={{
+                  fontFamily: 'Metropolis',
+                }}
+              >
+                {ev['event-name']}
+              </h2>
+              <p
+                className="event-desc"
+                style={{
+                  fontFamily: 'Metropolis',
+                }}
+              >
+                {ev['event-desc']}
+              </p>
               <div className="circle"></div>
               <img src={Doodle} alt="doodle" className="doodle" />
             </div>

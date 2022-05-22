@@ -1,17 +1,12 @@
 import './App.css';
-import Events from './Components/Events/Events';
-import TimeLine from './Components/TimeLine/TimeLine';
-import { AboutUs } from './Components/AboutUs/AboutUs';
 import '@fontsource/metropolis';
-import { Footer } from './Components/Footer/Footer';
-import { Faq } from './Components/Faq/Faq';
 import { Home } from './Components/Home/Home';
-import Sponsors from './Components/Sponsors/Sponsors';
 import ScrollToTop from 'react-scroll-to-top';
-
 import TeamSection from './Components/TeamSection';
 import { IoIosArrowUp } from 'react-icons/io';
 import { Route, Routes } from 'react-router-dom';
+import WorkshopPage from './Components/WorkshopPage';
+import workshops from './JSON/workshopNames.json';
 
 function App() {
   const x = 0;
@@ -52,6 +47,54 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/team" element={<TeamSection />}></Route>
+        <Route
+          path={workshops[0].slug}
+          element={
+            <WorkshopPage
+              workShopTitle="Interaction Workshop"
+              workShopDetails="hello"
+              workShopDate="22/22/2222"
+              workShopLink="https://google.com"
+              imgPath={require('./require_images/Workshop-Shravan-Page.png')}
+            />
+          }
+        ></Route>
+        <Route
+          path={workshops[1].slug}
+          element={
+            <WorkshopPage
+              workShopTitle="SQL Workshop"
+              workShopDetails="hello"
+              workShopDate="22/22/2222"
+              workShopLink="https://google.com"
+              imgPath={require('./require_images/Workshop-Shravan-Page.png')}
+            />
+          }
+        ></Route>
+        <Route
+          path={workshops[2].slug}
+          element={
+            <WorkshopPage
+              workShopTitle="Design Workshop"
+              workShopDetails="hello"
+              workShopDate="22/22/2222"
+              workShopLink="https://google.com"
+              imgPath={require('./require_images/Workshop-Shravan-Page.png')}
+            />
+          }
+        ></Route>
+        <Route
+          path={workshops[3].slug}
+          element={
+            <WorkshopPage
+              workShopTitle="Data Engineering Workshop"
+              workShopDetails="hello"
+              workShopDate="22/22/2222"
+              workShopLink="https://google.com"
+              imgPath={require('./require_images/Workshop-Shravan-Page.png')}
+            />
+          }
+        ></Route>
       </Routes>
     </>
   );

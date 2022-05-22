@@ -32,16 +32,19 @@ ul {
   font-size: 18px;
   color: #000d1b;
   text-transform: capitalize;
-  margin-bottom: 35px;
+  margin-bottom: 30px;
   margin-left: 23px;
   font-weight: 500;
   position: relative;
   cursor: default;
+  color: 'black';
+  font-weight: 700;
+  /* border: 1px solid green; */
 }
 .footer-col h4#cws-h4 {
   margin-left: 15px;
 }
-.footer-col h4::before {
+/* .footer-col h4::before {
   content: '';
   position: absolute;
   left: 0;
@@ -50,7 +53,7 @@ ul {
   height: 2px;
   box-sizing: border-box;
   width: 50px;
-}
+} */
 
 .footer-col ul li:not(:last-child) {
   margin-bottom: 10px;

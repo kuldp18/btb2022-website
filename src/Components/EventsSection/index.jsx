@@ -8,6 +8,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Separator2 from '../Separator2';
+import workshops from '../../JSON/workshopNames.json';
 
 function EventsSection(props) {
   const nextArrow = (props) => {
@@ -106,36 +107,48 @@ function EventsSection(props) {
         id="section-title"
         style={{
           zIndex: '1000',
+          fontFamily: 'Metropolis',
         }}
       >
         EVENTS
       </div>
-      <div className="title-1">UPCOMING WORKSHOPS</div>
+      <div
+        className="title-1"
+        style={{
+          fontFamily: 'Metropolis',
+        }}
+      >
+        UPCOMING WORKSHOPS
+      </div>
       <div className="card-slider1">
         <Slider {...settings}>
           <Card
-            image={require('../../require_images/Workshop-JOGANDEEP.png')}
-            name="JOBAN SINGH"
-            description="INTERACTION WORKSHOP"
-            date="23/07/2022"
-          />
-          <Card
-            image={require('../../require_images/Workshop-Ankit.jpg')}
+            image={require('../../require_images/Workshop-Ankit.png')}
             name="ANKIT BANSAL"
             description="SQL WORKSHOP"
             date="11/06/2022"
+            workshopName={workshops[1].slug}
+          />
+          <Card
+            image={require('../../require_images/Workshop-Rahul.png')}
+            name="RAHUL JAIN"
+            description="DATA ENGINEERING WORKSHOP"
+            date="11/06/2022 & 12/06/2022"
+            workshopName={workshops[3].slug}
           />
           <Card
             image={require('../../require_images/Workshop-Shravan.png')}
             name="SHRAVAN TICKOO"
             description="DESIGN WORKSHOP"
             date="02/07/2022"
+            workshopName={workshops[2].slug}
           />
           <Card
-            image={require('../../require_images/Workshop-Rahul.png')}
-            name="RAHUL JAIN"
-            description="DATA ENGINEERING WORKSHOP"
-            date="11/06/2022"
+            image={require('../../require_images/Workshop-JOGANDEEP.png')}
+            name="JOBAN SINGH"
+            description="INTERACTION WORKSHOP"
+            date="23/07/2022"
+            workshopName={workshops[0].slug}
           />
 
           {/* <Card />

@@ -7,7 +7,14 @@ const Sponsors = () => {
   return (
     <>
       <section className="sponsors" id="partners">
-        <h1 className="heading stylish-title">Partners</h1>
+        <h1
+          className="heading stylish-title"
+          style={{
+            fontFamily: 'Metropolis',
+          }}
+        >
+          Partners
+        </h1>
 
         {/* sponsors card grid */}
         <div className="sponsors-cards-grid">
@@ -22,6 +29,14 @@ const Sponsors = () => {
           <SponsorCard
             image={require('../../require_images/xyz logo final.png')}
             name=".XYZ"
+          />
+          <SponsorCard
+            image={require('../../require_images/echo3d.png')}
+            name="echo3D"
+          />
+          <SponsorCard
+            image={require('../../require_images/aspire4her.png')}
+            name="Aspire For Her"
           />
         </div>
       </section>

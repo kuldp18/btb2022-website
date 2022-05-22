@@ -3,17 +3,8 @@
   width: 100%;
   height: 100%;
   padding-bottom: 6rem;
-  font-family: 'MetropolisRegular', Arial, Helvetica, sans-serif;
-  /* clip-path: polygon(
-    0 100%,
-    23% 96%,
-    44% 100%,
-    85% 95%,
-    100% 100%,
-    100% 0,
-    0 0
-  ); */
-  /* clip-path: polygon(0 96%, 21% 100%, 63% 97%, 83% 100%, 100% 97%, 100% 0, 0 0); */
+  padding-top: 4rem;
+  font-family: 'Metropolis';
 
   overflow: hidden;
 }
@@ -59,7 +50,7 @@ a.learn-more-btn:hover {
 }
 
 .about-ul {
-  height: 150px;
+  height: 250px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -67,6 +58,7 @@ a.learn-more-btn:hover {
 
 .about-ul li {
   font-size: 1.8rem;
+  display: inline-block;
 }
 .about-ul li::before {
   content: '\2022'; /* Add content: \2022 is the CSS Code/unicode for a bullet */
