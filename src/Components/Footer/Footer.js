@@ -39,12 +39,9 @@ export const Footer = () => {
           <div class="footer-col">
             <h4>HELP</h4>
             <ul>
-              <li>
+              {/* <li>
                 <a href="#faq">FAQ Section</a>
-              </li>
-              <li>
-                <a href="mailto:ldrphackathon2022@ldrp.ac.in">Support</a>
-              </li>
+              </li> */}
               <li>
                 <a
                   href="https://docs.google.com/document/d/1KmL3NKZ604dLvEraJ6TeQvNH3ZI5DwhU/edit?usp=sharing&ouid=114895267717905083044&rtpof=true&sd=true"
@@ -53,6 +50,10 @@ export const Footer = () => {
                   Code of Conduct
                 </a>
               </li>
+              <li>
+                <a href="mailto:ldrphackathon2022@ldrp.ac.in">Support</a>
+              </li>
+
               <li>
                 <a href="#about">About BTB</a>
               </li>
