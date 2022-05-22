@@ -31,6 +31,7 @@ export const AboutUs = () => {
               >
                 CODE<span className="text-white display-1">,</span>
               </span>
+              <br />
               <span
                 className="text-white font-weight-bold display-1"
                 style={{ fontFamily: 'Arial, Helvetica, sans-serif' }}
@@ -87,12 +88,17 @@ export const AboutUs = () => {
               </p>
               <span
                 style={{
-                  fontSize: '3rem',
+                  fontSize: '2.6rem',
                 }}
               >
                 <b>Why join the hackathon?</b>
               </span>
-              <p>
+              <p
+                style={{
+                  margin: '20px 0',
+                  display: 'block',
+                }}
+              >
                 Challenges inspire developers uniquely well for several reasons:
               </p>
               <ul
