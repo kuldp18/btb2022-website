@@ -1,6 +1,6 @@
 @import url('https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/metropolis.min.css');
 .Event-card1 {
-  height: 350px;
+  height: 420px;
   width: 260px;
   background-color: #fbfdff1a;
   border-radius: 12.1968px;
@@ -57,4 +57,11 @@
   margin: 0px 20px;
   border: none;
   border-radius: 4.69185px;
+}
+
+#view-more:hover {
+  background-color: #de4139 !important;
+}
+#register-now:hover {
+  background: #cb3a33;
 }

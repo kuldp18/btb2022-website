@@ -38,6 +38,7 @@ export default function Card({ image, name, date, description }) {
       </p>
       <button
         className="red-btn1"
+        id="register-now"
         style={{
           marginTop: '1.5rem',
           padding: '2.5rem',
@@ -59,6 +60,34 @@ export default function Card({ image, name, date, description }) {
           }}
         >
           Register Now
+        </a>
+      </button>
+      <button
+        className="red-btn1"
+        id="view-more"
+        style={{
+          marginTop: '1.5rem',
+          padding: '2.5rem',
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+          width: '85%',
+          fontFamily: 'Metropolis',
+          borderRadius: '10px',
+          fontWeight: '300',
+          background: 'none',
+          border: '1px solid #de4139',
+        }}
+      >
+        <a
+          href="#"
+          target="_blank"
+          style={{
+            textDecoration: 'none',
+            color: 'white',
+          }}
+        >
+          View Details
         </a>
       </button>
     </div>
