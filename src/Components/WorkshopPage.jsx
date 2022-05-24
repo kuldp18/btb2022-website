@@ -45,6 +45,7 @@ function WorkshopPage({
 
           {/* Interest */}
           <p className="iq_interest">Interested in attending workshop ?</p>
+          <p className="iq_interest">Click on Register Now</p>
         </div>
       </div>
     </div>
