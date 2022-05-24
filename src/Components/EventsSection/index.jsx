@@ -123,28 +123,28 @@ function EventsSection(props) {
       <div className="card-slider1">
         <Slider {...settings}>
           <Card
-            image={require('../../require_images/Workshop-Ankit.png')}
+            image={require('../../require_images/Workshop-Ankit-event.png')}
             name="ANKIT BANSAL"
             description="SQL WORKSHOP"
             date="11/06/2022"
             workshopName={workshops[1].slug}
           />
           <Card
-            image={require('../../require_images/Workshop-Rahul.png')}
+            image={require('../../require_images/Workshop-Rahul-event.png')}
             name="RAHUL JAIN"
             description="DATA ENGINEERING WORKSHOP"
             date="11/06/2022 & 12/06/2022"
             workshopName={workshops[3].slug}
           />
           <Card
-            image={require('../../require_images/Workshop-Shravan.png')}
+            image={require('../../require_images/Workshop-Shravan-event.png')}
             name="SHRAVAN TICKOO"
             description="DESIGN WORKSHOP"
             date="02/07/2022"
             workshopName={workshops[2].slug}
           />
           <Card
-            image={require('../../require_images/Workshop-JOGANDEEP.png')}
+            image={require('../../require_images/Workshop-JOGANDEEP-event.png')}
             name="JOBAN SINGH"
             description="INTERACTION WORKSHOP"
             date="23/07/2022"

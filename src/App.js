@@ -52,10 +52,10 @@ function App() {
           element={
             <WorkshopPage
               workShopTitle="Interaction Workshop"
-              workShopDetails="hello"
-              workShopDate="22/22/2222"
-              workShopLink="https://google.com"
-              imgPath={require('./require_images/Workshop-Shravan-Page.png')}
+              workShopDetails=""
+              workShopDate="23/07/2022"
+              workShopLink="Coming Soon"
+              imgPath={require('./require_images/Workshop-Joban.png')}
             />
           }
         ></Route>
@@ -64,10 +64,10 @@ function App() {
           element={
             <WorkshopPage
               workShopTitle="SQL Workshop"
-              workShopDetails="hello"
-              workShopDate="22/22/2222"
-              workShopLink="https://google.com"
-              imgPath={require('./require_images/Workshop-Shravan-Page.png')}
+              workShopDetails=""
+              workShopDate="11/06/2022"
+              workShopLink="Coming Soon"
+              imgPath={require('./require_images/Workshop-Ankit.png')}
             />
           }
         ></Route>
@@ -76,10 +76,10 @@ function App() {
           element={
             <WorkshopPage
               workShopTitle="Design Workshop"
-              workShopDetails="hello"
-              workShopDate="22/22/2222"
-              workShopLink="https://google.com"
-              imgPath={require('./require_images/Workshop-Shravan-Page.png')}
+              workShopDetails=""
+              workShopDate="02/07/2022"
+              workShopLink="Coming Soon"
+              imgPath={require('./require_images/Workshop-Shravan.png')}
             />
           }
         ></Route>
@@ -88,10 +88,10 @@ function App() {
           element={
             <WorkshopPage
               workShopTitle="Data Engineering Workshop"
-              workShopDetails="hello"
-              workShopDate="22/22/2222"
-              workShopLink="https://google.com"
-              imgPath={require('./require_images/Workshop-Shravan-Page.png')}
+              workShopDetails=""
+              workShopDate="11/06/2022 & 12/06/2022"
+              workShopLink="Coming Soon"
+              imgPath={require('./require_images/Workshop-Rahul.png')}
             />
           }
         ></Route>
