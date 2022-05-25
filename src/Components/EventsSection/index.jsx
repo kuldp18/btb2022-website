@@ -150,6 +150,27 @@ function EventsSection(props) {
             date="23/07/2022"
             workshopName={workshops[0].slug}
           />
+          <Card
+            image={require('../../require_images/Workshop-Atul-event.png')}
+            name="Atul Khola"
+            description="MOTION DESIGN WORKSHOP"
+            date="12/06/2022"
+            workshopName={workshops[4].slug}
+          />
+          <Card
+            image={require('../../require_images/Workshop-tanay-event.png')}
+            name="Tanay Gupta"
+            description="BLOCKCHAIN WORKSHOP"
+            date="16/07/2022"
+            workshopName={workshops[5].slug}
+          />
+          <Card
+            image={require('../../require_images/Workshop-Prince-event.png')}
+            name="Prince Kumar"
+            description="RESUME BUILDING WORKSHOP"
+            date="17/07/2022"
+            workshopName={workshops[6].slug}
+          />
 
           {/* <Card />
           <Card />

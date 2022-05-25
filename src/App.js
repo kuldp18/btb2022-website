@@ -95,6 +95,42 @@ function App() {
             />
           }
         ></Route>
+        <Route
+          path={workshops[4].slug}
+          element={
+            <WorkshopPage
+              workShopTitle="Motion Design Workshop"
+              workShopDetails=""
+              workShopDate="12/06/2022"
+              workShopLink="Coming Soon"
+              imgPath={require('./require_images/Workshop-Atul.png')}
+            />
+          }
+        ></Route>
+        <Route
+          path={workshops[5].slug}
+          element={
+            <WorkshopPage
+              workShopTitle="Blockchain Workshop"
+              workShopDetails=""
+              workShopDate="16/07/2022"
+              workShopLink="Coming Soon"
+              imgPath={require('./require_images/Workshop-tanay.png')}
+            />
+          }
+        ></Route>
+        <Route
+          path={workshops[6].slug}
+          element={
+            <WorkshopPage
+              workShopTitle="Resume Building Workshop"
+              workShopDetails=""
+              workShopDate="17/07/2022"
+              workShopLink="Coming Soon"
+              imgPath={require('./require_images/Workshop-Prince.png')}
+            />
+          }
+        ></Route>
       </Routes>
     </>
   );
