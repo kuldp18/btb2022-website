@@ -1,8 +1,9 @@
 .judges {
-  /* border: 1px solid red; */
+  border: 1px solid #28192b;
   width: 100%;
   height: 100%;
   font-family: 'Metropolis';
+  background: #28192b;
 }
 .judges__title {
   font-family: 'Metropolis';
@@ -20,7 +21,7 @@
 
 .judge__name {
   color: #ff5148;
-  font-size: 2rem;
+  font-size: 2.2rem;
   text-transform: none;
   font-weight: 800;
   margin: 10px 0;
@@ -34,13 +35,17 @@
   font-weight: 500;
   margin: 0;
   text-transform: none;
-  /* border: 1px solid black; */
+  /* border: 1px solid WHITE; */
+  color: white;
+  width: 100%;
+  text-align: center;
 }
 
 .judge__company {
-  text-transform: none;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   margin: 0;
+  color: white;
+  text-transform: uppercase;
 }
 
 .judges-grid {
@@ -57,8 +62,8 @@
 
 .judges__card {
   /* border: 1px solid yellow; */
-  width: 200px;
-  height: 340px;
+  width: 260px;
+  height: 380px;
   padding: 2rem;
   display: flex;
   flex-direction: column;
@@ -66,6 +71,8 @@
   align-items: flex-start;
   border-radius: 15px;
   background: #21192b1a;
+  margin: 0 auto;
+  /* text-align: center; */
 }
 
 .judges__card__top {
@@ -74,7 +81,16 @@
   height: 100%;
   margin-bottom: 1.8rem;
   border-radius: 15px;
-  background: radial-gradient(circle at top, white 0, #bebebe, #8b8b8b 100%);
+  /* background: radial-gradient(circle at top, white 0, #bebebe, #8b8b8b 100%); */
+}
+
+.judge__image {
+  width: 100%;
+}
+
+.judge__image img {
+  width: 100%;
+  object-fit: contain;
 }
 
 .judges__card__bottom {
@@ -82,6 +98,8 @@
   flex-direction: column;
   /* border: 1px solid brown; */
   width: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
 .judge__span {
