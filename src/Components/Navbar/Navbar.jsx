@@ -96,13 +96,15 @@ const Navbar = ({ makeSticky, hideLinks }) => {
               width="70px"
             />
           </a>
-          <img
-            className="ksv-logo"
-            alt="ksv"
-            src={ksvlogo}
-            height="70px"
-            width="70px"
-          />
+          <a href="https://ksv.ac.in/" target="_blank">
+            <img
+              className="ksv-logo"
+              alt="ksv"
+              src={ksvlogo}
+              height="70px"
+              width="70px"
+            />
+          </a>
         </div>
       </header>
       <style jsx>{`

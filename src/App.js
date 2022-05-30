@@ -56,6 +56,7 @@ function App() {
               workShopDate="23/07/2022"
               workShopLink="Coming Soon"
               imgPath={require('./require_images/Workshop-Joban.png')}
+              workShopTime="1PM TO 4PM"
             />
           }
         ></Route>
@@ -67,6 +68,7 @@ function App() {
               workShopDetails=""
               workShopDate="11/06/2022"
               workShopLink="Coming Soon"
+              workShopTime="1PM to 4PM"
               imgPath={require('./require_images/Workshop-Ankit.png')}
             />
           }
@@ -80,6 +82,7 @@ function App() {
               workShopDate="02/07/2022"
               workShopLink="Coming Soon"
               imgPath={require('./require_images/Workshop-Shravan.png')}
+              workShopTime="1PM TO 4PM"
             />
           }
         ></Route>
@@ -91,6 +94,7 @@ function App() {
               workShopDetails=""
               workShopDate="11/06/2022 & 12/06/2022"
               workShopLink="Coming Soon"
+              workShopTime="5PM Onwards"
               imgPath={require('./require_images/Workshop-Rahul.png')}
             />
           }
@@ -104,6 +108,7 @@ function App() {
               workShopDate="12/06/2022"
               workShopLink="Coming Soon"
               imgPath={require('./require_images/Workshop-Atul.png')}
+              workShopTime="1PM TO 4PM"
             />
           }
         ></Route>
@@ -116,6 +121,7 @@ function App() {
               workShopDate="16/07/2022"
               workShopLink="Coming Soon"
               imgPath={require('./require_images/Workshop-tanay.png')}
+              workShopTime="1PM TO 4PM"
             />
           }
         ></Route>
@@ -128,6 +134,7 @@ function App() {
               workShopDate="17/07/2022"
               workShopLink="Coming Soon"
               imgPath={require('./require_images/Workshop-Prince.png')}
+              workShopTime="1PM TO 4PM"
             />
           }
         ></Route>
