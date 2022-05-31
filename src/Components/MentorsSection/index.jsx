@@ -9,7 +9,7 @@ const MentorsSection = () => {
         <h2 className="judges__title">Mentors</h2>
         <div className="judges-grid">
           <JudgeCard
-            name="Shabnam"
+            name="Shabnam Sandhi"
             work="Associate Project Manager"
             company="MICROSOFT"
             image={require('../../require_images/judges/Shabnam.png')}
