@@ -137,6 +137,13 @@ function EventsSection(props) {
             workshopName={workshops[3].slug}
           />
           <Card
+            image={require('../../require_images/Workshop-Atul-event.png')}
+            name="Atul Khola"
+            description="MOTION DESIGN WORKSHOP"
+            date="12/06/2022"
+            workshopName={workshops[4].slug}
+          />
+          <Card
             image={require('../../require_images/Workshop-Shravan-event.png')}
             name="SHRAVAN TICKOO"
             description="DESIGN WORKSHOP"
@@ -144,18 +151,11 @@ function EventsSection(props) {
             workshopName={workshops[2].slug}
           />
           <Card
-            image={require('../../require_images/Workshop-JOGANDEEP-event.png')}
-            name="JOBAN SINGH"
-            description="INTERACTION WORKSHOP"
-            date="23/07/2022"
-            workshopName={workshops[0].slug}
-          />
-          <Card
-            image={require('../../require_images/Workshop-Atul-event.png')}
-            name="Atul Khola"
-            description="MOTION DESIGN WORKSHOP"
-            date="12/06/2022"
-            workshopName={workshops[4].slug}
+            image={require('../../require_images/Workshop-Luis-event.png')}
+            name="LUIS OURIACH"
+            description="GETTING STARTED WITH FIGMA"
+            date="03/07/2022"
+            workshopName={workshops[9].slug}
           />
           <Card
             image={require('../../require_images/Workshop-tanay-event.png')}
@@ -170,6 +170,27 @@ function EventsSection(props) {
             description="RESUME BUILDING WORKSHOP"
             date="17/07/2022"
             workshopName={workshops[6].slug}
+          />
+          <Card
+            image={require('../../require_images/Workshop-JOGANDEEP-event.png')}
+            name="JOBAN SINGH"
+            description="INTERACTION WORKSHOP"
+            date="23/07/2022"
+            workshopName={workshops[0].slug}
+          />
+          <Card
+            image={require('../../require_images/Workshop-Sunil-event.png')}
+            name="SUNIL SONI"
+            description="BACKEND DEVELOPMENT WORKSHOP"
+            date="24/07/2022"
+            workshopName={workshops[7].slug}
+          />
+          <Card
+            image={require('../../require_images/Workshop-Ali-event.png')}
+            name="ALI SHAIKH"
+            description="APIs 101 using POSTMAN"
+            date="30/07/2022"
+            workshopName={workshops[8].slug}
           />
 
           {/* <Card />

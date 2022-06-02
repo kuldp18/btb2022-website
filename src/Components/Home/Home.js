@@ -12,6 +12,8 @@ import { Faq } from '../Faq/Faq';
 import Sponsors from '../Sponsors/Sponsors';
 import PrizesSection from '../PrizesSection';
 import EventsSection from '../EventsSection';
+import JudgesSection from '../JudgesSection';
+import MentorsSection from '../MentorsSection';
 
 export const Home = () => {
   return (
@@ -93,6 +95,8 @@ export const Home = () => {
       <TimeLine />
       <Sponsors />
       <EventsSection />
+      <JudgesSection />
+      <MentorsSection />
       <PrizesSection />
       <Faq />
       <Footer />

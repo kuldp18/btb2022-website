@@ -71,7 +71,11 @@ export const AboutUs = () => {
                 marginTop: '2rem',
               }}
             >
-              <p>
+              <p
+                style={{
+                  textTransform: 'none',
+                }}
+              >
                 The mission of KSV University, LDRP-ITR, and Break The Barrier
                 is to inspire developers to develop ingenious solutions. We
                 aspire in the virtual world to illuminate the real world. It’s
@@ -82,13 +86,22 @@ export const AboutUs = () => {
               <p
                 style={{
                   marginBottom: '3rem',
+                  textTransform: 'none',
                 }}
               >
                 Featured workshops and mentorship sessions backed by industry
                 specialists, senior developers, and professionals. 14+ workshops
                 are going to be hosted in June-July 2022. Be ready to dive deep
-                into a huge pool of knowledge. [Go to the timeline and
-                workshops…]
+                into a huge pool of knowledge.{' '}
+                <a
+                  href="#timeline"
+                  style={{
+                    textDecoration: 'none',
+                    color: '#ff5148',
+                  }}
+                >
+                  Learn More
+                </a>
               </p>
               <span
                 style={{
