@@ -41,12 +41,7 @@ const JudgesSection = () => {
             company="CRED"
             image={require('../../require_images/judges/Atul.png')}
           />
-          <JudgeCard
-            name="Jaydip Dey"
-            work="Chapter Lead"
-            company="GIRLSCRIPT"
-            image={require('../../require_images/judges/Jaydip.png')}
-          />
+
           <JudgeCard
             name="Deepanshu Jain"
             work="Software Engineer"
@@ -58,6 +53,12 @@ const JudgesSection = () => {
             work="Software Development Manager III"
             company="AMAZON"
             image={require('../../require_images/judges/Udit.png')}
+          />
+          <JudgeCard
+            name="Gourav Rusiya"
+            work="Software Development Engineer II"
+            company="AMAZON"
+            image={require('../../require_images/judges/Gourav.png')}
           />
         </div>
       </section>

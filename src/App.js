@@ -7,7 +7,7 @@ import { IoIosArrowUp } from 'react-icons/io';
 import { Route, Routes } from 'react-router-dom';
 import WorkshopPage from './Components/WorkshopPage';
 import workshops from './JSON/workshopNames.json';
-
+const parse = require('html-react-parser');
 function App() {
   const x = 0;
   const y = -2;
@@ -91,7 +91,8 @@ function App() {
           element={
             <WorkshopPage
               workShopTitle="Data Engineering Workshop"
-              workShopDetails=""
+              workShopDetails="11/06/2022 - Data Engineering & Data Science,
+              12/06/2022 - SnowFlake"
               workShopDate="11/06/2022 & 12/06/2022"
               workShopLink="Coming Soon"
               workShopTime="5PM Onwards"
@@ -135,6 +136,45 @@ function App() {
               workShopLink="Coming Soon"
               imgPath={require('./require_images/Workshop-Prince.png')}
               workShopTime="1PM TO 4PM"
+            />
+          }
+        ></Route>
+        <Route
+          path={workshops[7].slug}
+          element={
+            <WorkshopPage
+              workShopTitle="Backend Development Workshop"
+              workShopDetails=""
+              workShopDate="24/07/2022"
+              workShopLink="Coming Soon"
+              imgPath={require('./require_images/Workshop-Sunil.png')}
+              workShopTime="1 PM TO 4 PM"
+            />
+          }
+        ></Route>
+        <Route
+          path={workshops[8].slug}
+          element={
+            <WorkshopPage
+              workShopTitle="APIs 101 with POSTMAN"
+              workShopDetails=""
+              workShopDate="30/07/2022"
+              workShopLink="Coming Soon"
+              imgPath={require('./require_images/Workshop-Ali.png')}
+              workShopTime="1 PM TO 4 PM"
+            />
+          }
+        ></Route>
+        <Route
+          path={workshops[9].slug}
+          element={
+            <WorkshopPage
+              workShopTitle="Getting Started with FIGMA"
+              workShopDetails=""
+              workShopDate="03/07/2022"
+              workShopLink="Coming Soon"
+              imgPath={require('./require_images/Workshop-Luis.png')}
+              workShopTime="1 PM TO 4 PM"
             />
           }
         ></Route>

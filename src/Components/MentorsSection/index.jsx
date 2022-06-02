@@ -14,6 +14,12 @@ const MentorsSection = () => {
             company="MICROSOFT"
             image={require('../../require_images/judges/Shabnam.png')}
           />
+          <JudgeCard
+            name="Muskan Jain"
+            work="Software Engineer"
+            company="MICROSOFT"
+            image={require('../../require_images/judges/muskan.png')}
+          />
         </div>
       </section>
     </>

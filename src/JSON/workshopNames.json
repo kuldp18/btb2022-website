@@ -33,5 +33,20 @@
     "id": 6,
     "name": "Resume Building Workshop",
     "slug": "resume-building-workshop"
+  },
+  {
+    "id": 7,
+    "name": "Backend Development Workshop",
+    "slug": "backend-development-workshop"
+  },
+  {
+    "id": 8,
+    "name": "APIs 101 with POSTMAN",
+    "slug": "apis-with-postman"
+  },
+  {
+    "id": 9,
+    "name": "Getting Started with Figma",
+    "slug": "getting-started-with-figma"
   }
 ]

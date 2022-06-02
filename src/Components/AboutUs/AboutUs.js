@@ -92,8 +92,16 @@ export const AboutUs = () => {
                 Featured workshops and mentorship sessions backed by industry
                 specialists, senior developers, and professionals. 14+ workshops
                 are going to be hosted in June-July 2022. Be ready to dive deep
-                into a huge pool of knowledge. [Go to the timeline and
-                workshops…]
+                into a huge pool of knowledge.{' '}
+                <a
+                  href="#timeline"
+                  style={{
+                    textDecoration: 'none',
+                    color: '#ff5148',
+                  }}
+                >
+                  Learn More
+                </a>
               </p>
               <span
                 style={{
