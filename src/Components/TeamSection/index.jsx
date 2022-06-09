@@ -49,7 +49,7 @@ const TeamSection = () => {
             <div className="team-profile-card">
               <div className="profile-image-container">
                 <img
-                  src={require('./team-raw-images/ShlokPatel_logistics.jpeg')}
+                  src={require('./team-raw-images/Shlok_logistics.jpg')}
                   alt="Shlok Patel"
                   className="profile-image"
                 />

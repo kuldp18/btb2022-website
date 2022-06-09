@@ -66,6 +66,11 @@ const Sponsors = () => {
             image={require('../../require_images/CE.png')}
             name="Coders Evoke"
           />
+          <SponsorCard
+            image={require('../../require_images/DigitalOcean.png')}
+            name="Digital Ocean"
+            url="https://digitalocean.com"
+          />
         </div>
       </section>
     </>
