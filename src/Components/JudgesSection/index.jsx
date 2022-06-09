@@ -18,10 +18,10 @@ const JudgesSection = () => {
             image={require('../../require_images/judges/Anjali_Sheel.png')}
           />
           <JudgeCard
-            name="Shabnam Sandhi"
-            work="Associate Project Manager"
-            company="MICROSOFT"
-            image={require('../../require_images/judges/Shabnam.png')}
+            name="Saborni Das"
+            work="Cloud Consultant"
+            company="GOOGLE"
+            image={require('../../require_images/judges/SaborniDas.png')}
           />
           <JudgeCard
             name="Luis Ouriach"

@@ -52,7 +52,7 @@ function App() {
           element={
             <WorkshopPage
               workShopTitle="Interaction Workshop"
-              workShopDetails=""
+              workShopDetails="Q/A on How to CRACK Product based COMPANIES."
               workShopDate="23/07/2022"
               workShopLink="Coming Soon"
               imgPath={require('./require_images/Workshop-Joban.png')}
@@ -78,7 +78,7 @@ function App() {
           element={
             <WorkshopPage
               workShopTitle="Design Workshop"
-              workShopDetails=""
+              workShopDetails="Introduction to Product Management - Who is a Product Manager, required skillset, how to find a PM job & how to become a stellar Product Manager."
               workShopDate="02/07/2022"
               workShopLink="Coming Soon"
               imgPath={require('./require_images/Workshop-Shravan.png')}
@@ -171,10 +171,10 @@ function App() {
             <WorkshopPage
               workShopTitle="Getting Started with FIGMA"
               workShopDetails=""
-              workShopDate="03/07/2022"
+              workShopDate="30/06/2022"
               workShopLink="Coming Soon"
               imgPath={require('./require_images/Workshop-Luis.png')}
-              workShopTime="1 PM TO 4 PM"
+              workShopTime="4 PM TO 5 PM"
             />
           }
         ></Route>
