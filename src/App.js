@@ -47,6 +47,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/team" element={<TeamSection />}></Route>
+        <Route path="*" element={<Home />}></Route>
+
         <Route
           path={workshops[0].slug}
           element={
