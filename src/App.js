@@ -72,6 +72,8 @@ function App() {
               workShopLink="Coming Soon"
               workShopTime="1PM to 4PM"
               imgPath={require('./require_images/Workshop-Ankit.png')}
+              completed={true}
+              ytLink="https://youtu.be/5yv3L4oPUJM"
             />
           }
         ></Route>
@@ -85,6 +87,8 @@ function App() {
               workShopLink="Coming Soon"
               imgPath={require('./require_images/Workshop-Shravan.png')}
               workShopTime="1PM TO 4PM"
+              completed={true}
+              ytLink="https://youtu.be/KaZynOQvhPM"
             />
           }
         ></Route>
@@ -99,6 +103,8 @@ function App() {
               workShopLink="Coming Soon"
               workShopTime="5PM Onwards"
               imgPath={require('./require_images/Workshop-Rahul.png')}
+              completed={true}
+              ytLink="https://youtu.be/LdfvvJovVac"
             />
           }
         ></Route>
@@ -112,6 +118,8 @@ function App() {
               workShopLink="Coming Soon"
               imgPath={require('./require_images/Workshop-Atul.png')}
               workShopTime="1PM TO 4PM"
+              completed={true}
+              ytLink="https://youtu.be/aejNnGMVZfg"
             />
           }
         ></Route>
@@ -178,6 +186,8 @@ function App() {
               workShopLink="Coming Soon"
               imgPath={require('./require_images/Workshop-Luis.png')}
               workShopTime="4PM TO 5PM"
+              completed={true}
+              ytLink="https://youtu.be/pbXMCSrpRlk"
             />
           }
         ></Route>
@@ -192,6 +202,8 @@ function App() {
               workShopLink="Coming Soon"
               imgPath={require('./require_images/Workshop-Luis.png')}
               workShopTime="9:30 AM TO 12:00 PM"
+              completed={true}
+              ytLink="https://youtu.be/HFtEypXpoaY"
             />
           }
         ></Route>

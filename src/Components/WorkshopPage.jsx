@@ -25,7 +25,9 @@ function WorkshopPage({
               <h1>{workShopTitle}</h1>
               <button>
                 <a
-                  href="https://forms.gle/V8ceiVxjnk8x7RkC8"
+                  href={
+                    completed ? ytLink : 'https://forms.gle/V8ceiVxjnk8x7RkC8'
+                  }
                   target="_blank"
                   style={{
                     color: 'white',
