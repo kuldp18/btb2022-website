@@ -389,20 +389,6 @@ const TeamSection = () => {
               </div>
             </div>
 
-            <div className="team-profile-card">
-              <div className="profile-image-container">
-                <img
-                  alt="Krishita Viroja"
-                  className="profile-image"
-                  src={require('./team-raw-images/KrishitaViroja_Logistics.jpeg')}
-                />
-              </div>
-              <div className="profile-about-container">
-                <h1 className="profile-about-name">Krishita Viroja</h1>
-                <h4 className="profile-about-description">Team Logistics</h4>
-              </div>
-            </div>
-
             {/* logitics end */}
 
             {/* web dev team start */}
