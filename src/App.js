@@ -200,7 +200,7 @@ function App() {
               workShopDetails=""
               workShopDate="09/07/2022"
               workShopLink="Coming Soon"
-              imgPath={require('./require_images/Workshop-Luis.png')}
+              imgPath={require('./require_images/Workshop-Wesley.png')}
               workShopTime="9:30 AM TO 12:00 PM"
               completed={true}
               ytLink="https://youtu.be/HFtEypXpoaY"
@@ -216,7 +216,7 @@ function App() {
               workShopDetails=""
               workShopDate="23/07/2022"
               workShopLink="Coming Soon"
-              imgPath={require('./require_images/Workshop-Luis.png')}
+              imgPath={require('./require_images/Workshop-Nikhil.png')}
               workShopTime="5:30 PM ONWARDS"
             />
           }
@@ -230,7 +230,7 @@ function App() {
               workShopDetails=""
               workShopDate="31/07/2022"
               workShopLink="Coming Soon"
-              imgPath={require('./require_images/Workshop-Luis.png')}
+              imgPath={require('./require_images/Workshop-Khush.png')}
               workShopTime="1PM TO 4PM"
             />
           }
@@ -244,7 +244,7 @@ function App() {
               workShopDetails=""
               workShopDate="06/08/2022"
               workShopLink="Coming Soon"
-              imgPath={require('./require_images/Workshop-Luis.png')}
+              imgPath={require('./require_images/Workshop-Saborni.png')}
               workShopTime="1PM TO 4PM"
             />
           }

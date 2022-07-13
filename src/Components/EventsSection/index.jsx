@@ -168,7 +168,7 @@ function EventsSection(props) {
             ytLink="https://youtu.be/KaZynOQvhPM"
           />
           <Card
-            image={require('../../require_images/Workshop-Shravan-event.png')}
+            image={require('../../require_images/Workshop-Wesley-event.png')}
             name="Wesley Chun"
             description={workshops[10].name}
             date="09/07/2022"
@@ -199,7 +199,7 @@ function EventsSection(props) {
             workshopName={workshops[0].slug}
           />
           <Card
-            image={require('../../require_images/Workshop-JOGANDEEP-event.png')}
+            image={require('../../require_images/Workshop-Nikhil-event.png')}
             name="NIKHIL APARAJIT"
             description="WEB3 WORKSHOP"
             date="23/07/2022"
@@ -220,14 +220,14 @@ function EventsSection(props) {
             workshopName={workshops[8].slug}
           />
           <Card
-            image={require('../../require_images/Workshop-Ali-event.png')}
+            image={require('../../require_images/Workshop-Khush-event.png')}
             name="KHUSH GANDHI"
             description="FULL STACK DEVELOPMENT"
             date="31/07/2022"
             workshopName={workshops[12].slug}
           />
           <Card
-            image={require('../../require_images/Workshop-Ali-event.png')}
+            image={require('../../require_images/Workshop-Saborni-event.png')}
             name="SABORNI DAS"
             description="DEVOPS WORKSHOP"
             date="06/08/2022"
