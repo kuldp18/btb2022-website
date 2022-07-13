@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../Styles/Sponsors.css';
-import SponsorImage from '../../require_images/sponsor-image.png';
+// import SponsorImage from '../../require_images/sponsor-image.png';
 import SponsorCard from './SponsorCard';
 
 const Sponsors = () => {
@@ -24,8 +24,19 @@ const Sponsors = () => {
             url="https://www.taskade.com/"
           />
           <SponsorCard
-            image={require('../../require_images/gsdc.png')}
-            name="GDSC"
+            image={require('../../require_images/DigitalOcean.png')}
+            name="Digital Ocean"
+            url="https://digitalocean.com"
+          />
+          <SponsorCard
+            image={require('../../require_images/github-dark.png')}
+            name="Github"
+            url="https://github.com"
+          />
+          <SponsorCard
+            image={require('../../require_images/mongodb.png')}
+            name="MongoDB"
+            url="https://mongodb.com"
           />
           <SponsorCard
             image={require('../../require_images/xyz logo final.png')}
@@ -65,11 +76,6 @@ const Sponsors = () => {
           <SponsorCard
             image={require('../../require_images/CE.png')}
             name="Coders Evoke"
-          />
-          <SponsorCard
-            image={require('../../require_images/DigitalOcean.png')}
-            name="Digital Ocean"
-            url="https://digitalocean.com"
           />
         </div>
       </section>
