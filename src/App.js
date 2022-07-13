@@ -72,6 +72,8 @@ function App() {
               workShopLink="Coming Soon"
               workShopTime="1PM to 4PM"
               imgPath={require('./require_images/Workshop-Ankit.png')}
+              completed={true}
+              ytLink="https://youtu.be/5yv3L4oPUJM"
             />
           }
         ></Route>
@@ -85,6 +87,8 @@ function App() {
               workShopLink="Coming Soon"
               imgPath={require('./require_images/Workshop-Shravan.png')}
               workShopTime="1PM TO 4PM"
+              completed={true}
+              ytLink="https://youtu.be/KaZynOQvhPM"
             />
           }
         ></Route>
@@ -99,6 +103,8 @@ function App() {
               workShopLink="Coming Soon"
               workShopTime="5PM Onwards"
               imgPath={require('./require_images/Workshop-Rahul.png')}
+              completed={true}
+              ytLink="https://youtu.be/LdfvvJovVac"
             />
           }
         ></Route>
@@ -112,6 +118,8 @@ function App() {
               workShopLink="Coming Soon"
               imgPath={require('./require_images/Workshop-Atul.png')}
               workShopTime="1PM TO 4PM"
+              completed={true}
+              ytLink="https://youtu.be/aejNnGMVZfg"
             />
           }
         ></Route>
@@ -150,7 +158,7 @@ function App() {
               workShopDate="24/07/2022"
               workShopLink="Coming Soon"
               imgPath={require('./require_images/Workshop-Sunil.png')}
-              workShopTime="1 PM TO 4 PM"
+              workShopTime="1PM TO 4PM"
             />
           }
         ></Route>
@@ -163,10 +171,11 @@ function App() {
               workShopDate="30/07/2022"
               workShopLink="Coming Soon"
               imgPath={require('./require_images/Workshop-Ali.png')}
-              workShopTime="1 PM TO 4 PM"
+              workShopTime="1PM TO 4PM"
             />
           }
         ></Route>
+
         <Route
           path={workshops[9].slug}
           element={
@@ -176,7 +185,67 @@ function App() {
               workShopDate="30/06/2022"
               workShopLink="Coming Soon"
               imgPath={require('./require_images/Workshop-Luis.png')}
-              workShopTime="4 PM TO 5 PM"
+              workShopTime="4PM TO 5PM"
+              completed={true}
+              ytLink="https://youtu.be/pbXMCSrpRlk"
+            />
+          }
+        ></Route>
+
+        <Route
+          path={workshops[10].slug}
+          element={
+            <WorkshopPage
+              workShopTitle={workshops[10].name}
+              workShopDetails=""
+              workShopDate="09/07/2022"
+              workShopLink="Coming Soon"
+              imgPath={require('./require_images/Workshop-Wesley.png')}
+              workShopTime="9:30 AM TO 12:00 PM"
+              completed={true}
+              ytLink="https://youtu.be/HFtEypXpoaY"
+            />
+          }
+        ></Route>
+
+        <Route
+          path={workshops[11].slug}
+          element={
+            <WorkshopPage
+              workShopTitle={workshops[11].name}
+              workShopDetails=""
+              workShopDate="23/07/2022"
+              workShopLink="Coming Soon"
+              imgPath={require('./require_images/Workshop-Nikhil.png')}
+              workShopTime="5:30 PM ONWARDS"
+            />
+          }
+        ></Route>
+
+        <Route
+          path={workshops[12].slug}
+          element={
+            <WorkshopPage
+              workShopTitle={workshops[12].name}
+              workShopDetails=""
+              workShopDate="31/07/2022"
+              workShopLink="Coming Soon"
+              imgPath={require('./require_images/Workshop-Khush.png')}
+              workShopTime="1PM TO 4PM"
+            />
+          }
+        ></Route>
+
+        <Route
+          path={workshops[13].slug}
+          element={
+            <WorkshopPage
+              workShopTitle={workshops[13].name}
+              workShopDetails=""
+              workShopDate="06/08/2022"
+              workShopLink="Coming Soon"
+              imgPath={require('./require_images/Workshop-Saborni.png')}
+              workShopTime="1PM TO 4PM"
             />
           }
         ></Route>
