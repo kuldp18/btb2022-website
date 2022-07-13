@@ -9,6 +9,8 @@ function WorkshopPage({
   workShopLink,
   imgPath,
   workShopTime,
+  completed,
+  ytLink,
 }) {
   return (
     <>
@@ -16,7 +18,7 @@ function WorkshopPage({
       <div className="WorkShop-page">
         <div className="iq_workshop-details-container">
           {/* Poster */}
-          <img src={imgPath} alt="Workshop from Shravan" className="whop-img" />
+          <img src={imgPath} alt={workShopTitle} className="whop-img" />
           <div className="iq_workshop-data">
             {/* Title and Register Now Button */}
             <div className="iq_workshop_title">
@@ -30,7 +32,7 @@ function WorkshopPage({
                     textDecoration: 'none',
                   }}
                 >
-                  Register Now
+                  {completed ? 'Watch Now' : 'Register Now'}
                 </a>
               </button>
             </div>
@@ -42,18 +44,27 @@ function WorkshopPage({
               <span>Date :</span>
               {workShopDate}
             </p>
-            <p className="iq_workshop_date">
-              <span>Time :</span>
-              {workShopTime}
-            </p>
-            <p className="iq_workshop_date">
-              <span>Workshop Link :</span>
-              {workShopLink}
-            </p>
+            {completed ? (
+              ''
+            ) : (
+              <>
+                <p className="iq_workshop_date">
+                  <span>Time :</span>
+                  {workShopTime}
+                </p>
 
-            {/* Interest */}
-            <p className="iq_interest">Interested in attending workshop ?</p>
-            <p className="iq_interest">Click on Register Now</p>
+                <p className="iq_workshop_date">
+                  <span>Workshop Link :</span>
+                  {workShopLink}
+                </p>
+
+                {/* Interest */}
+                <p className="iq_interest">
+                  Interested in attending workshop ?
+                </p>
+                <p className="iq_interest">Click on Register Now</p>
+              </>
+            )}
           </div>
         </div>
       </div>

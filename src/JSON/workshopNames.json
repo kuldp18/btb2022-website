@@ -53,5 +53,20 @@
     "id": 10,
     "name": "Workspace & AI/ML API's + Serverless Workshop",
     "slug": "ai-ml-serverless-workshop"
+  },
+  {
+    "id": 11,
+    "name": "Web3 Workshop",
+    "slug": "web3-workshop"
+  },
+  {
+    "id": 12,
+    "name": "Full Stack Development Workshop",
+    "slug": "full-stack-development-workshop"
+  },
+  {
+    "id": 13,
+    "name": "DevOps Workshop",
+    "slug": "devops-workshop"
   }
 ]

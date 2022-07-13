@@ -199,6 +199,13 @@ function EventsSection(props) {
             workshopName={workshops[0].slug}
           />
           <Card
+            image={require('../../require_images/Workshop-JOGANDEEP-event.png')}
+            name="NIKHIL APARAJIT"
+            description="WEB3 WORKSHOP"
+            date="23/07/2022"
+            workshopName={workshops[11].slug}
+          />
+          <Card
             image={require('../../require_images/Workshop-Sunil-event.png')}
             name="SUNIL SONI"
             description="BACKEND DEVELOPMENT WORKSHOP"
@@ -211,6 +218,20 @@ function EventsSection(props) {
             description="APIs 101 using POSTMAN"
             date="30/07/2022"
             workshopName={workshops[8].slug}
+          />
+          <Card
+            image={require('../../require_images/Workshop-Ali-event.png')}
+            name="KHUSH GANDHI"
+            description="FULL STACK DEVELOPMENT"
+            date="31/07/2022"
+            workshopName={workshops[12].slug}
+          />
+          <Card
+            image={require('../../require_images/Workshop-Ali-event.png')}
+            name="SABORNI DAS"
+            description="DEVOPS WORKSHOP"
+            date="06/08/2022"
+            workshopName={workshops[13].slug}
           />
 
           {/* <Card />
