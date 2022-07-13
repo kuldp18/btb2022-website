@@ -128,6 +128,8 @@ function EventsSection(props) {
             description="SQL WORKSHOP"
             date="11/06/2022"
             workshopName={workshops[1].slug}
+            completed={true}
+            ytLink="https://youtu.be/5yv3L4oPUJM"
           />
           <Card
             image={require('../../require_images/Workshop-Rahul-event.png')}
@@ -135,6 +137,8 @@ function EventsSection(props) {
             description="DATA ENGINEERING WORKSHOP"
             date="11/06/2022 & 12/06/2022"
             workshopName={workshops[3].slug}
+            completed={true}
+            ytLink="https://youtu.be/LdfvvJovVac"
           />
           <Card
             image={require('../../require_images/Workshop-Atul-event.png')}
@@ -142,6 +146,8 @@ function EventsSection(props) {
             description="MOTION DESIGN WORKSHOP"
             date="12/06/2022"
             workshopName={workshops[4].slug}
+            completed={true}
+            ytLink="https://youtu.be/aejNnGMVZfg"
           />
           <Card
             image={require('../../require_images/Workshop-Luis-event.png')}
@@ -149,6 +155,8 @@ function EventsSection(props) {
             description="GETTING STARTED WITH FIGMA"
             date="30/06/2022"
             workshopName={workshops[9].slug}
+            completed={true}
+            ytLink="https://youtu.be/pbXMCSrpRlk"
           />
           <Card
             image={require('../../require_images/Workshop-Shravan-event.png')}
@@ -156,6 +164,17 @@ function EventsSection(props) {
             description="DESIGN WORKSHOP"
             date="02/07/2022"
             workshopName={workshops[2].slug}
+            completed={true}
+            ytLink="https://youtu.be/KaZynOQvhPM"
+          />
+          <Card
+            image={require('../../require_images/Workshop-Shravan-event.png')}
+            name="Wesley Chun"
+            description={workshops[10].name}
+            date="09/07/2022"
+            workshopName={workshops[10].slug}
+            completed={true}
+            ytLink="https://youtu.be/HFtEypXpoaY"
           />
 
           <Card

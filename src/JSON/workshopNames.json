@@ -48,5 +48,10 @@
     "id": 9,
     "name": "Getting Started with Figma",
     "slug": "getting-started-with-figma"
+  },
+  {
+    "id": 10,
+    "name": "Workspace & AI/ML API's + Serverless Workshop",
+    "slug": "ai-ml-serverless-workshop"
   }
 ]

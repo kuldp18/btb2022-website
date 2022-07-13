@@ -3,7 +3,15 @@ import React from 'react';
 import rectangle from '../../require_images/rectangle.jpg';
 import { Link } from 'react-router-dom';
 
-export default function Card({ image, name, date, description, workshopName }) {
+export default function Card({
+  image,
+  name,
+  date,
+  description,
+  workshopName,
+  completed,
+  ytLink,
+}) {
   return (
     <>
       <div
@@ -68,14 +76,14 @@ export default function Card({ image, name, date, description, workshopName }) {
           }}
         >
           <a
-            href="https://forms.gle/V8ceiVxjnk8x7RkC8"
+            href={completed ? ytLink : 'https://forms.gle/V8ceiVxjnk8x7RkC8'}
             target="_blank"
             style={{
               textDecoration: 'none',
               color: 'white',
             }}
           >
-            Register Now
+            {completed ? 'Watch Now' : 'Register Now'}
           </a>
         </button>
         <button
