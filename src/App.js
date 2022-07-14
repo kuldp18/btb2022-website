@@ -6,7 +6,10 @@ import TeamSection from './Components/TeamSection';
 import { IoIosArrowUp } from 'react-icons/io';
 import { Route, Routes } from 'react-router-dom';
 import WorkshopPage from './Components/WorkshopPage';
+import MentorTalkPage from './Components/MentorTalkPage';
 import workshops from './JSON/workshopNames.json';
+import mentorTalks from './JSON/mentorTalks.json';
+
 const parse = require('html-react-parser');
 function App() {
   const x = 0;
@@ -246,6 +249,60 @@ function App() {
               workShopLink="Coming Soon"
               imgPath={require('./require_images/Workshop-Saborni.png')}
               workShopTime="1PM TO 4PM"
+            />
+          }
+        ></Route>
+
+        {/* mentor talks */}
+        <Route
+          path={mentorTalks[0].slug}
+          element={
+            <MentorTalkPage
+              talkTitle={mentorTalks[0].name}
+              talkDetails={mentorTalks[0].details}
+              talkDate={mentorTalks[0].date}
+              talkLink={mentorTalks[0].talkLink}
+              imgPath={require('./require_images/Workshop-Saborni.png')}
+              talkTime={mentorTalks[0].time}
+            />
+          }
+        ></Route>
+        <Route
+          path={mentorTalks[1].slug}
+          element={
+            <MentorTalkPage
+              talkTitle={mentorTalks[1].name}
+              talkDetails={mentorTalks[1].details}
+              talkDate={mentorTalks[1].date}
+              talkLink={mentorTalks[1].talkLink}
+              imgPath={require('./require_images/Workshop-Saborni.png')}
+              talkTime={mentorTalks[1].time}
+            />
+          }
+        ></Route>
+        <Route
+          path={mentorTalks[2].slug}
+          element={
+            <MentorTalkPage
+              talkTitle={mentorTalks[2].name}
+              talkDetails={mentorTalks[2].details}
+              talkDate={mentorTalks[2].date}
+              talkLink={mentorTalks[2].talkLink}
+              imgPath={require('./require_images/Workshop-Saborni.png')}
+              talkTime={mentorTalks[2].time}
+            />
+          }
+        ></Route>
+        <Route
+          path={mentorTalks[3].slug}
+          element={
+            <MentorTalkPage
+              talkTitle={mentorTalks[3].name}
+              talkDetails={mentorTalks[3].details}
+              talkDate={mentorTalks[3].date}
+              talkLink={mentorTalks[3].talkLink}
+              imgPath={require('./require_images/Workshop-Saborni.png')}
+              talkTime={mentorTalks[3].time}
             />
           }
         ></Route>
