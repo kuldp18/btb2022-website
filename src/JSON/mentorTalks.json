@@ -1,0 +1,49 @@
+[
+  {
+    "id": 0,
+    "name": "How to transfer technical expertise into leadership",
+    "mentor": "Nupur Bartwal",
+    "date": "24/07/2022",
+    "time": "5PM",
+    "slug": "talk/talk-1",
+    "details": "",
+    "talkLink": "",
+    "ytLink": ""
+  },
+
+  {
+    "id": 1,
+    "name": "Leadership Development",
+    "mentor": "Vishal Gupta",
+    "date": "12/08/2022",
+    "time": "2:30 PM TO 4:30 PM",
+    "slug": "talk/talk-2",
+    "details": "",
+    "talkLink": "",
+    "ytLink": ""
+  },
+
+  {
+    "id": 2,
+    "name": "Quantum Computing / ML",
+    "mentor": "Sanjay Kumar",
+    "date": "13/08/2022",
+    "time": "10:30 AM",
+    "slug": "talk/talk-3",
+    "details": "",
+    "talkLink": "",
+    "ytLink": ""
+  },
+
+  {
+    "id": 3,
+    "name": "Prepare for USA",
+    "mentor": "Shreya Singh",
+    "date": "13/08/2022",
+    "time": "10:00 PM",
+    "slug": "talk/talk-4",
+    "details": "",
+    "talkLink": "",
+    "ytLink": ""
+  }
+]
