@@ -149,15 +149,16 @@ body {
   flex-wrap: nowrap;
   overflow-x: auto;
   /* border: 1px solid red; */
-  padding: 1rem;
+  /* padding: 1rem; */
   width: 100%;
+  scroll-behavior: smooth;
 }
 
 /* hide scrollbar but allow scrolling */
 .sponsors-display {
   -ms-overflow-style: none; /* for Internet Explorer, Edge */
   scrollbar-width: none; /* for Firefox */
-  overflow-y: scroll;
+  overflow-y: none;
 }
 /* 
 .sponsors-display::-webkit-scrollbar {
@@ -170,8 +171,15 @@ body {
 }
 
 .sponsor-item-image {
-  object-fit: cover;
-  width: 300px;
+  object-fit: contain;
+  width: 100px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.sponsor-item-image:hover {
+  -webkit-filter: none;
+  filter: none;
 }
 
 /* sponsors revamp end */
