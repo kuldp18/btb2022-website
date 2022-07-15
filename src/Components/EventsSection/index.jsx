@@ -280,7 +280,7 @@ function EventsSection(props) {
           width: '100vw',
           maxHeight: '200px',
           position: 'absolute',
-          top: '-15%',
+          top: '-12%',
           zIndex: '99',
         }}
       />
