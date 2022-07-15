@@ -98,7 +98,7 @@ function TimeLine(props) {
           )}
         </div>
       </div>
-      <Separator />
+      {/* <Separator /> */}
     </>
   );
 }

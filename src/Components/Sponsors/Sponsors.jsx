@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../Styles/Sponsors.css';
-// import SponsorImage from '../../require_images/sponsor-image.png';
-import SponsorCard from './SponsorCard';
+import SponsorImage from '../../require_images/sponsor-image.png';
+// import SponsorCard from './SponsorCard';
 
 const Sponsors = () => {
   return (
@@ -16,8 +16,11 @@ const Sponsors = () => {
           Partners
         </h1>
 
+        {/* sponsor revamp */}
+
+        {/* sponsor old */}
         {/* sponsors card grid */}
-        <div className="sponsors-cards-grid">
+        {/* <div className="sponsors-cards-grid">
           <SponsorCard
             image={require('../../require_images/taskade-circle-icon.png')}
             name="Taskcade"
@@ -77,7 +80,7 @@ const Sponsors = () => {
             image={require('../../require_images/CE.png')}
             name="Coders Evoke"
           />
-        </div>
+        </div> */}
       </section>
     </>
   );
