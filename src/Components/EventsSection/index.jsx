@@ -275,15 +275,15 @@ function EventsSection(props) {
           />
         </Slider>
       </div> */}
-      {/* <Separator2
+      <Separator2
         styles={{
           width: '100vw',
           maxHeight: '200px',
           position: 'absolute',
-          top: '-25%',
+          top: '-15%',
           zIndex: '99',
         }}
-      /> */}
+      />
     </div>
   );
 }
