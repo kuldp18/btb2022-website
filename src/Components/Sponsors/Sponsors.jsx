@@ -1,6 +1,7 @@
 import React from 'react';
 import '../../Styles/Sponsors.css';
 import SponsorImage from '../../require_images/sponsor-image.png';
+import Marquee from 'react-fast-marquee';
 // import SponsorCard from './SponsorCard';
 
 const Sponsors = () => {
@@ -15,6 +16,79 @@ const Sponsors = () => {
         >
           Partners
         </h1>
+
+        {/* <div className="sponsors-display"> */}
+        <Marquee
+          pauseOnHover={true}
+          speed={30}
+          gradient={false}
+          className="sponsors-display"
+        >
+          <div className="sponsor-item">
+            <a href="#" target="_blank">
+              <img
+                src="https://picsum.photos/500/200"
+                alt="sponsor-image"
+                className="sponsor-item-image"
+              />
+            </a>
+          </div>
+          <div className="sponsor-item">
+            <a href="#" target="_blank">
+              <img
+                src="https://picsum.photos/500/200"
+                alt="sponsor-image"
+                className="sponsor-item-image"
+              />
+            </a>
+          </div>
+          <div className="sponsor-item">
+            <a href="#" target="_blank">
+              <img
+                src="https://picsum.photos/500/200"
+                alt="sponsor-image"
+                className="sponsor-item-image"
+              />
+            </a>
+          </div>
+          <div className="sponsor-item">
+            <a href="#" target="_blank">
+              <img
+                src="https://picsum.photos/500/200"
+                alt="sponsor-image"
+                className="sponsor-item-image"
+              />
+            </a>
+          </div>
+          <div className="sponsor-item">
+            <a href="#" target="_blank">
+              <img
+                src="https://picsum.photos/500/200"
+                alt="sponsor-image"
+                className="sponsor-item-image"
+              />
+            </a>
+          </div>
+          <div className="sponsor-item">
+            <a href="#" target="_blank">
+              <img
+                src="https://picsum.photos/500/200"
+                alt="sponsor-image"
+                className="sponsor-item-image"
+              />
+            </a>
+          </div>
+          <div className="sponsor-item">
+            <a href="#" target="_blank">
+              <img
+                src="https://picsum.photos/500/200"
+                alt="sponsor-image"
+                className="sponsor-item-image"
+              />
+            </a>
+          </div>
+        </Marquee>
+        {/* </div> */}
 
         {/* sponsor revamp */}
 
