@@ -9,6 +9,7 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Separator2 from '../Separator2';
 import workshops from '../../JSON/workshopNames.json';
+import mentorTalks from '../../JSON/mentorTalks.json';
 
 function EventsSection(props) {
   const nextArrow = (props) => {
@@ -240,16 +241,38 @@ function EventsSection(props) {
           <Card /> */}
         </Slider>
       </div>
+
       {/* <div className="title-1">MENTOR TALKS</div>
       <div className="card-slider1">
         <Slider {...settings}>
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
+          <Card
+            image={require('../../require_images/Workshop-Saborni-event.png')}
+            name={mentorTalks[0].mentor}
+            description={mentorTalks[0].name}
+            date={mentorTalks[0].date}
+            workshopName={mentorTalks[0].slug}
+          />
+          <Card
+            image={require('../../require_images/Workshop-Saborni-event.png')}
+            name={mentorTalks[1].mentor}
+            description={mentorTalks[1].name}
+            date={mentorTalks[1].date}
+            workshopName={mentorTalks[1].slug}
+          />
+          <Card
+            image={require('../../require_images/Workshop-Saborni-event.png')}
+            name={mentorTalks[2].mentor}
+            description={mentorTalks[2].name}
+            date={mentorTalks[2].date}
+            workshopName={mentorTalks[2].slug}
+          />
+          <Card
+            image={require('../../require_images/Workshop-Saborni-event.png')}
+            name={mentorTalks[3].mentor}
+            description={mentorTalks[3].name}
+            date={mentorTalks[3].date}
+            workshopName={mentorTalks[3].slug}
+          />
         </Slider>
       </div> */}
       <Separator2
