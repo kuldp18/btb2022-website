@@ -241,7 +241,8 @@ function EventsSection(props) {
           <Card /> */}
         </Slider>
       </div>
-      <div className="title-1">MENTOR TALKS</div>
+
+      {/* <div className="title-1">MENTOR TALKS</div>
       <div className="card-slider1">
         <Slider {...settings}>
           <Card
@@ -273,13 +274,13 @@ function EventsSection(props) {
             workshopName={mentorTalks[3].slug}
           />
         </Slider>
-      </div>
+      </div> */}
       <Separator2
         styles={{
           width: '100vw',
           maxHeight: '200px',
           position: 'absolute',
-          top: '-14%',
+          top: '-25%',
           zIndex: '99',
         }}
       />
