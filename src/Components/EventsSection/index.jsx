@@ -100,9 +100,9 @@ function EventsSection(props) {
   };
   return (
     <div className="events-section1" id="workshop">
-      <div className="hexagon1">
+      {/* <div className="hexagon1">
         <img src={hexagon} className="hexagon_img1" alt="Hexagon" />
-      </div>
+      </div> */}
       <div
         className="event-title1 title1"
         id="section-title"
@@ -280,7 +280,7 @@ function EventsSection(props) {
           width: '100vw',
           maxHeight: '200px',
           position: 'absolute',
-          top: '-25%',
+          top: '-12%',
           zIndex: '99',
         }}
       />
