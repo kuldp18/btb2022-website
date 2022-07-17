@@ -45,7 +45,7 @@ const Sponsors = () => {
           <div className="sponsor-item">
             <a href="https://github.com" target="_blank">
               <img
-                src={require('../../require_images/github-dark.png')}
+                src={require('../../require_images/Github Logo Full.png')}
                 alt="Github"
                 className="sponsor-item-image"
               />
@@ -54,7 +54,7 @@ const Sponsors = () => {
           <div className="sponsor-item">
             <a href="https://mongodb.com" target="_blank">
               <img
-                src={require('../../require_images/mongodb.png')}
+                src={require('../../require_images/MongoDB Full.png')}
                 alt="Mongodb"
                 className="sponsor-item-image"
               />
@@ -129,6 +129,18 @@ const Sponsors = () => {
               <img
                 src={require('../../require_images/CE.png')}
                 alt="Coders Evoke"
+                className="sponsor-item-image"
+              />
+            </a>
+          </div>
+          <div className="sponsor-item">
+            <a
+              href="https://developers.google.com/womentechmakers"
+              target="_blank"
+            >
+              <img
+                src={require('../../require_images/Women Techmakers.png')}
+                alt="Women Techmakers"
                 className="sponsor-item-image"
               />
             </a>
