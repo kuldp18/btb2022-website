@@ -44,7 +44,8 @@ function EventsSection(props) {
   }
   const settings = {
     dots: false,
-    infinite: true,
+    // infinite: true,
+    centerMode: true,
     slidesToShow: 4,
     slidesToScroll: 2,
     nextArrow: <img src={next_img} alt="next_card_button" />,
