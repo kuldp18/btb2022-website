@@ -61,6 +61,18 @@ const Sponsors = () => {
             </a>
           </div>
           <div className="sponsor-item">
+            <a
+              href="https://developers.google.com/community/gdsc"
+              target="_blank"
+            >
+              <img
+                src={require('../../require_images/GDSC.png')}
+                alt="GDSC"
+                className="sponsor-item-image"
+              />
+            </a>
+          </div>
+          <div className="sponsor-item">
             <a href="https://gen.xyz" target="_blank">
               <img
                 src={require('../../require_images/xyz logo final.png')}
@@ -141,6 +153,15 @@ const Sponsors = () => {
               <img
                 src={require('../../require_images/Women Techmakers.png')}
                 alt="Women Techmakers"
+                className="sponsor-item-image"
+              />
+            </a>
+          </div>
+          <div className="sponsor-item">
+            <a href="https://geeksgod.com/" target="_blank">
+              <img
+                src={require('../../require_images/GeeksGod.png')}
+                alt="GeeksGod"
                 className="sponsor-item-image"
               />
             </a>
