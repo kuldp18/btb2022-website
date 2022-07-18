@@ -20,7 +20,7 @@ export default function Card({
           fontFamily: 'Metropolis',
         }}
       >
-        <img className="rectangle1" src={image} alt="rectangle"></img>
+        <img className="rectangle1" src={image} alt="rectangle" />
         <p
           className="line-1"
           style={{

@@ -64,3 +64,24 @@
 #register-now:hover {
   background: #cb3a33;
 }
+
+@media (max-width: 400px) {
+  .Event-card1 {
+    width: 200px;
+    height: 500px;
+  }
+
+  .rectangle1 {
+    width: 200px;
+  }
+
+  .line-2-name1 {
+    font-size: 0.8em;
+  }
+  .line-1 {
+    /* border: 1px solid red; */
+    padding-left: 0;
+    padding-bottom: 5rem;
+    text-align: justify;
+  }
+}
