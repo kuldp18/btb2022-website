@@ -14,6 +14,7 @@ import PrizesSection from '../PrizesSection';
 import EventsSection from '../EventsSection';
 import JudgesSection from '../JudgesSection';
 import MentorsSection from '../MentorsSection';
+import MentorTalks from '../MentorTalks';
 
 export const Home = () => {
   return (
@@ -95,6 +96,7 @@ export const Home = () => {
       <TimeLine />
       <Sponsors />
       <EventsSection />
+      <MentorTalks />
       <JudgesSection />
       <MentorsSection />
       <PrizesSection />
