@@ -1,0 +1,41 @@
+#mentor-talks {
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 1rem;
+  /* padding: 2rem; */
+  padding: 2rem 0;
+  margin: 0 auto;
+  width: 100%;
+}
+#mentor-talks #talks {
+  /* border: 1px solid green; */
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+#talks .talk {
+  border: 1px solid brown;
+  width: 550px;
+  height: 380px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  /* display: none; */
+  color: #28192b;
+}
+.swiper-pagination-bullet-active {
+  background-color: #ff5148;
+}
