@@ -69,19 +69,19 @@
   .Event-card1 {
     width: 200px;
     height: 500px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: flex-start;
   }
 
   .rectangle1 {
     width: 200px;
   }
 
-  .line-2-name1 {
-    font-size: 0.8em;
-  }
   .line-1 {
     /* border: 1px solid red; */
-    padding-left: 0;
+    /* padding-left: 0; */
     padding-bottom: 5rem;
-    text-align: justify;
   }
 }

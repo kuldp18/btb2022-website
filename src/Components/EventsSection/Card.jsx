@@ -37,6 +37,12 @@ export default function Card({
             className="line-2-name1"
             style={{
               fontFamily: 'Metropolis',
+              // border: '1px solid yellow',
+              display: 'inline-block',
+              display: 'flex',
+              width: '95%',
+              gap: '.5rem',
+              // marginLeft: '0',
             }}
           >
             <span
@@ -46,8 +52,8 @@ export default function Card({
               }}
             >
               Speaker:
-            </span>{' '}
-            {name}
+            </span>
+            <span>{name}</span>
           </span>
         </p>
         <p
