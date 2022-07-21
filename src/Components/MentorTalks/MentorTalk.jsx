@@ -1,26 +1,32 @@
 import '../../Styles/MentorTalks.css';
 
-const MentorTalk = ({ thumbnail }) => {
+const MentorTalk = ({ thumbnail, title, speaker, date }) => {
   return (
     <>
       <div className="mentor-image-container">
-        <img src={thumbnail} alt="mentor-image" className="mentor-image-yes" />
+        <img
+          src={require(`${thumbnail}`)}
+          alt="mentor-image"
+          className="mentor-image-yes"
+        />
       </div>
-      <p id="talk-title">Transform Technical Expertise Into Leadership</p>
+      <p id="talk-title">{title}</p>
       <div className="talk-details">
         <p id="talk-speaker">
-          <span className="talk-grey">Speaker: </span>Nupur Bartwal
+          <span className="talk-grey">Speaker: </span>
+          {speaker}
         </p>
         <p id="talk-date">
-          <span className="talk-grey">Date: </span>28/04/2022
+          <span className="talk-grey">Date: </span>
+          {date}
         </p>
       </div>
-      <button className="talk-button" id="talk-register-now">
+      <a className="talk-button" id="talk-register-now">
         Register Now
-      </button>
-      <button className="talk-button" id="talk-view-details">
+      </a>
+      <a className="talk-button" id="talk-view-details">
         View Details
-      </button>
+      </a>
     </>
   );
 };

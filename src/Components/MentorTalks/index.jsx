@@ -3,6 +3,8 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 import MentorTalk from './MentorTalk';
 
+import TalkJSON from '../../JSON/mentorTalks.json';
+
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -44,38 +46,36 @@ const MentorTalks = () => {
           pagination={{
             clickable: true,
             bulletActiveClass: 'swiper-pagination-bullet-active',
+            type: null,
           }}
           navigation={true}
           modules={[Pagination, Navigation]}
           className="mySwiper"
           id="talks"
         >
-          <SwiperSlide className="talk">
-            <MentorTalk
-              thumbnail={require('./images/thumbnails/ExpertTalks-Nupur.png')}
-            />
-          </SwiperSlide>
-          <SwiperSlide className="talk">
-            <MentorTalk
-              thumbnail={require('./images/thumbnails/ExpertTalks-Nupur.png')}
-            />
-          </SwiperSlide>
-          <SwiperSlide className="talk">
-            <MentorTalk
-              thumbnail={require('./images/thumbnails/ExpertTalks-Nupur.png')}
-            />
-          </SwiperSlide>
-          <SwiperSlide className="talk">
-            <MentorTalk
-              thumbnail={require('./images/thumbnails/ExpertTalks-Nupur.png')}
-            />
-          </SwiperSlide>
+          {/* <SwiperSlide className="talk"></SwiperSlide>
+          <SwiperSlide className="talk"></SwiperSlide>
+          <SwiperSlide className="talk"></SwiperSlide>
+          <SwiperSlide className="talk"></SwiperSlide> */}
           {/* 
           <SwiperSlide className="talk">Slide 5</SwiperSlide>
           <SwiperSlide className="talk">Slide 6</SwiperSlide> */}
           {/*<SwiperSlide className="talk">Slide 7</SwiperSlide>
           <SwiperSlide className="talk">Slide 8</SwiperSlide>
           <SwiperSlide className="talk">Slide 9</SwiperSlide> */}
+
+          {TalkJSON.map((talk) => {
+            return (
+              <SwiperSlide className="talk" key={talk.name}>
+                <MentorTalk
+                  thumbnail={talk.thumbnail}
+                  title={talk.name}
+                  speaker={talk.mentor}
+                  date={talk.date}
+                />
+              </SwiperSlide>
+            );
+          })}
         </Swiper>
       </section>
     </>

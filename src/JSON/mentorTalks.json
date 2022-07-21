@@ -9,7 +9,7 @@
     "details": "",
     "talkLink": "",
     "ytLink": "",
-    "thumbnail": "../Components/MentorTalks/images/thumbnails/ExpertTalks-Nupur.png"
+    "thumbnail": "./images/thumbnails/ExpertTalks-Nupur.png"
   },
 
   {
@@ -22,7 +22,7 @@
     "details": "",
     "talkLink": "",
     "ytLink": "",
-    "thumbnail": "../Components/MentorTalks/images/thumbnails/ExpertTalks-Vishal.png"
+    "thumbnail": "./images/thumbnails/ExpertTalks-Vishal.png"
   },
 
   {
@@ -35,7 +35,7 @@
     "details": "",
     "talkLink": "",
     "ytLink": "",
-    "thumbnail": "../Components/MentorTalks/images/thumbnails/ExpertTalks-Sanjay.png"
+    "thumbnail": "./images/thumbnails/ExpertTalks-Sanjay.png"
   },
 
   {
@@ -48,6 +48,6 @@
     "details": "",
     "talkLink": "",
     "ytLink": "",
-    "thumbnail": "../Components/MentorTalks/images/thumbnails/ExpertTalks-Shreya.png"
+    "thumbnail": "./images/thumbnails/ExpertTalks-Shreya.png"
   }
 ]

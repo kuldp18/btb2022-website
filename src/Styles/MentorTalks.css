@@ -14,7 +14,7 @@
 }
 #mentor-talks #talks {
   /* border: 1px solid green; */
-  width: 90%;
+  width: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -82,6 +82,7 @@
   border-radius: 5px;
   font-weight: 500;
   font-family: 'Metropolis';
+  text-decoration: none;
 }
 
 #talk-register-now {
@@ -125,6 +126,7 @@
 }
 #mentor-talks h3.mentor-talks-title {
   margin-top: 0;
+  font-size: 4rem;
 }
 
 @media (max-width: 500px) {
