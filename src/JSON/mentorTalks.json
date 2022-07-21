@@ -8,7 +8,8 @@
     "slug": "talk/talk-1",
     "details": "",
     "talkLink": "",
-    "ytLink": ""
+    "ytLink": "",
+    "thumbnail": "../Components/MentorTalks/images/thumbnails/ExpertTalks-Nupur.png"
   },
 
   {
@@ -20,7 +21,8 @@
     "slug": "talk/talk-2",
     "details": "",
     "talkLink": "",
-    "ytLink": ""
+    "ytLink": "",
+    "thumbnail": "../Components/MentorTalks/images/thumbnails/ExpertTalks-Vishal.png"
   },
 
   {
@@ -32,7 +34,8 @@
     "slug": "talk/talk-3",
     "details": "",
     "talkLink": "",
-    "ytLink": ""
+    "ytLink": "",
+    "thumbnail": "../Components/MentorTalks/images/thumbnails/ExpertTalks-Sanjay.png"
   },
 
   {
@@ -44,6 +47,7 @@
     "slug": "talk/talk-4",
     "details": "",
     "talkLink": "",
-    "ytLink": ""
+    "ytLink": "",
+    "thumbnail": "../Components/MentorTalks/images/thumbnails/ExpertTalks-Shreya.png"
   }
 ]
