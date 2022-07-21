@@ -83,6 +83,7 @@
   font-weight: 500;
   font-family: 'Metropolis';
   text-decoration: none;
+  cursor: pointer;
 }
 
 #talk-register-now {
