@@ -18,7 +18,11 @@ function MentorTalkPage({
       <div className="WorkShop-page">
         <div className="iq_workshop-details-container">
           {/* Poster */}
-          <img src={imgPath} alt={talkTitle} className="whop-img" />
+          <img
+            src={require(`${imgPath}`)}
+            alt={talkTitle}
+            className="whop-img"
+          />
           <div className="iq_workshop-data">
             {/* Title and Register Now Button */}
             <div className="iq_workshop_title">

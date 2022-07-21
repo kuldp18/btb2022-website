@@ -72,6 +72,7 @@ const MentorTalks = () => {
                   title={talk.name}
                   speaker={talk.mentor}
                   date={talk.date}
+                  slug={talk.slug}
                 />
               </SwiperSlide>
             );

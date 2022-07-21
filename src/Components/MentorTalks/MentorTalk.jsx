@@ -1,6 +1,7 @@
 import '../../Styles/MentorTalks.css';
+import { Link } from 'react-router-dom';
 
-const MentorTalk = ({ thumbnail, title, speaker, date }) => {
+const MentorTalk = ({ thumbnail, title, speaker, date, slug }) => {
   return (
     <>
       <div className="mentor-image-container">
@@ -24,9 +25,9 @@ const MentorTalk = ({ thumbnail, title, speaker, date }) => {
       <a className="talk-button" id="talk-register-now">
         Register Now
       </a>
-      <a className="talk-button" id="talk-view-details">
+      <Link className="talk-button" id="talk-view-details" to={slug}>
         View Details
-      </a>
+      </Link>
     </>
   );
 };

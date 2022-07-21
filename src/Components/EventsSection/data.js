@@ -1,4 +1,4 @@
-export const comp_data = [
+const CompCardData = [
   {
     title: 'BEST CLOUD BASED HACK',
     pt1: 'Powerpoint Presentation(As Format given by SIH 2022)',
@@ -50,3 +50,5 @@ export const comp_data = [
     pt2: '28th March 2022, Monday',
   },
 ];
+
+export default CompCardData;
