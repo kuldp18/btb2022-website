@@ -64,24 +64,3 @@
 #register-now:hover {
   background: #cb3a33;
 }
-
-@media (max-width: 400px) {
-  .Event-card1 {
-    width: 200px;
-    height: 500px;
-    display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
-    align-items: flex-start;
-  }
-
-  .rectangle1 {
-    width: 200px;
-  }
-
-  .line-1 {
-    /* border: 1px solid red; */
-    /* padding-left: 0; */
-    padding-bottom: 5rem;
-  }
-}
