@@ -120,7 +120,7 @@ function EventsSection(props) {
           fontFamily: 'Metropolis',
         }}
       >
-        UPCOMING WORKSHOPS
+        WORKSHOPS
       </div>
       <div className="card-slider1">
         <Slider {...settings}>
