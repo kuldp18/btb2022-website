@@ -203,6 +203,8 @@ function EventsSection(props) {
             description="INTERACTION WORKSHOP"
             date="23/07/2022"
             workshopName={workshops[0].slug}
+            completed={true}
+            ytLink="https://youtu.be/xMffiMqnmM4"
           />
           <Card
             image={require('../../require_images/Workshop-Nikhil-event.png')}
@@ -210,6 +212,8 @@ function EventsSection(props) {
             description="WEB3 WORKSHOP"
             date="23/07/2022"
             workshopName={workshops[11].slug}
+            completed={true}
+            ytLink="https://youtu.be/y9LNcapvPoQ"
           />
           {/* <Card
             image={require('../../require_images/Workshop-Sunil-event.png')}
