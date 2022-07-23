@@ -185,6 +185,8 @@ function EventsSection(props) {
             description="BLOCKCHAIN WORKSHOP"
             date="16/07/2022"
             workshopName={workshops[5].slug}
+            completed={true}
+            ytLink="https://youtu.be/fvLxcGx8qGY"
           />
           <Card
             image={require('../../require_images/Workshop-Prince-event.png')}
@@ -192,6 +194,8 @@ function EventsSection(props) {
             description="RESUME BUILDING WORKSHOP"
             date="17/07/2022"
             workshopName={workshops[6].slug}
+            completed={true}
+            ytLink="https://youtu.be/MXgaU2pNRoU"
           />
           <Card
             image={require('../../require_images/Workshop-JOGANDEEP-event.png')}
