@@ -22,9 +22,9 @@ const MentorTalk = ({ thumbnail, title, speaker, date, slug }) => {
           {date}
         </p>
       </div>
-      <a className="talk-button" id="talk-register-now">
+      {/* <a className="talk-button" id="talk-register-now">
         Register Now
-      </a>
+      </a> */}
       <Link className="talk-button" id="talk-view-details" to={slug}>
         View Details
       </Link>

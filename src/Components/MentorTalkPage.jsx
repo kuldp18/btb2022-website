@@ -27,7 +27,7 @@ function MentorTalkPage({
             {/* Title and Register Now Button */}
             <div className="iq_workshop_title">
               <h1>{talkTitle}</h1>
-              <button>
+              {/* <button>
                 <a
                   href={
                     completed ? ytLink : 'https://forms.gle/V8ceiVxjnk8x7RkC8'
@@ -40,7 +40,7 @@ function MentorTalkPage({
                 >
                   {completed ? 'Watch Now' : 'Register Now'}
                 </a>
-              </button>
+              </button> */}
             </div>
 
             {/* Workshop Details */}
@@ -65,10 +65,10 @@ function MentorTalkPage({
                 </p>
 
                 {/* Interest */}
-                <p className="iq_interest">
+                {/* <p className="iq_interest">
                   Interested in attending this talk ?
                 </p>
-                <p className="iq_interest">Click on Register Now</p>
+                <p className="iq_interest">Click on Register Now</p> */}
               </>
             )}
           </div>

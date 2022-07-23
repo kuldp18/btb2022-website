@@ -103,6 +103,11 @@
   border: 2px solid #ff5148;
 }
 
+#talk-view-details:hover {
+  background-color: #ff5148;
+  color: white;
+}
+
 .swiper-button-next::after,
 .swiper-button-prev::after {
   /* display: none; */
