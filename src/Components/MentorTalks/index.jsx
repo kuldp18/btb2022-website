@@ -35,7 +35,7 @@ const MentorTalks = () => {
   return (
     <>
       <section id="mentor-talks">
-        <h3 className="stylish-title mentor-talks-title">Mentor Talks</h3>
+        <h3 className="stylish-title mentor-talks-title">Expert Talks</h3>
         <Swiper
           slidesPerView={3}
           spaceBetween={30}
