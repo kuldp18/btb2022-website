@@ -1,13 +1,13 @@
 import React from 'react';
 import '../../Styles/EventsSection.css';
-import { CompCard } from './data';
+import CompCardData from './data';
 
 export const Stocks = () => {
   return (
     <>
       <HomePageHeader />
       <div className="flex-container">
-        {CompCard.map((data, key) => {
+        {CompCardData.map((data, key) => {
           return (
             <div key={key}>
               <CompCard

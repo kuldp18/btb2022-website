@@ -1,14 +1,16 @@
 [
   {
     "id": 0,
-    "name": "How to transfer technical expertise into leadership",
+    "name": "transfer technical expertise into leadership",
     "mentor": "Nupur Bartwal",
     "date": "24/07/2022",
     "time": "5PM",
     "slug": "talk/talk-1",
     "details": "",
     "talkLink": "",
-    "ytLink": ""
+    "ytLink": "",
+    "thumbnail": "./images/thumbnails/ExpertTalks-Nupur.png",
+    "viewDetailsImage": "./MentorTalks/images/main/ExpertTalks-Nupur.png"
   },
 
   {
@@ -20,7 +22,9 @@
     "slug": "talk/talk-2",
     "details": "",
     "talkLink": "",
-    "ytLink": ""
+    "ytLink": "",
+    "thumbnail": "./images/thumbnails/ExpertTalks-Vishal.png",
+    "viewDetailsImage": "./MentorTalks/images/main/ExpertTalks-Vishal.png"
   },
 
   {
@@ -32,7 +36,9 @@
     "slug": "talk/talk-3",
     "details": "",
     "talkLink": "",
-    "ytLink": ""
+    "ytLink": "",
+    "thumbnail": "./images/thumbnails/ExpertTalks-Sanjay.png",
+    "viewDetailsImage": "./MentorTalks/images/main/ExpertTalks-Sanjay.png"
   },
 
   {
@@ -44,6 +50,8 @@
     "slug": "talk/talk-4",
     "details": "",
     "talkLink": "",
-    "ytLink": ""
+    "ytLink": "",
+    "thumbnail": "./images/thumbnails/ExpertTalks-Shreya.png",
+    "viewDetailsImage": "./MentorTalks/images/main/ExpertTalks-Shreya.png"
   }
 ]

@@ -262,7 +262,7 @@ function App() {
               talkDetails={mentorTalks[0].details}
               talkDate={mentorTalks[0].date}
               talkLink={mentorTalks[0].talkLink}
-              imgPath={require('./require_images/Workshop-Saborni.png')}
+              imgPath={mentorTalks[0].viewDetailsImage}
               talkTime={mentorTalks[0].time}
             />
           }
@@ -275,7 +275,7 @@ function App() {
               talkDetails={mentorTalks[1].details}
               talkDate={mentorTalks[1].date}
               talkLink={mentorTalks[1].talkLink}
-              imgPath={require('./require_images/Workshop-Saborni.png')}
+              imgPath={mentorTalks[1].viewDetailsImage}
               talkTime={mentorTalks[1].time}
             />
           }
@@ -288,7 +288,7 @@ function App() {
               talkDetails={mentorTalks[2].details}
               talkDate={mentorTalks[2].date}
               talkLink={mentorTalks[2].talkLink}
-              imgPath={require('./require_images/Workshop-Saborni.png')}
+              imgPath={mentorTalks[2].viewDetailsImage}
               talkTime={mentorTalks[2].time}
             />
           }
@@ -301,7 +301,7 @@ function App() {
               talkDetails={mentorTalks[3].details}
               talkDate={mentorTalks[3].date}
               talkLink={mentorTalks[3].talkLink}
-              imgPath={require('./require_images/Workshop-Saborni.png')}
+              imgPath={mentorTalks[3].viewDetailsImage}
               talkTime={mentorTalks[3].time}
             />
           }

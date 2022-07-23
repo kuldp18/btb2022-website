@@ -44,7 +44,8 @@ function EventsSection(props) {
   }
   const settings = {
     dots: false,
-    infinite: true,
+    // infinite: true,
+    centerMode: true,
     slidesToShow: 4,
     slidesToScroll: 2,
     nextArrow: <img src={next_img} alt="next_card_button" />,
@@ -119,7 +120,7 @@ function EventsSection(props) {
           fontFamily: 'Metropolis',
         }}
       >
-        UPCOMING WORKSHOPS
+        WORKSHOPS
       </div>
       <div className="card-slider1">
         <Slider {...settings}>
@@ -184,6 +185,8 @@ function EventsSection(props) {
             description="BLOCKCHAIN WORKSHOP"
             date="16/07/2022"
             workshopName={workshops[5].slug}
+            completed={true}
+            ytLink="https://youtu.be/fvLxcGx8qGY"
           />
           <Card
             image={require('../../require_images/Workshop-Prince-event.png')}
@@ -191,6 +194,8 @@ function EventsSection(props) {
             description="RESUME BUILDING WORKSHOP"
             date="17/07/2022"
             workshopName={workshops[6].slug}
+            completed={true}
+            ytLink="https://youtu.be/MXgaU2pNRoU"
           />
           <Card
             image={require('../../require_images/Workshop-JOGANDEEP-event.png')}
@@ -198,6 +203,8 @@ function EventsSection(props) {
             description="INTERACTION WORKSHOP"
             date="23/07/2022"
             workshopName={workshops[0].slug}
+            completed={true}
+            ytLink="https://youtu.be/xMffiMqnmM4"
           />
           <Card
             image={require('../../require_images/Workshop-Nikhil-event.png')}
@@ -205,14 +212,16 @@ function EventsSection(props) {
             description="WEB3 WORKSHOP"
             date="23/07/2022"
             workshopName={workshops[11].slug}
+            completed={true}
+            ytLink="https://youtu.be/y9LNcapvPoQ"
           />
-          <Card
+          {/* <Card
             image={require('../../require_images/Workshop-Sunil-event.png')}
             name="SUNIL SONI"
             description="BACKEND DEVELOPMENT WORKSHOP"
             date="24/07/2022"
             workshopName={workshops[7].slug}
-          />
+          /> */}
           <Card
             image={require('../../require_images/Workshop-Ali-event.png')}
             name="ALI SHAIKH"

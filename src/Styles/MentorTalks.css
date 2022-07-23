@@ -1,0 +1,165 @@
+#mentor-talks {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 1rem;
+  /* padding: 2rem; */
+  padding: 2rem 0;
+  margin: 0 auto;
+  width: 100%;
+  background-color: white;
+  font-family: 'Metropolis';
+}
+#mentor-talks #talks {
+  /* border: 1px solid green; */
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+#talks .talk {
+  /* border: 1px solid brown; */
+  /* width: 550px; */
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+  border-radius: 10px;
+  background-color: white;
+  flex-basis: 350px;
+  -webkit-box-shadow: 3px 5px 13px -1px rgba(179, 179, 179, 0.99);
+  -moz-box-shadow: 3px 5px 13px -1px rgba(179, 179, 179, 0.99);
+  box-shadow: 3px 5px 13px -1px rgba(179, 179, 179, 0.99);
+}
+
+.talk .mentor-image-container {
+  /* border: 1px solid blue; */
+  border-radius: 10px;
+}
+.talk .mentor-image-yes {
+  object-fit: contain;
+  width: 100%;
+  border-radius: 10px;
+}
+
+#talk-title {
+  margin: 1.5rem 0;
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  /* border: 1px solid yellow; */
+  font-family: 'Metropolis';
+}
+
+.talk .talk-details {
+  /* border: 1px solid yellow; */
+  margin-bottom: 1.5rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  font-family: 'Metropolis';
+}
+
+.talk-details .talk-grey {
+  color: gray;
+  font-weight: normal;
+  font-family: 'Metropolis';
+}
+
+.talk-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  min-height: 30px;
+  font-size: 2rem;
+  border-radius: 5px;
+  font-weight: 500;
+  font-family: 'Metropolis';
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#talk-register-now {
+  margin-bottom: 1.5rem;
+  background-color: #ff5148;
+  color: white;
+  border: 2px solid #ff5148;
+}
+
+#talk-register-now:hover {
+  background-color: #ff5148ed;
+}
+
+#talk-view-details {
+  background-color: white;
+  color: #ff5148;
+  border: 2px solid #ff5148;
+}
+
+#talk-view-details:hover {
+  background-color: #ff5148;
+  color: white;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  /* display: none; */
+  color: #ff5148;
+  font-weight: bolder;
+}
+.swiper-pagination-bullet-active {
+  background-color: #ff5148 !important;
+}
+
+.stylish-title {
+  font-family: 'Metropolis';
+  font-weight: 800;
+  text-align: center;
+  font-size: 4rem;
+  background: -webkit-linear-gradient(#ff5148, #ad201a);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 3vw;
+  text-transform: uppercase;
+}
+#mentor-talks h3.mentor-talks-title {
+  margin-top: 0;
+  font-size: 4rem;
+}
+
+@media (max-width: 500px) {
+  #mentor-talks #talks {
+    width: 100%;
+  }
+  #talks .talk {
+    flex-basis: 350px;
+    padding: 1.5rem;
+    /* border: 1px solid red; */
+  }
+  #talk-title {
+    font-size: 1.2rem;
+  }
+
+  .talk .talk-details {
+    font-size: 1rem;
+  }
+
+  .talk-button {
+    height: 20px;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 800px) {
+  #mentor-talks #talks {
+    width: 100%;
+  }
+}
