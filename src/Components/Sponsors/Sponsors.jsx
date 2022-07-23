@@ -166,6 +166,15 @@ const Sponsors = () => {
               />
             </a>
           </div>
+          <div className="sponsor-item">
+            <a href="https://athenasquare.org/" target="_blank">
+              <img
+                src={require('../../require_images/Athenasquare.png')}
+                alt="Athenasquare"
+                className="sponsor-item-image"
+              />
+            </a>
+          </div>
         </Marquee>
         {/* </div> */}
 

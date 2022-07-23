@@ -27,7 +27,7 @@ const TeamSection = () => {
               <div className="profile-about-container">
                 <h1 className="profile-about-name">Jay Shah</h1>
                 <h4 className="profile-about-description">
-                  Outreach Lead | Event Lead
+                  Event Head | Outreach Lead
                 </h4>
               </div>
             </div>
