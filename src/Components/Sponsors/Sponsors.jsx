@@ -169,7 +169,7 @@ const Sponsors = () => {
           <div className="sponsor-item">
             <a href="https://athenasquare.org/" target="_blank">
               <img
-                src={require('../../require_images/Athenasquare.png')}
+                src={require('../../require_images/Athenasquare logo.png')}
                 alt="Athenasquare"
                 className="sponsor-item-image"
               />
