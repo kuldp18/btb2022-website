@@ -207,13 +207,13 @@ function EventsSection(props) {
             date="23/07/2022"
             workshopName={workshops[11].slug}
           />
-          <Card
+          {/* <Card
             image={require('../../require_images/Workshop-Sunil-event.png')}
             name="SUNIL SONI"
             description="BACKEND DEVELOPMENT WORKSHOP"
             date="24/07/2022"
             workshopName={workshops[7].slug}
-          />
+          /> */}
           <Card
             image={require('../../require_images/Workshop-Ali-event.png')}
             name="ALI SHAIKH"
