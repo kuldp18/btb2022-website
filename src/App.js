@@ -253,6 +253,34 @@ function App() {
           }
         ></Route>
 
+        <Route
+          path={workshops[14].slug}
+          element={
+            <WorkshopPage
+              workShopTitle={workshops[14].name}
+              workShopDetails=""
+              workShopDate="07/08/2022"
+              workShopLink="Coming Soon"
+              imgPath={require('./require_images/Workshop-Saborni.png')}
+              workShopTime="12PM TO 1PM"
+            />
+          }
+        ></Route>
+
+        <Route
+          path={workshops[15].slug}
+          element={
+            <WorkshopPage
+              workShopTitle={workshops[15].name}
+              workShopDetails=""
+              workShopDate="07/08/2022"
+              workShopLink="Coming Soon"
+              imgPath={require('./require_images/Workshop-Saborni.png')}
+              workShopTime="3PM ONWARDS"
+            />
+          }
+        ></Route>
+
         {/* mentor talks */}
         <Route
           path={mentorTalks[0].slug}
