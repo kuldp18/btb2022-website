@@ -13,6 +13,8 @@ import '../../Styles/MentorTalks.css';
 
 // import required modules
 import { Pagination, Navigation } from 'swiper';
+import Separator2 from '../Separator2';
+import Separator from '../Separator';
 
 const MentorTalks = () => {
   const breakpoints = {
@@ -34,6 +36,7 @@ const MentorTalks = () => {
   };
   return (
     <>
+      <Separator />
       <section id="mentor-talks">
         <h3 className="stylish-title mentor-talks-title">Expert Talks</h3>
         <Swiper
@@ -79,6 +82,14 @@ const MentorTalks = () => {
           })}
         </Swiper>
       </section>
+      <Separator2
+        styles={{
+          width: '100vw',
+          maxHeight: '150px',
+          position: 'absolute',
+          zIndex: '99',
+        }}
+      />
     </>
   );
 };
