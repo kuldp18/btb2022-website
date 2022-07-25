@@ -247,7 +247,7 @@ function EventsSection(props) {
             image={require('../../require_images/Workshop-Kesav & Aasawari-event.png')}
             name="AASAWARI & KUSHAGRA"
             description="MONGODB WORKSHOP"
-            date="07/08/2022"
+            date="05/08/2022"
             workshopName={workshops[14].slug}
           />
           <Card

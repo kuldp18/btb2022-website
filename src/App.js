@@ -259,7 +259,7 @@ function App() {
             <WorkshopPage
               workShopTitle={workshops[14].name}
               workShopDetails=""
-              workShopDate="07/08/2022"
+              workShopDate="05/08/2022"
               workShopLink="Coming Soon"
               imgPath={require('./require_images/Workshop-longnames.png')}
               workShopTime="12PM TO 1PM"
@@ -276,7 +276,7 @@ function App() {
               workShopDate="07/08/2022"
               workShopLink="Coming Soon"
               imgPath={require('./require_images/Workshop-Ishika.png')}
-              workShopTime="3PM ONWARDS"
+              workShopTime="3PM TO 5PM"
             />
           }
         ></Route>
