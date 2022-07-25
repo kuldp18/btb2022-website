@@ -261,7 +261,7 @@ function App() {
               workShopDetails=""
               workShopDate="07/08/2022"
               workShopLink="Coming Soon"
-              imgPath={require('./require_images/Workshop-Saborni.png')}
+              imgPath={require('./require_images/Workshop-longnames.png')}
               workShopTime="12PM TO 1PM"
             />
           }
@@ -275,7 +275,7 @@ function App() {
               workShopDetails=""
               workShopDate="07/08/2022"
               workShopLink="Coming Soon"
-              imgPath={require('./require_images/Workshop-Saborni.png')}
+              imgPath={require('./require_images/Workshop-Ishika.png')}
               workShopTime="3PM ONWARDS"
             />
           }
