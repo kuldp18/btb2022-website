@@ -52,7 +52,10 @@ const Sponsors = () => {
             </a>
           </div>
           <div className="sponsor-item">
-            <a href="https://mongodb.com" target="_blank">
+            <a
+              href="http://community.mongodb.com/btb-hackathon"
+              target="_blank"
+            >
               <img
                 src={require('../../require_images/MongoDB Full.png')}
                 alt="Mongodb"
