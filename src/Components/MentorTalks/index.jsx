@@ -84,10 +84,11 @@ const MentorTalks = () => {
       </section>
       <Separator2
         styles={{
-          width: '100vw',
+          width: '100%',
           maxHeight: '150px',
-          position: 'absolute',
+          position: 'relative',
           zIndex: '99',
+          opacity: '1',
         }}
       />
     </>
