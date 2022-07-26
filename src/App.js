@@ -275,7 +275,7 @@ function App() {
               workShopDetails=""
               workShopDate="07/08/2022"
               workShopLink="Coming Soon"
-              imgPath={require('./require_images/Workshop-ISHIKA.png')}
+              imgPath={require('./require_images/Workshop-Ishika-final.png')}
               workShopTime="3PM TO 5PM"
             />
           }
