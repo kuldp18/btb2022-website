@@ -669,7 +669,7 @@ const TeamSection = () => {
               </div>
             </div>
 
-            <div className="team-profile-card">
+            {/* <div className="team-profile-card">
               <div className="profile-image-container">
                 <a
                   href="https://www.linkedin.com/in/janviprajapati"
@@ -686,7 +686,7 @@ const TeamSection = () => {
                 <h1 className="profile-about-name">Janvi Prajapati</h1>
                 <h4 className="profile-about-description">Team Logistics</h4>
               </div>
-            </div>
+            </div> */}
 
             <div className="team-profile-card">
               <div className="profile-image-container">
