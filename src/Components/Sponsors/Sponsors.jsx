@@ -156,7 +156,7 @@ const Sponsors = () => {
               <img
                 src={require('../../require_images/Women Techmakers.png')}
                 alt="Women Techmakers"
-                className="sponsor-item-image"
+                className="sponsor-item-image scale-sponsor-image"
               />
             </a>
           </div>

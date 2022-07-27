@@ -150,6 +150,266 @@ const TeamSection = () => {
               </div>
             </div>
 
+            <div className="team-profile-card">
+              <div className="profile-image-container">
+                <a
+                  href="https://www.linkedin.com/in/vandangohil/"
+                  target={'_blank'}
+                >
+                  <img
+                    alt="Vandan Gohil"
+                    className="profile-image adjust-right-image"
+                    src={require('./team-raw-images/VandanGohil_Design.jpg')}
+                  />
+                </a>
+              </div>
+              <div className="profile-about-container">
+                <h1 className="profile-about-name">Vandan Gohil</h1>
+                <h4 className="profile-about-description">UI/UX</h4>
+              </div>
+            </div>
+
+            {/* web dev team start */}
+            <div className="team-profile-card">
+              <div className="profile-image-container">
+                <a
+                  href="https://www.linkedin.com/in/harshil-modh-53a62a1a6/"
+                  target={'_blank'}
+                >
+                  <img
+                    alt="Harshil Modh"
+                    className="profile-image"
+                    src={require('./team-raw-images/HarshilModh_WebDev.jpg')}
+                  />
+                </a>
+              </div>
+              <div className="profile-about-container">
+                <h1 className="profile-about-name">Harshil Modh</h1>
+                <h4 className="profile-about-description">Team Webdev</h4>
+              </div>
+            </div>
+
+            <div className="team-profile-card">
+              <div className="profile-image-container">
+                <a
+                  href="https://www.linkedin.com/in/ksolanki8/"
+                  target={'_blank'}
+                >
+                  <img
+                    alt="Kuldeep Solanki"
+                    className="profile-image"
+                    src={require('./team-raw-images/KuldeepSolanki_webdev.png')}
+                  />
+                </a>
+              </div>
+              <div className="profile-about-container">
+                <h1 className="profile-about-name">Kuldeep Solanki</h1>
+                <h4 className="profile-about-description">Team Webdev</h4>
+              </div>
+            </div>
+
+            <div className="team-profile-card">
+              <div className="profile-image-container">
+                <a
+                  href="https://www.linkedin.com/in/harshilsinh-rajput/"
+                  target={'_blank'}
+                >
+                  <img
+                    alt="Harshilsinh Rajput"
+                    className="profile-image"
+                    src={require('./team-raw-images/Rajput Harshilsinh_Web development.jpg')}
+                  />
+                </a>
+              </div>
+              <div className="profile-about-container">
+                <h1 className="profile-about-name">Harshilsinh Rajput</h1>
+                <h4 className="profile-about-description">Team Webdev</h4>
+              </div>
+            </div>
+
+            <div className="team-profile-card">
+              <div className="profile-image-container">
+                <a
+                  href="https://www.linkedin.com/in/yatreeladani"
+                  target={'_blank'}
+                >
+                  <img
+                    alt="Yatree Ladani"
+                    className="profile-image"
+                    src={require('./team-raw-images/YatreeLadani_WebDev.jpg')}
+                  />
+                </a>
+              </div>
+              <div className="profile-about-container">
+                <h1 className="profile-about-name">Yatree Ladani</h1>
+                <h4 className="profile-about-description">Team Webdev</h4>
+              </div>
+            </div>
+
+            <div className="team-profile-card">
+              <div className="profile-image-container">
+                <a
+                  href="https://www.linkedin.com/in/prachijethava"
+                  target={'_blank'}
+                >
+                  <img
+                    alt="Prachi Jethava"
+                    className="profile-image"
+                    src={require('./team-raw-images/PrachiJethava_WebDev.jpeg')}
+                  />
+                </a>
+              </div>
+              <div className="profile-about-container">
+                <h1 className="profile-about-name">Prachi Jethava</h1>
+                <h4 className="profile-about-description">Team Webdev</h4>
+              </div>
+            </div>
+
+            <div className="team-profile-card">
+              <div className="profile-image-container">
+                <a
+                  href="http://www.linkedin.com/in/yash-hindocha"
+                  target={'_blank'}
+                >
+                  <img
+                    alt="Yash Hindocha"
+                    className="profile-image"
+                    src={require('./team-raw-images/Yash Hindocha_webDev.jpeg')}
+                  />
+                </a>
+              </div>
+              <div className="profile-about-container">
+                <h1 className="profile-about-name">Yash Hindocha</h1>
+                <h4 className="profile-about-description">Team Webdev</h4>
+              </div>
+            </div>
+            <div className="team-profile-card">
+              <div className="profile-image-container">
+                <a href="#" target={'_blank'}>
+                  <img
+                    alt="Vatsal Mavani"
+                    className="profile-image adjust-right-image"
+                    src={require('./team-raw-images/Vatsal mavani.jpg')}
+                  />
+                </a>
+              </div>
+              <div className="profile-about-container">
+                <h1 className="profile-about-name">Vatsal Mavani</h1>
+                <h4 className="profile-about-description">Team Webdev</h4>
+              </div>
+            </div>
+            <div className="team-profile-card">
+              <div className="profile-image-container">
+                <a href="#" target={'_blank'}>
+                  <img
+                    alt="Ved Prajapati"
+                    className="profile-image"
+                    src={require('./team-raw-images/Ved Prajapati.jpg')}
+                  />
+                </a>
+              </div>
+              <div className="profile-about-container">
+                <h1 className="profile-about-name">Ved Prajapati</h1>
+                <h4 className="profile-about-description">Team Webdev</h4>
+              </div>
+            </div>
+            {/* web dev team end */}
+
+            {/* design team start */}
+
+            <div className="team-profile-card">
+              <div className="profile-image-container">
+                <a
+                  href="https://www.linkedin.com/in/hasti-bhalodiya-274585232/"
+                  target={'_blank'}
+                >
+                  <img
+                    src={require('./team-raw-images/HastiBhalodiya_DesignTeam.jpg')}
+                    alt="Hasti Bhalodiya"
+                    className="profile-image"
+                  />
+                </a>
+              </div>
+              <div className="profile-about-container">
+                <h1 className="profile-about-name">Hasti Bhalodiya</h1>
+                <h4 className="profile-about-description">Team Design</h4>
+              </div>
+            </div>
+
+            <div className="team-profile-card">
+              <div className="profile-image-container">
+                <a href="#" target={'_blank'}>
+                  <img
+                    src={require('./team-raw-images/VrushikMehta_Design.jpg')}
+                    alt="Vrushik Mehta"
+                    className="profile-image"
+                  />
+                </a>
+              </div>
+              <div className="profile-about-container">
+                <h1 className="profile-about-name">Vrushik Mehta</h1>
+                <h4 className="profile-about-description">Team Design</h4>
+              </div>
+            </div>
+
+            <div className="team-profile-card">
+              <div className="profile-image-container">
+                <a
+                  href="https://www.linkedin.com/in/dishant-korat-297246228"
+                  target={'_blank'}
+                >
+                  <img
+                    src={require('./team-raw-images/Korat Dishant _ design.jpg')}
+                    alt="Korat Dishant"
+                    className="profile-image"
+                  />
+                </a>
+              </div>
+              <div className="profile-about-container">
+                <h1 className="profile-about-name">Korat Dishant</h1>
+                <h4 className="profile-about-description">Team Design</h4>
+              </div>
+            </div>
+
+            <div className="team-profile-card">
+              <div className="profile-image-container">
+                <a
+                  href="https://www.linkedin.com/in/rayirthjaiswal"
+                  target={'_blank'}
+                >
+                  <img
+                    alt="Rayirth Jaiswal"
+                    className="profile-image"
+                    src={require('./team-raw-images/RayirthJaiswal_Design.jpg')}
+                  />
+                </a>
+              </div>
+              <div className="profile-about-container">
+                <h1 className="profile-about-name">Rayirth Jaiswal</h1>
+                <h4 className="profile-about-description">Team Design</h4>
+              </div>
+            </div>
+
+            <div className="team-profile-card">
+              <div className="profile-image-container">
+                <a
+                  href="https://www.linkedin.com/in/dhyey-patel-177345155"
+                  target={'_blank'}
+                >
+                  <img
+                    src={require('./team-raw-images/DhyeyPatel_graphicteam.jpg')}
+                    alt="Dhyey Patel"
+                    className="profile-image"
+                  />
+                </a>
+              </div>
+              <div className="profile-about-container">
+                <h1 className="profile-about-name">Dhyey Patel</h1>
+                <h4 className="profile-about-description">Team Design</h4>
+              </div>
+            </div>
+            {/* team design end */}
+
             {/* outreach team */}
 
             <div className="team-profile-card">
@@ -317,6 +577,8 @@ const TeamSection = () => {
               </div>
             </div>
 
+            {/* outreach end */}
+
             {/* logistics team*/}
             <div className="team-profile-card">
               <div className="profile-image-container">
@@ -407,7 +669,7 @@ const TeamSection = () => {
               </div>
             </div>
 
-            <div className="team-profile-card">
+            {/* <div className="team-profile-card">
               <div className="profile-image-container">
                 <a
                   href="https://www.linkedin.com/in/janviprajapati"
@@ -424,7 +686,7 @@ const TeamSection = () => {
                 <h1 className="profile-about-name">Janvi Prajapati</h1>
                 <h4 className="profile-about-description">Team Logistics</h4>
               </div>
-            </div>
+            </div> */}
 
             <div className="team-profile-card">
               <div className="profile-image-container">
@@ -503,265 +765,6 @@ const TeamSection = () => {
             </div>
 
             {/* logitics end */}
-
-            {/* web dev team start */}
-            <div className="team-profile-card">
-              <div className="profile-image-container">
-                <a
-                  href="https://www.linkedin.com/in/harshil-modh-53a62a1a6/"
-                  target={'_blank'}
-                >
-                  <img
-                    alt="Harshil Modh"
-                    className="profile-image"
-                    src={require('./team-raw-images/HarshilModh_WebDev.jpg')}
-                  />
-                </a>
-              </div>
-              <div className="profile-about-container">
-                <h1 className="profile-about-name">Harshil Modh</h1>
-                <h4 className="profile-about-description">Team Webdev</h4>
-              </div>
-            </div>
-
-            <div className="team-profile-card">
-              <div className="profile-image-container">
-                <a
-                  href="https://www.linkedin.com/in/ksolanki8/"
-                  target={'_blank'}
-                >
-                  <img
-                    alt="Kuldeep Solanki"
-                    className="profile-image"
-                    src={require('./team-raw-images/KuldeepSolanki_webdev.png')}
-                  />
-                </a>
-              </div>
-              <div className="profile-about-container">
-                <h1 className="profile-about-name">Kuldeep Solanki</h1>
-                <h4 className="profile-about-description">Team Webdev</h4>
-              </div>
-            </div>
-
-            <div className="team-profile-card">
-              <div className="profile-image-container">
-                <a
-                  href="https://www.linkedin.com/in/harshilsinh-rajput/"
-                  target={'_blank'}
-                >
-                  <img
-                    alt="Harshilsinh Rajput"
-                    className="profile-image"
-                    src={require('./team-raw-images/Rajput Harshilsinh_Web development.jpg')}
-                  />
-                </a>
-              </div>
-              <div className="profile-about-container">
-                <h1 className="profile-about-name">Harshilsinh Rajput</h1>
-                <h4 className="profile-about-description">Team Webdev</h4>
-              </div>
-            </div>
-
-            <div className="team-profile-card">
-              <div className="profile-image-container">
-                <a
-                  href="https://www.linkedin.com/in/yatreeladani"
-                  target={'_blank'}
-                >
-                  <img
-                    alt="Yatree Ladani"
-                    className="profile-image"
-                    src={require('./team-raw-images/YatreeLadani_WebDev.jpg')}
-                  />
-                </a>
-              </div>
-              <div className="profile-about-container">
-                <h1 className="profile-about-name">Yatree Ladani</h1>
-                <h4 className="profile-about-description">Team Webdev</h4>
-              </div>
-            </div>
-
-            <div className="team-profile-card">
-              <div className="profile-image-container">
-                <a
-                  href="https://www.linkedin.com/in/prachijethava"
-                  target={'_blank'}
-                >
-                  <img
-                    alt="Prachi Jethava"
-                    className="profile-image"
-                    src={require('./team-raw-images/PrachiJethava_WebDev.jpeg')}
-                  />
-                </a>
-              </div>
-              <div className="profile-about-container">
-                <h1 className="profile-about-name">Prachi Jethava</h1>
-                <h4 className="profile-about-description">Team Webdev</h4>
-              </div>
-            </div>
-
-            <div className="team-profile-card">
-              <div className="profile-image-container">
-                <a
-                  href="http://www.linkedin.com/in/yash-hindocha"
-                  target={'_blank'}
-                >
-                  <img
-                    alt="Yash Hindocha"
-                    className="profile-image"
-                    src={require('./team-raw-images/Yash Hindocha_webDev.jpeg')}
-                  />
-                </a>
-              </div>
-              <div className="profile-about-container">
-                <h1 className="profile-about-name">Yash Hindocha</h1>
-                <h4 className="profile-about-description">Team Webdev</h4>
-              </div>
-            </div>
-            <div className="team-profile-card">
-              <div className="profile-image-container">
-                <a href="#" target={'_blank'}>
-                  <img
-                    alt="Vatsal Mavani"
-                    className="profile-image adjust-right-image"
-                    src={require('./team-raw-images/Vatsal mavani.jpg')}
-                  />
-                </a>
-              </div>
-              <div className="profile-about-container">
-                <h1 className="profile-about-name">Vatsal Mavani</h1>
-                <h4 className="profile-about-description">Team Webdev</h4>
-              </div>
-            </div>
-            <div className="team-profile-card">
-              <div className="profile-image-container">
-                <a href="#" target={'_blank'}>
-                  <img
-                    alt="Ved Prajapati"
-                    className="profile-image"
-                    src={require('./team-raw-images/Ved Prajapati.jpg')}
-                  />
-                </a>
-              </div>
-              <div className="profile-about-container">
-                <h1 className="profile-about-name">Ved Prajapati</h1>
-                <h4 className="profile-about-description">Team Webdev</h4>
-              </div>
-            </div>
-            {/* web dev team end */}
-
-            {/* design team start */}
-
-            <div className="team-profile-card">
-              <div className="profile-image-container">
-                <a
-                  href="https://www.linkedin.com/in/vandangohil/"
-                  target={'_blank'}
-                >
-                  <img
-                    alt="Vandan Gohil"
-                    className="profile-image adjust-right-image"
-                    src={require('./team-raw-images/VandanGohil_Design.jpg')}
-                  />
-                </a>
-              </div>
-              <div className="profile-about-container">
-                <h1 className="profile-about-name">Vandan Gohil</h1>
-                <h4 className="profile-about-description">UI/UX</h4>
-              </div>
-            </div>
-
-            <div className="team-profile-card">
-              <div className="profile-image-container">
-                <a
-                  href="https://www.linkedin.com/in/hasti-bhalodiya-274585232/"
-                  target={'_blank'}
-                >
-                  <img
-                    src={require('./team-raw-images/HastiBhalodiya_DesignTeam.jpg')}
-                    alt="Hasti Bhalodiya"
-                    className="profile-image"
-                  />
-                </a>
-              </div>
-              <div className="profile-about-container">
-                <h1 className="profile-about-name">Hasti Bhalodiya</h1>
-                <h4 className="profile-about-description">Team Design</h4>
-              </div>
-            </div>
-
-            <div className="team-profile-card">
-              <div className="profile-image-container">
-                <a href="#" target={'_blank'}>
-                  <img
-                    src={require('./team-raw-images/VrushikMehta_Design.jpg')}
-                    alt="Vrushik Mehta"
-                    className="profile-image"
-                  />
-                </a>
-              </div>
-              <div className="profile-about-container">
-                <h1 className="profile-about-name">Vrushik Mehta</h1>
-                <h4 className="profile-about-description">Team Design</h4>
-              </div>
-            </div>
-
-            <div className="team-profile-card">
-              <div className="profile-image-container">
-                <a
-                  href="https://www.linkedin.com/in/dishant-korat-297246228"
-                  target={'_blank'}
-                >
-                  <img
-                    src={require('./team-raw-images/Korat Dishant _ design.jpg')}
-                    alt="Korat Dishant"
-                    className="profile-image"
-                  />
-                </a>
-              </div>
-              <div className="profile-about-container">
-                <h1 className="profile-about-name">Korat Dishant</h1>
-                <h4 className="profile-about-description">Team Design</h4>
-              </div>
-            </div>
-
-            <div className="team-profile-card">
-              <div className="profile-image-container">
-                <a
-                  href="https://www.linkedin.com/in/rayirthjaiswal"
-                  target={'_blank'}
-                >
-                  <img
-                    alt="Rayirth Jaiswal"
-                    className="profile-image"
-                    src={require('./team-raw-images/RayirthJaiswal_Design.jpg')}
-                  />
-                </a>
-              </div>
-              <div className="profile-about-container">
-                <h1 className="profile-about-name">Rayirth Jaiswal</h1>
-                <h4 className="profile-about-description">Team Design</h4>
-              </div>
-            </div>
-
-            <div className="team-profile-card">
-              <div className="profile-image-container">
-                <a
-                  href="https://www.linkedin.com/in/dhyey-patel-177345155"
-                  target={'_blank'}
-                >
-                  <img
-                    src={require('./team-raw-images/DhyeyPatel_graphicteam.jpg')}
-                    alt="Dhyey Patel"
-                    className="profile-image"
-                  />
-                </a>
-              </div>
-              <div className="profile-about-container">
-                <h1 className="profile-about-name">Dhyey Patel</h1>
-                <h4 className="profile-about-description">Team Design</h4>
-              </div>
-            </div>
 
             {/* content writing team */}
 
