@@ -257,8 +257,19 @@ function App() {
           path={workshops[14].slug}
           element={
             <WorkshopPage
-              workShopTitle={workshops[14].name}
-              workShopDetails=""
+              workShopTitle="Innovate and Build Applications faster with MongoDB!"
+              workShopDetails={
+                <>
+                  Modelling your application's schema - is the first thing that
+                  comes to your mind when you start planning an application for
+                  your Hackathon. Things to Is your app read or write heavy?
+                  What data is frequently accessed together? How will your data
+                  set grow and scale? <br /> <br /> In this workshop, we will
+                  discuss the basics of MongoDB and the basics of data modeling
+                  using real-world examples. Learn how you can design your
+                  application's schema better and faster with MongoDB.
+                </>
+              }
               workShopDate="05/08/2022"
               workShopLink="Coming Soon"
               imgPath={require('./require_images/Workshop-KESAV AND AASAWARI.png')}
