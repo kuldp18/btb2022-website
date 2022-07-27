@@ -176,7 +176,7 @@ body {
 
 .sponsor-item-image {
   object-fit: contain;
-  width: 100px;
+  width: 130px;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
