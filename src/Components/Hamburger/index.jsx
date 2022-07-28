@@ -17,26 +17,27 @@ const Hamburger = ({ isOpen }) => {
           justify-content: space-around;
           flex-flow: column nowrap;
           z-index: 10;
+          position: relative;
         }
 
         .burger {
-          width: 3.5rem;
-          height: 1rem;
+          width: 2.7rem;
+          height: 0.5rem;
           border-radius: 10px;
           background-color: #fd5047;
           transform-origin: 1px;
           transition: all 0.3s linear;
-          margin-bottom: 3px;
+          margin-bottom: 5px;
         }
 
         .burger1 {
-          transform: ${isOpen ? 'rotate(45deg) translate(2px, -5px)' : ''};
+          transform: ${isOpen ? 'rotate(45deg) translate(6px, -2px)' : ''};
         }
         .burger2 {
           opacity: ${isOpen ? 0 : 1};
         }
         .burger3 {
-          transform: ${isOpen ? 'rotate(-45deg) translate(11px, -5px)' : ''};
+          transform: ${isOpen ? 'rotate(-45deg) translate(14px, -5px)' : ''};
         }
       `}</style>
     </>

@@ -289,7 +289,7 @@ const TeamSection = () => {
                   <img
                     alt="Vatsal Mavani"
                     className="profile-image adjust-right-image"
-                    src={require('./team-raw-images/Vatsal mavani.jpg')}
+                    src={require('./team-raw-images/Vatsal Mavani.jpeg')}
                   />
                 </a>
               </div>
