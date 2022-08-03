@@ -163,6 +163,10 @@ section.Faq {
   cursor: pointer;
 }
 
+.faq-item .faq-arrow {
+  display: inline;
+}
+
 .faq-question {
   display: flex;
   flex-direction: row;
@@ -185,7 +189,10 @@ section.Faq {
   width: 100%;
   /* border: 1px solid cyan; */
   height: 100%;
+  /* break-inside: avoid; */
+  /* white-space: nowrap; */
 }
+
 .faq-question h3:hover {
   color: #ff5148;
 }
@@ -214,4 +221,15 @@ section.Faq {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media (max-width: 650px) {
+  .faq-question h3 {
+    font-size: 1.7rem;
+    flex: 3;
+  }
+  .faq-question {
+    justify-content: flex-start;
+    gap: 5rem;
+  }
 }

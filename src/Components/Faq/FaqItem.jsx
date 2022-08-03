@@ -24,9 +24,9 @@ const FaqItem = ({ question, answer, index }) => {
         <div className="faq-item">
           <div className="faq-question" onClick={() => toggle(index)}>
             <h3>{question}</h3>
-            <span>
+            <div className="faq-arrow">
               {clicked === index ? <BsChevronUp /> : <BsChevronDown />}
-            </span>
+            </div>
           </div>
           {clicked === index ? (
             <p dangerouslySetInnerHTML={{ __html: answer }}></p>
