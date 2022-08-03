@@ -1,5 +1,7 @@
 import React from 'react';
 import './../../Styles/Faq.css';
+import FaqItem from './FaqItem';
+import { Data } from './faqdata';
 
 export const Faq = () => {
   return (
@@ -24,7 +26,7 @@ export const Faq = () => {
         ></path>
       </svg> */}
       <section className="Faq" id="faq">
-        <div class="container1">
+        {/* <div class="container1">
           <div class="accordion1">
             <div
               class="title1"
@@ -186,6 +188,22 @@ export const Faq = () => {
                 </p>
               </div>
             </div>
+          </div>
+        </div> */}
+
+        <div className="faq-container">
+          <h3 id="faq-title">FAQs</h3>
+          <div className="faq-accordion">
+            {Data.map((item, index) => {
+              return (
+                <FaqItem
+                  key={index}
+                  question={item.question}
+                  answer={item.answer}
+                  index={index}
+                />
+              );
+            })}
           </div>
         </div>
       </section>
