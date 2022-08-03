@@ -240,13 +240,7 @@ function EventsSection(props) {
             completed={true}
             ytLink="https://youtu.be/T3mFcn9S7tE"
           />
-          <Card
-            image={require('../../require_images/Workshop-Saborni-event.png')}
-            name="SABORNI DAS"
-            description="DEVOPS WORKSHOP"
-            date="06/08/2022"
-            workshopName={workshops[13].slug}
-          />
+
           <Card
             image={require('../../require_images/Workshop-Kesav & Aasawari-event.png')}
             name="AASAWARI & KUSHAGRA"
