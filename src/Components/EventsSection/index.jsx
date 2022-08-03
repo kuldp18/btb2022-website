@@ -228,6 +228,8 @@ function EventsSection(props) {
             description="APIs 101 using POSTMAN"
             date="30/07/2022"
             workshopName={workshops[8].slug}
+            completed={true}
+            ytLink="https://youtu.be/qNA90OJ4YCg"
           />
           <Card
             image={require('../../require_images/Workshop-Khush-event.png')}
@@ -235,14 +237,10 @@ function EventsSection(props) {
             description="FULL STACK DEVELOPMENT"
             date="31/07/2022"
             workshopName={workshops[12].slug}
+            completed={true}
+            ytLink="https://youtu.be/T3mFcn9S7tE"
           />
-          <Card
-            image={require('../../require_images/Workshop-Saborni-event.png')}
-            name="SABORNI DAS"
-            description="DEVOPS WORKSHOP"
-            date="06/08/2022"
-            workshopName={workshops[13].slug}
-          />
+
           <Card
             image={require('../../require_images/Workshop-Kesav & Aasawari-event.png')}
             name="AASAWARI & KUSHAGRA"

@@ -149,10 +149,7 @@ const Sponsors = () => {
             </a>
           </div>
           <div className="sponsor-item">
-            <a
-              href="https://developers.google.com/womentechmakers"
-              target="_blank"
-            >
+            <a href="https://twitter.com/IndoreWtm" target="_blank">
               <img
                 src={require('../../require_images/Women Techmakers.png')}
                 alt="Women Techmakers"
