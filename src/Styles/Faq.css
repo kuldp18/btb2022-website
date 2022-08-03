@@ -232,4 +232,8 @@ section.Faq {
     justify-content: flex-start;
     gap: 5rem;
   }
+
+  .faq-item p {
+    font-size: 1.4rem;
+  }
 }
