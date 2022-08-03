@@ -35,7 +35,7 @@ export const Data = [
   {
     question: 'Q. Where to submit our work?',
     answer:
-      'We will be taking the project submissions on deposit and you are required to submit a video presentation of your project via YouTube.',
+      'We will be taking the project submissions on DevPost and you are required to submit a video presentation of your project via YouTube.',
   },
   {
     question: "Q. I can't code, can I still join?",
@@ -45,6 +45,6 @@ export const Data = [
   {
     question: 'Q. What if I still have questions?',
     answer:
-      "<p> Shoot your questions on our{' '} <a href=\"https://discord.gg/uN3dhWBKKT\" target=\"_blank\" style={{ color: '#ff5148', }} > discord </a>{' '} and we will surely get back to you as soon as we can. </p>",
+      "<><p> Shoot your questions on our{' '} <a href=\"https://discord.gg/uN3dhWBKKT\" target=\"_blank\" style={{ color: '#ff5148', }} > discord </a>{' '} and we will surely get back to you as soon as we can. </p></>",
   },
 ];
