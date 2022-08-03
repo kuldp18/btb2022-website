@@ -30,7 +30,7 @@ export const Data = [
   {
     question: 'Q. How does an online Hackathon works?',
     answer:
-      "You don't have to be online for 48 hours! Participants can choose any problem related to provided tracks according to their interest and skill-set, and can start hacking with their teams however they like.",
+      "You don't have to be online for 48 hours! Participants can choose any problem related to provided tracks according to their interest and skill-set. Then you can start hacking with your teams however you like.",
   },
   {
     question: 'Q. Where to submit our work?',
