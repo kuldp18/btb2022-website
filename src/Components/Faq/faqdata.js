@@ -44,6 +44,6 @@ export const Data = [
   },
   {
     question: 'Q. What if I still have questions?',
-    answer: `<div> Shoot your questions on our <a href="https://discord.gg/uN3dhWBKKT" target="_blank" style={{ color: '#ff5148', }} > Discord</a> and we will surely get back to you as soon as we can.</div>`,
+    answer: `<div class="unique-answer"> Shoot your questions on our <a href="https://discord.gg/uN3dhWBKKT" target="_blank" style={{ color: '#ff5148', }} > Discord</a> and we will surely get back to you as soon as we can.</div>`,
   },
 ];

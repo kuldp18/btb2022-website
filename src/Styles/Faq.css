@@ -133,6 +133,10 @@ section.Faq {
   color: #ff5148;
 }
 
+#faq .unique-answer {
+  text-transform: initial;
+}
+
 #faq .faq-container {
   /* border: 1px solid red; */
   display: flex;
