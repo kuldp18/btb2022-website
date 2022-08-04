@@ -60,6 +60,12 @@ const JudgesSection = () => {
             company="AMAZON"
             image={require('../../require_images/judges/Gourav.png')}
           />
+          <JudgeCard
+            name="Harshini KS"
+            work="Software Engineer III"
+            company="GITHUB"
+            image={require('../../require_images/judges/Harshini.png')}
+          />
         </div>
       </section>
       {/* <Separator2
