@@ -249,8 +249,8 @@ function EventsSection(props) {
             workshopName={workshops[14].slug}
           />
           <Card
-            image={require('../../require_images/Workshop-Ishika-event.png')}
-            name="ISHIKA KESARWANI"
+            image={require('../../require_images/Workshop-Harshita-event.png')}
+            name="HARSHITA JAIN"
             description="GIT & GITHUB WORKSHOP"
             date="07/08/2022"
             workshopName={workshops[15].slug}
