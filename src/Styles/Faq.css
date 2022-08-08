@@ -164,7 +164,9 @@ section.Faq {
 }
 
 .faq-item .faq-arrow {
-  display: inline;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .faq-question {

@@ -18,14 +18,18 @@ const FaqItem = ({ question, answer, index }) => {
       <IconContext.Provider
         value={{
           color: '#fff',
-          size: '20px',
+          size: '18px',
         }}
       >
         <div className="faq-item">
           <div className="faq-question" onClick={() => toggle(index)}>
             <h3>{question}</h3>
             <div className="faq-arrow">
-              {clicked === index ? <BsChevronUp /> : <BsChevronDown />}
+              {clicked === index ? (
+                <BsChevronUp className="icon" />
+              ) : (
+                <BsChevronDown className="icon" />
+              )}
             </div>
           </div>
           {clicked === index ? (
