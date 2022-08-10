@@ -55,7 +55,7 @@ export const Home = () => {
             Code recursively and let your idea change the world.
           </p>
 
-          <a href="https://forms.gle/aXUWJTzfT1HyajJ59" target="_blank">
+          <a href="https://breakthebarrier.devpost.com/" target="_blank">
             <button
               style={{
                 maxWidth: '250px',
@@ -66,7 +66,7 @@ export const Home = () => {
               Register as Participant
             </button>
           </a>
-          <a href="https://forms.gle/X7tBvE2X6dCQkLBB8" target="_blank">
+          <a href="https://discord.gg/uN3dhWBKKT" target="_blank">
             <button
               style={{
                 maxWidth: '250px',
