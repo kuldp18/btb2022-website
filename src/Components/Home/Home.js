@@ -77,7 +77,7 @@ export const Home = () => {
                 fontFamily: 'Metropolis',
               }}
             >
-              Register as Mentor
+              Join on Discord
             </button>
           </a>
           <div class="arrow2">
